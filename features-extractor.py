@@ -5,7 +5,10 @@ img = cv2.imread("test.png", cv2.IMREAD_GRAYSCALE)
 # edges2 = cv2.Canny(img, 100, 200)
 # img = cv2.imread('test.png')
 # gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-edges = cv2.Canny(img, 50, 150, apertureSize=3)
+_img, otsuThreshold = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+highThreshold = otsuThreshold[0][0]
+lowThreshold = otsuThreshold[0][0] * 0.5
+edges = cv2.Canny(img, lowThreshold, highThreshold)
 
 # Hough Lines
 # lines = cv2.HoughLines(edges, 1, np.pi/180, 200)
@@ -29,5 +32,6 @@ for line in lines:
 
 cv2.imshow("Image", img)
 cv2.imshow("Edges", edges)
+
 cv2.waitKey(0)
 cv2.destroyAllWindows()
