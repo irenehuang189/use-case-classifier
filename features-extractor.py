@@ -1,8 +1,9 @@
 import numpy as np
 import cv2
 
-realImage = cv2.imread("test.png")
-img = cv2.imread("test.png", cv2.IMREAD_GRAYSCALE)
+imageName = "test3.png"
+realImage = cv2.imread(imageName)
+img = cv2.imread(imageName, cv2.IMREAD_GRAYSCALE)
 
 # Detect edge
 # _img, otsuThreshold = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
@@ -34,8 +35,8 @@ for line in lines:
     cv2.line(realImage, (x1,y1), (x2,y2), (255,0,0), 2)
 
 # Detect circles
-circles = cv2.HoughCircles(edges, cv2.HOUGH_GRADIENT, dp=1, minDist=20,
-                            param1=50, param2=30, minRadius=0, maxRadius=0)
+circles = cv2.HoughCircles(edges, cv2.HOUGH_GRADIENT, dp=1, minDist=100,
+                            param1=255, param2=30, minRadius=5, maxRadius=150)
 
 circles = np.uint16(np.around(circles))
 for i in circles[0,:]:
