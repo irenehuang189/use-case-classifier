@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-imageName = "test3.png"
+imageName = "test2.png"
 realImage = cv2.imread(imageName)
 img = cv2.imread(imageName, cv2.IMREAD_GRAYSCALE)
 
@@ -36,14 +36,28 @@ for line in lines:
 
 # Detect circles
 circles = cv2.HoughCircles(edges, cv2.HOUGH_GRADIENT, dp=1, minDist=100,
-                            param1=255, param2=30, minRadius=5, maxRadius=150)
+                           param1=255, param2=30, minRadius=5, maxRadius=150)
 
 circles = np.uint16(np.around(circles))
 for i in circles[0,:]:
     # Draw outer circle
-    cv2.circle(realImage, (i[0],i[1]),i[2],(0,255,0),2)
+    cv2.circle(realImage, (i[0],i[1]), i[2], (0,255,0), 2)
     # Draw center of the circle
-    cv2.circle(realImage, (i[0],i[1]),2,(0,0,255),3)
+    cv2.circle(realImage, (i[0],i[1]), 2, (0,0,255), 3)
+
+# Simple blob detector
+detector = cv2.SimpleBlobDetector_create()
+keypoints = detector.detect(img)
+im_with_keypoints = cv2.drawKeypoints(img, keypoints, np.array([]), (0,0,255), cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
+cv2.imshow("Keypoints", im_with_keypoints)
+
+# MSER
+mser = cv2.MSER_create()
+regions, _ = mser.detectRegions(img)
+hulls = [cv2.convexHull(p.reshape(-1, 1, 2)) for p in regions]
+vis = cv2.imread(imageName)
+cv2.polylines(vis, hulls, 1, (255, 0, 0))
+cv2.imshow('MSER', vis)
 
 cv2.imshow("Edges", edges)
 cv2.imshow("Image", realImage)
