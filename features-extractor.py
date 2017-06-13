@@ -1,9 +1,11 @@
 import numpy as np
 import cv2
 
+
 def angle_cos(p0, p1, p2):
     d1, d2 = (p0-p1).astype('float'), (p2-p1).astype('float')
     return abs( np.dot(d1, d2) / np.sqrt( np.dot(d1, d1)*np.dot(d2, d2) ) )
+
 
 def find_squares(img):
     img = cv2.GaussianBlur(img, (5, 5), 0)
@@ -26,7 +28,7 @@ def find_squares(img):
                         squares.append(cnt)
     return squares
 
-imageName = 'non.jpg'
+imageName = 'test5.png'
 realImage = cv2.imread(imageName)
 img = cv2.imread(imageName, cv2.IMREAD_GRAYSCALE)
 
