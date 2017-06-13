@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-import time
+import math
 
 MIN_CONTOUR_AREA = 100
 MAX_AREA_DIFF_PCT = 0.1
@@ -8,7 +8,7 @@ PERIMETER_PCT = 0.1
 UNIDENTIFIED_SHAPE = 'unidentified'
 TRIANGLE_SHAPE = 'triangle'
 SQUARE_RECT_SHAPE = 'square rect'
-OTHER_POLYGON_SHAPE = 'other polygon'
+RHOMBUS_SHAPE = 'rhombus'
 LINE_SHAPE = 'line'
 CIRCLE_SHAPE = 'circle'
 ELLIPSE_SHAPE = 'ellipse'
@@ -30,70 +30,84 @@ def draw_contours(contours, img):
 
 def angle_cos(p0, p1, p2):
     """Count cosine of an edges"""
-    d1, d2 = (p0-p1).astype('float'), (p2-p1).astype('float')
-    return abs(np.dot(d1, d2) / np.sqrt(np.dot(d1, d1)*np.dot(d2, d2)))
+    d1, d2 = (p0 - p1).astype('float'), (p2 - p1).astype('float')
+    return abs(np.dot(d1, d2.T) / np.sqrt(np.dot(d1, d1.T)*np.dot(d2, d2.T)))
 
 
 def max_cos_in_quad(contour):
     """Get maximum cos of quadrilateral edges"""
-    max_cos = np.max([angle_cos(contour[i], contour[(i + 1) % 4], contour[(i + 2) % 4])
-                      for i in range(4)])
+    max_cos = np.max([angle_cos(contour[i], contour[(i + 1) % 4], contour[(i + 2) % 4]) for i in range(4)])
     return max_cos
 
 
-def get_triangle(contour):
+def get_triangle(contour, approx):
     """Get triangle from a contour"""
     _, triangle = cv2.minEnclosingTriangle(contour)
     triangle_area = cv2.contourArea(triangle)
     contour_area = cv2.contourArea(contour)
-    diff_area = abs(contour_area - triangle_area)
+    area_diff = abs(contour_area - triangle_area)
 
-    if diff_area > (diff_area*MAX_AREA_DIFF_PCT):
+    if area_diff > (contour_area*MAX_AREA_DIFF_PCT):
         return None, UNIDENTIFIED_SHAPE
     return triangle, TRIANGLE_SHAPE
 
 
-def is_sides_equal(rect):
-    """Detect if a quadrilateral has the same length on all its sides"""
-
-
-
-def get_quad(contour):
+def get_quad(contour, approx):
     """Get quadrilateral from a contour"""
-    x, y, w, h = cv2.boundingRect(contour)
-    quad_area = w * h
+    quad_area = cv2.contourArea(approx)
     contour_area = cv2.contourArea(contour)
-    diff_area = abs(contour_area - quad_area)
+    area_diff = abs(contour_area - quad_area)
 
-    if diff_area > (diff_area*MAX_AREA_DIFF_PCT) and max_cos_in_quad(contour) < 0.1:
-        return (x, y, w, h), SQUARE_RECT_SHAPE
+    # TODO: erase. This if condition is for debugging purpose
+    # if (quad_area - colored_img.size) < contour_area*MAX_AREA_DIFF_PCT:
+    #     return None, UNIDENTIFIED_SHAPE
+
+    if (area_diff < (contour_area*MAX_AREA_DIFF_PCT)) and (max_cos_in_quad(approx) < 0.1):
+        return approx, SQUARE_RECT_SHAPE
 
     # Try rotated rectangle
     rect = cv2.minAreaRect(contour)
     box = cv2.boxPoints(rect)
+    quad_area = cv2.contourArea(box)
+    area_diff = abs(contour_area - quad_area)
+    length_diff = abs(rect[1][0] - rect[1][1])
+    if (length_diff > 1) or (area_diff > contour_area*MAX_AREA_DIFF_PCT):
+        return None, UNIDENTIFIED_SHAPE
+    return rect, RHOMBUS_SHAPE
+
+
+def get_ellipse(contour, approx):
+    """Get ellipse from a contour"""
+    ellipse = cv2.fitEllipse(contour)
+    a = ellipse[1][0] / 2
+    b = ellipse[1][1] / 2
+    ellipse_area = math.pi * a * b
+    contour_area = cv2.contourArea(contour)
+    area_diff = abs(contour_area - ellipse_area)
+
+    if area_diff > (contour_area*MAX_AREA_DIFF_PCT):
+        return None, UNIDENTIFIED_SHAPE
+    return ellipse, ELLIPSE_SHAPE
 
 
 def detect_shape(contour):
     """Detect shape in a contour"""
-    shape_name = 'unidentified'
     epsilon = PERIMETER_PCT * cv2.arcLength(contour, True)
     approx = cv2.approxPolyDP(contour, epsilon, True)
-    if len(approx) == 3:
-        shape, shape_name = get_triangle(contour)
+    if len(approx) == 2:
+        shape, shape_name = approx, LINE_SHAPE
+        color = (255, 255, 255)
+    elif len(approx) == 3:
+        shape, shape_name = get_triangle(contour, approx)
         color = (0, 0, 255)
     elif len(approx) == 4:
-        if max_cos_in_quad(contour) < 0.1:
-            shape_name = 'squarerect'
-
+        # print('Len:', len(approx))
+        # print('C:', approx)
+        shape, shape_name = get_quad(contour, approx)
         color = (0, 255, 0)
-    elif len(approx) == 5:
-        shape_name = 'pentagon'
-        color = (255, 0, 0)
     else:
-        if(len(approx)) == 2:
-            print('2')
-        shape_name = str(len(approx))
-        color = (255, 255, 255)
+        shape, shape_name = get_ellipse(contour, approx)
+        color = (255, 0, 0)
     return shape, shape_name, color
 
 
@@ -101,9 +115,8 @@ def detect_shapes(contours, img):
     """Detect shapes from image contours"""
     print('Contours size:', len(contours))
     cnt_not_convex = 0
-    triangles, squarerects, rhombuses, other_polygons, lines, ellipses, circles = ([] for i in range(5))
+    triangles, squarerects, rhombuses, other_polygons, lines, ellipses, circles = ([] for i in range(7))
     for i, contour in enumerate(contours):
-        print('Contour ', i, ':', contour)
         # Area validation
         area = cv2.contourArea(contour)
         if area < MIN_CONTOUR_AREA:
@@ -120,15 +133,29 @@ def detect_shapes(contours, img):
         # Detect shape
         shape, shape_name, color = detect_shape(contour)
         if not(shape is None):
-            if shape_name == 'triangle':
-                triangles.append(object)
-            elif shape_name == 'squarerect':
+            if shape_name == TRIANGLE_SHAPE:
+                triangles.append(shape)
+            elif shape_name == SQUARE_RECT_SHAPE:
+                squarerects.append(shape)
+            elif shape_name == RHOMBUS_SHAPE:
+                rhombuses.append(shape)
+            elif shape_name == LINE_SHAPE:
+                lines.append(shape)
+                cv2.drawContours(img, [contour], -1, color, 1)
+            elif shape_name == ELLIPSE_SHAPE:
+                ellipses.append(shape)
+        else:
+            other_polygons.append(shape)
 
-        cv2.drawContours(img, [contour], -1, color, -1)
-        cv2.putText(img, shape_name, (c_x, c_y), cv2.FONT_HERSHEY_SIMPLEX,
-                    fontScale=0.4, color=(0, 125, 255))
-
+        # cv2.putText(img, shape_name, (c_x, c_y), cv2.FONT_HERSHEY_SIMPLEX,
+                    # fontScale=0.4, color=(0, 125, 255))
     print('Not convex cnt: ', cnt_not_convex)
+    print('Triangles: ', len(triangles))
+    print('Squarerects: ', len(squarerects))
+    print('Rhombuses: ', len(rhombuses))
+    print('Lines: ', len(lines))
+    print('Ellipses: ', len(ellipses))
+    print('Others: ', len(other_polygons))
     return img
 
 # Read image
@@ -161,10 +188,12 @@ cv2.imshow('Canny Contours', canny_contours_img)
 # cv2.imwrite('canny_contours.png', canny_contours_img)
 
 # Detect shapes
+print('---THRESHOLDING---')
 shapes_img = detect_shapes(contours, np.zeros(colored_img.shape))
 cv2.namedWindow('Shapes', cv2.WINDOW_NORMAL)
 cv2.imshow('Shapes', shapes_img)
 
+print('---CANNY---')
 canny_shapes_img = detect_shapes(canny_contours, np.zeros(colored_img.shape))
 cv2.namedWindow('Canny Shapes', cv2.WINDOW_NORMAL)
 cv2.imshow('Canny Shapes', canny_shapes_img)
