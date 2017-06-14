@@ -4,7 +4,7 @@ import math
 
 MIN_CONTOUR_AREA = 100
 MAX_AREA_DIFF_PCT = 0.1
-PERIMETER_PCT = 0.1
+PERIMETER_PCT = 0.01
 UNIDENTIFIED_SHAPE = 'unidentified'
 TRIANGLE_SHAPE = 'triangle'
 SQUARE_RECT_SHAPE = 'square rect'
@@ -141,7 +141,6 @@ def detect_shapes(contours, img):
                 rhombuses.append(shape)
             elif shape_name == LINE_SHAPE:
                 lines.append(shape)
-                cv2.drawContours(img, [contour], -1, color, 1)
             elif shape_name == ELLIPSE_SHAPE:
                 ellipses.append(shape)
         else:
@@ -149,6 +148,7 @@ def detect_shapes(contours, img):
 
         # cv2.putText(img, shape_name, (c_x, c_y), cv2.FONT_HERSHEY_SIMPLEX,
                     # fontScale=0.4, color=(0, 125, 255))
+
     print('Not convex cnt: ', cnt_not_convex)
     print('Triangles: ', len(triangles))
     print('Squarerects: ', len(squarerects))
@@ -187,16 +187,46 @@ cv2.namedWindow('Canny Contours', cv2.WINDOW_NORMAL)
 cv2.imshow('Canny Contours', canny_contours_img)
 # cv2.imwrite('canny_contours.png', canny_contours_img)
 
-# Detect shapes
-print('---THRESHOLDING---')
-shapes_img = detect_shapes(contours, np.zeros(colored_img.shape))
+print('Contours size:', len(contours))
+img = colored_img
+drewn_cnt = 0
 cv2.namedWindow('Shapes', cv2.WINDOW_NORMAL)
-cv2.imshow('Shapes', shapes_img)
+for i, contour in enumerate(contours):
+    contour_area = cv2.contourArea(contour)
+    if contour_area < MIN_CONTOUR_AREA:
+        continue
+    epsilon = PERIMETER_PCT * cv2.arcLength(contour, True)
+    approx = cv2.approxPolyDP(contour, epsilon, True)
 
-print('---CANNY---')
-canny_shapes_img = detect_shapes(canny_contours, np.zeros(colored_img.shape))
-cv2.namedWindow('Canny Shapes', cv2.WINDOW_NORMAL)
-cv2.imshow('Canny Shapes', canny_shapes_img)
+    # Give text
+    drewn_cnt += 1
+    moments = cv2.moments(contour)
+    c_x, c_y = 0, 0
+    if moments['m00'] != 0:
+        c_x = int((moments['m10'] / moments['m00']))
+        c_y = int((moments['m01'] / moments['m00']))
+    s = ''
+    text = (str(i), ' ', str(len(approx)), ' ', str(contour_area))
+    cv2.putText(img, s.join(text), (c_x, c_y), cv2.FONT_HERSHEY_SIMPLEX,
+                fontScale=0.4, color=(0, 0, 255))
+
+    cv2.drawContours(img, [contour], -1, (0,255,0), 2)
+    cv2.drawContours(img, [approx], -1, (0,0,255), 1)
+    cv2.imshow('Shapes', img)
+    key = cv2.waitKey(0)
+
+print('Tergambar: ', drewn_cnt)
+
+# Detect shapes
+# print('---THRESHOLDING---')
+# shapes_img = detect_shapes(contours, np.zeros(colored_img.shape))
+# cv2.namedWindow('Shapes', cv2.WINDOW_NORMAL)
+# cv2.imshow('Shapes', shapes_img)
+
+# print('---CANNY---')
+# canny_shapes_img = detect_shapes(canny_contours, np.zeros(colored_img.shape))
+# cv2.namedWindow('Canny Shapes', cv2.WINDOW_NORMAL)
+# cv2.imshow('Canny Shapes', canny_shapes_img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
