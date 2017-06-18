@@ -13,6 +13,7 @@ LINE_SHAPE = 'line'
 CIRCLE_SHAPE = 'circle'
 ELLIPSE_SHAPE = 'ellipse'
 
+
 def draw_contours(contours, img):
     """Draw contours to image"""
     for i, contour in enumerate(contours):
@@ -22,9 +23,9 @@ def draw_contours(contours, img):
             c_x = int((moments['m10'] / moments['m00']))
             c_y = int((moments['m01'] / moments['m00']))
 
-        cv2.drawContours(img, [contour], -1, (0, 0, 255), 1)
+        cv2.drawContours(img, [contour], -1, (255, 255, 255), 1)
         cv2.putText(img, str(i), (c_x, c_y), cv2.FONT_HERSHEY_SIMPLEX,
-                    fontScale=0.4, color=(0, 125, 255))
+                    fontScale=0.4, color=(0, 10, 255))
     return img
 
 
@@ -40,40 +41,34 @@ def detect_shapes(contours, img):
             cnt_not_convex += 1
             continue
 
-        # Count centroid
-        moments = cv2.moments(contour)
-        c_x, c_y = 0, 0
-        if moments['m00'] != 0:
-            c_x = int((moments['m10'] / moments['m00']))
-            c_y = int((moments['m01'] / moments['m00']))
-
         # Detect shape
         shape, shape_name, color = detect_shape(contour)
         if not(shape is None):
             if shape_name == TRIANGLE_SHAPE:
                 triangles.append(shape)
-                # for j, point in enumerate(shape):
-                #     pt1 = tuple(shape[j][0])
-                #     pt2 = tuple(shape[(j+1) % 3][0])
-                #     cv2.line(img, pt1, pt2, (0,255,0), 2)
+                for j, point in enumerate(shape):
+                    pt1 = tuple(shape[j][0])
+                    pt2 = tuple(shape[(j+1) % 3][0])
+                    cv2.line(img, pt1, pt2, (0,255,0), 2)
             elif shape_name == SQUARE_RECT_SHAPE:
                 squarerects.append(shape)
                 x, y, w, h = shape[0], shape[1], shape[2], shape[3]
                 cv2.rectangle(img, (x,y), (x+w,y+h), (0,255,0), 2)
             elif shape_name == RHOMBUS_SHAPE:
                 rhombuses.append(shape)
+                for j, point in enumerate(shape):
+                    pt1 = tuple(shape[j][0])
+                    pt2 = tuple(shape[(j+1) % 4][0])
+                    cv2.line(img, pt1, pt2, (255,0,0), 2)
             elif shape_name == LINE_SHAPE:
                 lines.append(shape)
                 cv2.drawContours(img, shape, -1, (0,255,0), 3)
             elif shape_name == ELLIPSE_SHAPE:
                 ellipses.append(shape)
-                # cv2.ellipse(img, shape, (0,255,0), 2)
+                cv2.ellipse(img, shape, (0,255,0), 2)
 
         else:
             other_polygons.append(shape)
-
-            # cv2.putText(img, shape_name, (c_x, c_y), cv2.FONT_HERSHEY_SIMPLEX,
-            # fontScale=0.4, color=(0, 125, 255))
 
     print('Small contour: ', cnt_not_convex)
     print('Triangles: ', len(triangles))
@@ -118,7 +113,8 @@ def get_triangle(contour, approx):
 
 def get_quad(contour, approx):
     """Get quadrilateral from a contour"""
-    quad_area = cv2.contourArea(approx)
+    rect = cv2.boundingRect(approx)
+    quad_area = rect[2] * rect[3] # width * height
     contour_area = cv2.contourArea(contour)
     area_diff = abs(contour_area - quad_area)
 
@@ -127,18 +123,13 @@ def get_quad(contour, approx):
     #     return None, UNIDENTIFIED_SHAPE
 
     if (area_diff < (contour_area*MAX_AREA_DIFF_PCT)) and (max_cos_in_quad(approx) < 0.1):
-        rect = cv2.boundingRect(approx)
         return rect, SQUARE_RECT_SHAPE
 
-    # Try rotated rectangle
-    rect = cv2.minAreaRect(contour)
-    box = cv2.boxPoints(rect)
-    quad_area = cv2.contourArea(box)
-    area_diff = abs(contour_area - quad_area)
-    length_diff = abs(rect[1][0] - rect[1][1])
-    if (length_diff > 1) or (area_diff > contour_area*MAX_AREA_DIFF_PCT):
+    # Try to fit rhombus
+    max_length_diff = max_length_diff_in_quad(approx)
+    if max_length_diff > 40:
         return None, UNIDENTIFIED_SHAPE
-    return rect, RHOMBUS_SHAPE
+    return approx, RHOMBUS_SHAPE
 
 
 def max_cos_in_quad(contour):
@@ -151,6 +142,31 @@ def angle_cos(p0, p1, p2):
     """Count cosine of an edges"""
     d1, d2 = (p0 - p1).astype('float'), (p2 - p1).astype('float')
     return abs(np.dot(d1, d2.T) / np.sqrt(np.dot(d1, d1.T)*np.dot(d2, d2.T)))
+
+
+def max_length_diff_in_quad(points):
+    """Find leftmost, rightmost, uppermost, and bottommost of a quadrilateral
+    and find maximum length between points as a rhombus"""
+    # Sequence: leftmost, uppermost, rightmost, bottommost
+    leftmost, uppermost, rightmost, bottommost = (points[0, 0] for i in range(4))
+    for point in points:
+        x = point[0, 0]
+        y = point[0, 1]
+        if x < leftmost[0]:
+            # Point is located on the left side of leftmost point
+            leftmost = point[0]
+        elif x > rightmost[0]:
+            rightmost = point[0]
+        elif y < uppermost[1]:
+            uppermost = point[0]
+        elif y > bottommost[1]:
+            bottommost = point[0]
+
+    length_diff = [cv2.norm(uppermost - leftmost),
+                   cv2.norm(rightmost - uppermost),
+                   cv2.norm(bottommost - rightmost),
+                   cv2.norm(leftmost - bottommost)]
+    return np.max(length_diff)
 
 
 def get_ellipse(contour, approx):
@@ -167,34 +183,55 @@ def get_ellipse(contour, approx):
     return ellipse, ELLIPSE_SHAPE
 
 
-def calculate_median(img):
+def get_centroid(contour):
+    """Get centroid point of a contour"""
+    moments = cv2.moments(contour)
+    c_x, c_y = 0, 0
+    if moments['m00'] != 0:
+        c_x = int((moments['m10'] / moments['m00']))
+        c_y = int((moments['m01'] / moments['m00']))
+    return c_x, c_y
+
+
+def calculate_mode(img):
     """Calculate median of a grayscale image"""
-    hist = cv2.calcHist([gray_img], [0], None, [256], [0,256])
-    min, max = 255, 0
-    for intensity in hist:
-        if intensity < min:
-            min = intensity
+    hist = cv2.calcHist([img], [0], None, [256], [0,256])
+    max, pos = 0, -1
+    for i, intensity in enumerate(hist):
         if intensity > max:
             max = intensity
-    print('Histogram: ', min, max)
-
+            pos = i
+    print('Mode: ', pos, max)
+    return pos
 
 
 # Read image
-image_name = 'non3.jpg'
+image_name = 'shape2.jpg'
+# image_name = 'test5.png'
+# image_name = 'non3.jpg'
 colored_img = cv2.imread(image_name)
 gray_img = cv2.cvtColor(colored_img, cv2.COLOR_BGR2GRAY)
 
 # Threshold image
+otsu_threshold, _ = cv2.threshold(gray_img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+print('Otsu Theshold: ', otsu_threshold)
 _, threshold_img = cv2.threshold(gray_img, 127, 255, cv2.THRESH_BINARY)
-# cv2.imshow('Threshold', threshold_img)
+threshold_img = cv2.bitwise_not(threshold_img)
+cv2.namedWindow('Threshold', cv2.WINDOW_NORMAL)
+cv2.imshow('Threshold', threshold_img)
 
 # Detect edge
-retval, _ = cv2.threshold(gray_img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-high_threshold = retval
-low_threshold = 0.5 * retval
+high_threshold = otsu_threshold
+low_threshold = 0.5 * otsu_threshold
 edges = cv2.Canny(gray_img, low_threshold, high_threshold)
-# cv2.imshow('Edges', edges)
+cv2.namedWindow('Edges', cv2.WINDOW_NORMAL)
+cv2.imshow('Edges', edges)
+
+# print(edges[0])
+# preprocessed_img = cv2.add(threshold_img, edges)
+# preprocessed_img= cv2.bitwise_not(preprocessed_img)
+# cv2.namedWindow('Preprocessed', cv2.WINDOW_NORMAL)
+# cv2.imshow('Preprocessed', preprocessed_img)
 
 # Find contours
 _, contours, hierarchy = cv2.findContours(threshold_img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
@@ -203,23 +240,23 @@ cv2.namedWindow('Contours', cv2.WINDOW_NORMAL)
 cv2.imshow('Contours', contours_img)
 # cv2.imwrite('contours.png', contours_img)
 
-_, canny_contours, _ = cv2.findContours(edges, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-canny_contours_img = draw_contours(canny_contours, np.zeros(colored_img.shape))
-cv2.namedWindow('Canny Contours', cv2.WINDOW_NORMAL)
-cv2.imshow('Canny Contours', canny_contours_img)
+# _, canny_contours, _ = cv2.findContours(preprocessed_img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+# canny_contours_img = draw_contours(canny_contours, np.zeros(colored_img.shape))
+# cv2.namedWindow('Canny Contours', cv2.WINDOW_NORMAL)
+# cv2.imshow('Canny Contours', canny_contours_img)
 # cv2.imwrite('canny_contours.png', canny_contours_img)
 
 # Detect lines
-lines = cv2.HoughLinesP(edges, rho=1, theta=np.pi/180, threshold=100,
-                        minLineLength=100, maxLineGap=10)
-for line in lines:
-    x1, y1, x2, y2 = line[0]
-    cv2.line(colored_img, (x1,y1), (x2,y2), (255,0,0), 2)
+# lines = cv2.HoughLinesP(edges, rho=1, theta=np.pi/180, threshold=100,
+#                         minLineLength=100, maxLineGap=10)
+# for line in lines:
+#     x1, y1, x2, y2 = line[0]
+#     cv2.line(colored_img, (x1,y1), (x2,y2), (255,0,0), 2)
+#
+# cv2.namedWindow('Lines', cv2.WINDOW_NORMAL)
+# cv2.imshow('Lines', colored_img)
 
-cv2.namedWindow('Lines', cv2.WINDOW_NORMAL)
-cv2.imshow('Lines', colored_img)
-
-# contours = canny_contours
+# See contour one by one
 # print('Contours size:', len(contours))
 # img = colored_img
 # drewn_cnt = 0
@@ -251,14 +288,14 @@ cv2.imshow('Lines', colored_img)
 # print('Tergambar: ', drewn_cnt)
 
 # Detect shapes
-# print('---THRESHOLDING---')
-# shapes_img = detect_shapes(contours, colored_img)
-# cv2.namedWindow('Shapes', cv2.WINDOW_NORMAL)
-# cv2.imshow('Shapes', shapes_img)
+print('---THRESHOLDING---')
+shapes_img = detect_shapes(contours, colored_img)
+cv2.namedWindow('Shapes', cv2.WINDOW_NORMAL)
+cv2.imshow('Shapes', shapes_img)
 # cv2.imwrite('Shapes.png', shapes_img)
 
 # print('---CANNY---')
-# canny_shapes_img = detect_shapes(canny_contours, np.zeros(colored_img.shape))
+# canny_shapes_img = detect_shapes(canny_contours, colored_img)
 # cv2.namedWindow('Canny Shapes', cv2.WINDOW_NORMAL)
 # cv2.imshow('Canny Shapes', canny_shapes_img)
 
