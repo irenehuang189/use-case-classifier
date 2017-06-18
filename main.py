@@ -205,56 +205,65 @@ def calculate_mode(img):
     return pos
 
 
+def find_lines(source, img):
+    """Find lines with hough lines and draw the result on image"""
+    lines = cv2.HoughLines(source, 1, np.pi/180, 200)
+    print('Jumlah HT Lines', len(lines))
+    for line in lines:
+        rho, theta = line[0]
+        a = np.cos(theta)
+        b = np.sin(theta)
+        x0 = a*rho
+        y0 = b*rho
+        x1 = int(x0 + 1000*(-b))
+        y1 = int(y0 + 1000*a)
+        x2 = int(x0 - 1000*(-b))
+        y2 = int(y0 - 1000*a)
+
+        cv2.line(img, (x1,y1), (x2,y2), (0,0,255), 2)
+    cv2.namedWindow('Lines', cv2.WINDOW_NORMAL)
+    cv2.imshow('HoughLines', img)
+
 # Read image
-image_name = 'shape2.jpg'
+# image_name = 'test.png'
 # image_name = 'test5.png'
-# image_name = 'non3.jpg'
+image_name = 'non3.jpg'
 colored_img = cv2.imread(image_name)
 gray_img = cv2.cvtColor(colored_img, cv2.COLOR_BGR2GRAY)
 
 # Threshold image
-otsu_threshold, _ = cv2.threshold(gray_img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-print('Otsu Theshold: ', otsu_threshold)
 _, threshold_img = cv2.threshold(gray_img, 127, 255, cv2.THRESH_BINARY)
 threshold_img = cv2.bitwise_not(threshold_img)
 cv2.namedWindow('Threshold', cv2.WINDOW_NORMAL)
 cv2.imshow('Threshold', threshold_img)
 
 # Detect edge
+otsu_threshold, _ = cv2.threshold(gray_img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+print('Otsu Theshold: ', otsu_threshold)
 high_threshold = otsu_threshold
 low_threshold = 0.5 * otsu_threshold
 edges = cv2.Canny(gray_img, low_threshold, high_threshold)
 cv2.namedWindow('Edges', cv2.WINDOW_NORMAL)
 cv2.imshow('Edges', edges)
 
-# print(edges[0])
-# preprocessed_img = cv2.add(threshold_img, edges)
-# preprocessed_img= cv2.bitwise_not(preprocessed_img)
-# cv2.namedWindow('Preprocessed', cv2.WINDOW_NORMAL)
-# cv2.imshow('Preprocessed', preprocessed_img)
-
 # Find contours
 _, contours, hierarchy = cv2.findContours(threshold_img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 contours_img = draw_contours(contours, np.zeros(colored_img.shape))
 cv2.namedWindow('Contours', cv2.WINDOW_NORMAL)
 cv2.imshow('Contours', contours_img)
-# cv2.imwrite('contours.png', contours_img)
-
-# _, canny_contours, _ = cv2.findContours(preprocessed_img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-# canny_contours_img = draw_contours(canny_contours, np.zeros(colored_img.shape))
-# cv2.namedWindow('Canny Contours', cv2.WINDOW_NORMAL)
-# cv2.imshow('Canny Contours', canny_contours_img)
-# cv2.imwrite('canny_contours.png', canny_contours_img)
 
 # Detect lines
-# lines = cv2.HoughLinesP(edges, rho=1, theta=np.pi/180, threshold=100,
-#                         minLineLength=100, maxLineGap=10)
-# for line in lines:
-#     x1, y1, x2, y2 = line[0]
-#     cv2.line(colored_img, (x1,y1), (x2,y2), (255,0,0), 2)
-#
-# cv2.namedWindow('Lines', cv2.WINDOW_NORMAL)
-# cv2.imshow('Lines', colored_img)
+lines = cv2.HoughLinesP(threshold_img, rho=1, theta=np.pi/180, threshold=200,
+                        minLineLength=100, maxLineGap=10)
+print('Jumlah HT Lines P', len(lines))
+cv2.namedWindow('Lines', cv2.WINDOW_NORMAL)
+for line in lines:
+    x1, y1, x2, y2 = line[0]
+    cv2.line(colored_img, (x1,y1), (x2,y2), (0,0,255), 3)
+    cv2.putText(colored_img, 'Garis', (x1, x2), cv2.FONT_HERSHEY_SIMPLEX,
+                fontScale=0.4, color=(0, 0, 255))
+    # cv2.waitKey(0)
+cv2.imshow('Lines', colored_img)
 
 # See contour one by one
 # print('Contours size:', len(contours))
