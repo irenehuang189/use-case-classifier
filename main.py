@@ -33,7 +33,7 @@ def detect_shapes(contours, img):
     """Detect shapes from image contours"""
     print('Contours size:', len(contours))
     cnt_not_convex = 0
-    triangles, squarerects, rhombuses, other_polygons, lines, ellipses, circles = ([] for i in range(7))
+    triangles, squarerects, rhombuses, other_polygons, ellipses, circles = ([] for i in range(7))
     for i, contour in enumerate(contours):
         # Area validation
         area = cv2.contourArea(contour)
@@ -60,9 +60,6 @@ def detect_shapes(contours, img):
                     pt1 = tuple(shape[j][0])
                     pt2 = tuple(shape[(j+1) % 4][0])
                     cv2.line(img, pt1, pt2, (255,0,0), 2)
-            elif shape_name == LINE_SHAPE:
-                lines.append(shape)
-                cv2.drawContours(img, shape, -1, (0,255,0), 3)
             elif shape_name == ELLIPSE_SHAPE:
                 ellipses.append(shape)
                 cv2.ellipse(img, shape, (0,255,0), 2)
@@ -74,7 +71,6 @@ def detect_shapes(contours, img):
     print('Triangles: ', len(triangles))
     print('Squarerects: ', len(squarerects))
     print('Rhombuses: ', len(rhombuses))
-    print('Lines: ', len(lines))
     print('Ellipses: ', len(ellipses))
     print('Others: ', len(other_polygons))
     return img
@@ -84,16 +80,13 @@ def detect_shape(contour):
     """Detect shape in a contour"""
     epsilon = PERIMETER_PCT * cv2.arcLength(contour, True)
     approx = cv2.approxPolyDP(contour, epsilon, True)
-    if len(approx) == 2:
-        shape, shape_name = approx, LINE_SHAPE
-        color = (255, 255, 255)
-    elif len(approx) == 3:
+    if len(approx) == 3:
         shape, shape_name = get_triangle(contour, approx)
         color = (0, 0, 255)
     elif len(approx) == 4:
         shape, shape_name = get_quad(contour, approx)
         color = (0, 255, 0)
-    else:
+    elif len(approx) >= 4:
         shape, shape_name = get_ellipse(contour, approx)
         color = (255, 0, 0)
     return shape, shape_name, color
@@ -302,11 +295,6 @@ shapes_img = detect_shapes(contours, colored_img)
 cv2.namedWindow('Shapes', cv2.WINDOW_NORMAL)
 cv2.imshow('Shapes', shapes_img)
 # cv2.imwrite('Shapes.png', shapes_img)
-
-# print('---CANNY---')
-# canny_shapes_img = detect_shapes(canny_contours, colored_img)
-# cv2.namedWindow('Canny Shapes', cv2.WINDOW_NORMAL)
-# cv2.imshow('Canny Shapes', canny_shapes_img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
