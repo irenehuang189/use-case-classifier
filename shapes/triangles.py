@@ -24,7 +24,6 @@ class Triangles(Shapes):
     def draw(self, img, idx=None):
         """Draw triangles on image"""
         if idx is None:
-            print('Triangles', self.triangles)
             for triangle in self.triangles:
                 img = self.__draw_triangle(img, triangle)
         else:
