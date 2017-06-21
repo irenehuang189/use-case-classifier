@@ -1,4 +1,4 @@
-from shapes import Shapes, Ellipses
+from shapes import Shapes
 import numpy as np
 import cv2
 
@@ -6,11 +6,16 @@ import cv2
 class Circles(Shapes):
     circles = []
 
-    def detect_circle(self, contour):
+    def __init__(self, circles):
+        self.circles = circles
+
+    @staticmethod
+    def detect_circle(contour):
         """Find circle from a contour
             If shape is not found, return none and unidentified string"""
         ellipse = cv2.fitEllipse(contour)
-        a, b = Ellipses.get_length(ellipse)
+        a = ellipse[1][0] / 2
+        b = ellipse[1][1] / 2
         ellipse_area = np.pi * a * b
         contour_area = cv2.contourArea(contour)
         area_diff = abs(contour_area - ellipse_area)

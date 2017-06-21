@@ -1,7 +1,3 @@
-import numpy as np
-import cv2
-
-
 class Shapes(object):
     MIN_CONTOUR_AREA = 100
     MAX_AREA_DIFF_PCT = 0.1

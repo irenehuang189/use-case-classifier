@@ -6,11 +6,15 @@ import cv2
 class Ellipses(Shapes):
     ellipses = []
 
-    def detect_ellipse(self, contour):
+    def __init__(self, ellipses):
+        self.ellipses = ellipses
+
+    @staticmethod
+    def detect_ellipse(contour):
         """Find ellipse from a contour
             If shape is not found, return none and unidentified string"""
         ellipse = cv2.fitEllipse(contour)
-        a, b = self.get_length(ellipse)
+        a, b = Ellipses.get_length(ellipse)
         ellipse_area = np.pi * a * b
         contour_area = cv2.contourArea(contour)
         area_diff = abs(contour_area - ellipse_area)

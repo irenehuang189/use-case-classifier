@@ -10,11 +10,12 @@ class SquareRects(Shapes):
     def __init__(self, square_rects):
         self.square_rects = square_rects
 
-    def detect_square_rect(self, contour, approx):
+    @staticmethod
+    def detect_square_rect(contour, approx):
         """Find square/rectangle from a contour
             If shape is not found, return none and unidentified string"""
         rect = cv2.boundingRect(approx)
-        quad_area = rect[2] * rect[3] # width * height
+        quad_area = rect[2] * rect[3]  # width * height
         contour_area = cv2.contourArea(contour)
         area_diff = abs(contour_area - quad_area)
 
@@ -22,14 +23,15 @@ class SquareRects(Shapes):
         # if (quad_area - colored_img.size) < contour_area*MAX_AREA_DIFF_PCT:
         #     return None, UNIDENTIFIED_SHAPE
 
-        max_coz = self.max_cos_in_quad(approx)
+        max_coz = SquareRects.max_cos_in_quad(approx)
         if not((area_diff < (contour_area*Shapes.MAX_AREA_DIFF_PCT)) and (max_coz < 0.1)):
             return None, Shapes.UNIDENTIFIED_SHAPE
         return rect, Shapes.SQUARE_RECT_SHAPE
 
-    def max_cos_in_quad(self, contour):
+    @staticmethod
+    def max_cos_in_quad(contour):
         """Get maximum cos of quadrilateral edges"""
-        max_cos = np.max([self.angle_cos(contour[i], contour[(i + 1) % 4], contour[(i + 2) % 4]) for i in range(4)])
+        max_cos = np.max([SquareRects.angle_cos(contour[i], contour[(i + 1) % 4], contour[(i + 2) % 4]) for i in range(4)])
         return max_cos
 
     def draw(self, img, idx=None):
@@ -44,7 +46,7 @@ class SquareRects(Shapes):
     def __draw_square_rect(img, square_rect):
         """Draw idx-th square/rectangle on image"""
         x, y, w, h = square_rect
-        cv2.rectangle(img, (x, y), (x+w, y+h), color=(0,255,0), thickness=2)
+        cv2.rectangle(img, (x, y), (x+w, y+h), color=(0, 255, 0), thickness=2)
         return img
 
     @staticmethod

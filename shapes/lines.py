@@ -7,8 +7,8 @@ class Lines(Shape):
 
     def detect(self, img):
         """Detect lines from an image"""
-        lines = cv2.HoughLinesP(img, rho=1, theta=np.pi/180, threshold=200,
-                                minLineLength=100, maxLineGap=10)
+        self.lines = cv2.HoughLinesP(img, rho=1, theta=np.pi/180, threshold=200,
+                                     minLineLength=100, maxLineGap=10)
 
     def draw(self, img, idx=None):
         """Draw lines on image"""

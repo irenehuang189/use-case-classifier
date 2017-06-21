@@ -7,11 +7,15 @@ class Rhombuses(Shapes):
     MAX_SIDE_LENGTH_DIFF = 40
     rhombuses = []
 
-    def detect_rhombus(self, approx):
+    def __init__(self, rhombuses):
+        self.rhombuses = rhombuses
+
+    @staticmethod
+    def detect_rhombus(approx):
         """Find rhombus from a contour
             If shape is not found, return none and unidentified string"""
-        max_length_diff = self.get_max_length_diff_in_quad(approx)
-        if max_length_diff > self.MAX_SIDE_LENGTH_DIFF:
+        max_length_diff = Rhombuses.get_max_length_diff_in_quad(approx)
+        if max_length_diff > Rhombuses.MAX_SIDE_LENGTH_DIFF:
             return None, Shapes.UNIDENTIFIED_SHAPE
         return approx, Shapes.RHOMBUS_SHAPE
 
@@ -29,7 +33,7 @@ class Rhombuses(Shapes):
         for i, point in enumerate(rhombus):
             p1 = tuple(rhombus[i][0])
             p2 = tuple(rhombus[(i+1) % 4][0])
-            cv2.line(img, p1, p2, color=(255,0,0), thickness=2)
+            cv2.line(img, p1, p2, color=(255, 0, 0), thickness=2)
         return img
 
     @staticmethod

@@ -8,7 +8,8 @@ class Triangles(Shapes):
     def __init__(self, triangles):
         self.triangles = triangles
 
-    def detect_triangle(self, contour):
+    @staticmethod
+    def detect_triangle(contour):
         """Find triangle from a contour
             If shape is not found, return none and unidentified string"""
         _, triangle = cv2.minEnclosingTriangle(contour)
@@ -36,5 +37,5 @@ class Triangles(Shapes):
             p1 = tuple(triangle[i][0])
             p2 = tuple(triangle[(i+1) % 3][0])
 
-            cv2.line(img, p1, p2, color=(0,255,0), thickness=2)
+        cv2.line(img, p1, p2, color=(0, 255, 0), thickness=2)
         return img
