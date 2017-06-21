@@ -41,13 +41,32 @@ class Circles(Shapes):
         cv2.ellipse(img, circle, color=(255, 0, 0), thickness=2)
         return img
 
+    def standard_deviation(self):
+        """Count standard deviation of all circles"""
+        areas = []
+        for circle in self.circles:
+            areas.append(Circles.get_area(circle))
+        areas = np.array(areas)
+        return np.std(areas)
+
+    def total_area(self):
+        total_area = 0
+        for circle in self.circles:
+            total_area += Circles.get_area(circle)
+        return total_area
+
     @staticmethod
-    def is_circle(length_a, length_b):
-        radius_diff = abs(length_a - length_b)
-        radius_avg = (length_a + length_b) / 2
-        return radius_diff < (radius_avg*Shapes.MAX_RADIUS_DIFF_PCT)
+    def get_area(circle):
+        r = Circles.get_radius(circle)
+        return np.pi * r * r
 
     @staticmethod
     def get_radius(circle):
         r = circle[1][0] / 2
         return r
+
+    @staticmethod
+    def is_circle(length_a, length_b):
+        radius_diff = abs(length_a - length_b)
+        radius_avg = (length_a + length_b) / 2
+        return radius_diff < (radius_avg*Shapes.MAX_RADIUS_DIFF_PCT)

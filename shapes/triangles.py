@@ -39,3 +39,6 @@ class Triangles(Shapes):
             p2 = tuple(triangle[(i+1) % 3][0])
             cv2.line(img, p1, p2, color=(255, 255, 0), thickness=2)
         return img
+
+    def is_empty(self):
+        return len(self.triangles) == 0

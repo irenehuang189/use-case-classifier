@@ -6,7 +6,7 @@ class Shapes(object):
 
     UNIDENTIFIED_SHAPE = 'unidentified'
     TRIANGLE_SHAPE = 'triangle'
-    SQUARE_RECT_SHAPE = 'square rect'
+    RECTANGLE_SHAPE = 'rectangle'
     RHOMBUS_SHAPE = 'rhombus'
     LINE_SHAPE = 'line'
     CIRCLE_SHAPE = 'circle'

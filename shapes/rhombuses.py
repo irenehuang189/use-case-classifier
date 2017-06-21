@@ -61,3 +61,6 @@ class Rhombuses(Shapes):
                        cv2.norm(bottommost - rightmost),
                        cv2.norm(leftmost - bottommost)]
         return np.max(length_diff)
+
+    def is_empty(self):
+        return len(self.rhombuses) == 0

@@ -26,7 +26,7 @@ def detect_shapes(contours):
     print('Contours size:', len(contours))
     small_contour_cnt = 0
 
-    triangles, square_rects, rhombuses, ellipses, circles, other_polygons = ([] for i in range(6))
+    triangles, rectangles, rhombuses, ellipses, circles, other_polygons = ([] for i in range(6))
     for i, contour in enumerate(contours):
         # Area validation
         area = cv2.contourArea(contour)
@@ -41,8 +41,8 @@ def detect_shapes(contours):
         else:
             if shape_name == shapes.Shapes.TRIANGLE_SHAPE:
                 triangles.append(shape)
-            elif shape_name == shapes.Shapes.SQUARE_RECT_SHAPE:
-                square_rects.append(shape)
+            elif shape_name == shapes.Shapes.RECTANGLE_SHAPE:
+                rectangles.append(shape)
             elif shape_name == shapes.Shapes.RHOMBUS_SHAPE:
                 rhombuses.append(shape)
             elif shape_name == shapes.Shapes.ELLIPSE_SHAPE:
@@ -52,12 +52,12 @@ def detect_shapes(contours):
 
     print('Small contour: ', small_contour_cnt)
     print('Triangles: ', len(triangles))
-    print('Square_rects: ', len(square_rects))
+    print('Rectangles: ', len(rectangles))
     print('Rhombuses: ', len(rhombuses))
     print('Ellipses: ', len(ellipses))
     print('Circles: ', len(circles))
     print('Others: ', len(other_polygons))
-    return triangles, square_rects, rhombuses, ellipses, circles
+    return triangles, rectangles, rhombuses, ellipses, circles
 
 
 def detect_shape(contour):
@@ -69,7 +69,7 @@ def detect_shape(contour):
     if len(approx) == 3:
         shape, shape_name = shapes.Triangles.detect_triangle(contour)
     elif len(approx) == 4:
-        shape, shape_name = shapes.SquareRects.detect_square_rect(contour, approx)
+        shape, shape_name = shapes.Rectangles.detect_rectangle(contour, approx)
         if shape is None:
             shape, shape_name = shapes.Rhombuses.detect_rhombus(approx)
     elif len(approx) >= 4:
