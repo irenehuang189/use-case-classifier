@@ -19,7 +19,7 @@ class Ellipses(Shapes):
         contour_area = cv2.contourArea(contour)
         area_diff = abs(contour_area - ellipse_area)
 
-        if (a == b) or (area_diff > (contour_area*Shapes.MAX_AREA_DIFF_PCT)):
+        if (Ellipses.is_circle(a, b)) or (area_diff > (contour_area*Shapes.MAX_AREA_DIFF_PCT)):
             return None, Shapes.UNIDENTIFIED_SHAPE
         return ellipse, Shapes.ELLIPSE_SHAPE
 
@@ -27,15 +27,24 @@ class Ellipses(Shapes):
         """Draw ellipses on image"""
         if idx is None:
             for ellipse in self.ellipses:
-                self.__draw_ellipse(img, ellipse)
+                img = self.__draw_ellipse(img, ellipse)
         else:
-            self.__draw_ellipse(img, self.ellipses[idx])
+            img = self.__draw_ellipse(img, self.ellipses[idx])
+
+        return img
 
     @staticmethod
     def __draw_ellipse(img, ellipse):
         """Draw idx-th ellipse on image"""
+        # TODO: Fix parameter warning in cv2.ellipse
         cv2.ellipse(img, ellipse, color=(0, 255, 0), thickness=2)
         return img
+
+    @staticmethod
+    def is_circle(length_a, length_b):
+        radius_diff = abs(length_a - length_b)
+        radius_avg = (length_a + length_b) / 2
+        return radius_diff < (radius_avg*Shapes.MAX_RADIUS_DIFF_PCT)
 
     @staticmethod
     def get_length(ellipse):

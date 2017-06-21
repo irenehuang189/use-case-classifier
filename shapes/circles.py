@@ -20,7 +20,7 @@ class Circles(Shapes):
         contour_area = cv2.contourArea(contour)
         area_diff = abs(contour_area - ellipse_area)
 
-        if (a != b) or (area_diff > (contour_area*Shapes.MAX_AREA_DIFF_PCT)):
+        if not(Circles.is_circle(a, b)) or (area_diff > (contour_area*Shapes.MAX_AREA_DIFF_PCT)):
             return None, Shapes.UNIDENTIFIED_SHAPE
         return ellipse, Shapes.CIRCLE_SHAPE
 
@@ -28,15 +28,24 @@ class Circles(Shapes):
         """Draw circles on image"""
         if idx is None:
             for circle in self.circles:
-                self.__draw_circle(img, circle)
+                img = self.__draw_circle(img, circle)
         else:
-            self.__draw_circle(img, self.circles[idx])
+            img = self.__draw_circle(img, self.circles[idx])
+
+        return img
 
     @staticmethod
     def __draw_circle(img, circle):
         """Draw idx-th circle on image"""
-        cv2.ellipse(img, circle, color=(0, 255, 0), thickness=2)
+        # TODO: Fix parameter warning in cv2.ellipse
+        cv2.ellipse(img, circle, color=(255, 0, 0), thickness=2)
         return img
+
+    @staticmethod
+    def is_circle(length_a, length_b):
+        radius_diff = abs(length_a - length_b)
+        radius_avg = (length_a + length_b) / 2
+        return radius_diff < (radius_avg*Shapes.MAX_RADIUS_DIFF_PCT)
 
     @staticmethod
     def get_radius(circle):

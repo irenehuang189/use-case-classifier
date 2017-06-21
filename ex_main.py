@@ -33,7 +33,7 @@ def detect_shapes(contours, img):
     """Detect shapes from image contours"""
     print('Contours size:', len(contours))
     cnt_not_convex = 0
-    triangles, squarerects, rhombuses, other_polygons, ellipses, circles = ([] for i in range(7))
+    triangles, squarerects, rhombuses, other_polygons, ellipses, circles = ([] for i in range(6))
     for i, contour in enumerate(contours):
         # Area validation
         area = cv2.contourArea(contour)
@@ -53,16 +53,16 @@ def detect_shapes(contours, img):
             elif shape_name == SQUARE_RECT_SHAPE:
                 squarerects.append(shape)
                 x, y, w, h = shape[0], shape[1], shape[2], shape[3]
-                cv2.rectangle(img, (x,y), (x+w,y+h), (0,255,0), 2)
+                # cv2.rectangle(img, (x,y), (x+w,y+h), (0,255,0), 2)
             elif shape_name == RHOMBUS_SHAPE:
                 rhombuses.append(shape)
-                for j, point in enumerate(shape):
-                    pt1 = tuple(shape[j][0])
-                    pt2 = tuple(shape[(j+1) % 4][0])
-                    cv2.line(img, pt1, pt2, (255,0,0), 2)
+                # for j, point in enumerate(shape):
+                #     pt1 = tuple(shape[j][0])
+                #     pt2 = tuple(shape[(j+1) % 4][0])
+                #     cv2.line(img, pt1, pt2, (255,0,0), 2)
             elif shape_name == ELLIPSE_SHAPE:
                 ellipses.append(shape)
-                cv2.ellipse(img, shape, (0,255,0), 2)
+                # cv2.ellipse(img, shape, (0,255,0), 2)
 
         else:
             other_polygons.append(shape)
@@ -80,6 +80,7 @@ def detect_shape(contour):
     """Detect shape in a contour"""
     epsilon = PERIMETER_PCT * cv2.arcLength(contour, True)
     approx = cv2.approxPolyDP(contour, epsilon, True)
+    shape, shape_name, color = None, UNIDENTIFIED_SHAPE, (0,0,0)
     if len(approx) == 3:
         shape, shape_name = get_triangle(contour, approx)
         color = (0, 0, 255)
@@ -219,8 +220,8 @@ def find_lines(source, img):
 
 # Read image
 # image_name = 'test.png'
-# image_name = 'test5.png'
-image_name = 'non3.jpg'
+image_name = 'test5.png'
+# image_name = 'non3.jpg'
 colored_img = cv2.imread(image_name)
 gray_img = cv2.cvtColor(colored_img, cv2.COLOR_BGR2GRAY)
 

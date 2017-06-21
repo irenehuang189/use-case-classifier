@@ -6,4 +6,4 @@ from shapes.rhombuses import Rhombuses
 from shapes.square_rects import SquareRects
 from shapes.triangles import Triangles
 
-__all__ = ['circles', 'ellipses', 'lines', 'rhombuses', 'square_rects', 'triangles']
+__all__ = ['circles', 'ellipses', 'lines', 'rhombuses', 'shapes', 'square_rects', 'triangles']

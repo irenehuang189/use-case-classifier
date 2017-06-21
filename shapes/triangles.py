@@ -24,10 +24,12 @@ class Triangles(Shapes):
     def draw(self, img, idx=None):
         """Draw triangles on image"""
         if idx is None:
+            print('Triangles', self.triangles)
             for triangle in self.triangles:
-                self.__draw_triangle(img, triangle)
+                img = self.__draw_triangle(img, triangle)
         else:
-            self.__draw_triangle(img, self.triangles[idx])
+            img = self.__draw_triangle(img, self.triangles[idx])
+
         return img
 
     @staticmethod
@@ -36,6 +38,5 @@ class Triangles(Shapes):
         for i, point in enumerate(triangle):
             p1 = tuple(triangle[i][0])
             p2 = tuple(triangle[(i+1) % 3][0])
-
-        cv2.line(img, p1, p2, color=(0, 255, 0), thickness=2)
+            cv2.line(img, p1, p2, color=(255, 255, 0), thickness=2)
         return img

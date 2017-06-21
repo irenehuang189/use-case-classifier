@@ -31,22 +31,25 @@ class SquareRects(Shapes):
     @staticmethod
     def max_cos_in_quad(contour):
         """Get maximum cos of quadrilateral edges"""
-        max_cos = np.max([SquareRects.angle_cos(contour[i], contour[(i + 1) % 4], contour[(i + 2) % 4]) for i in range(4)])
+        max_cos = np.max([SquareRects.angle_cos(contour[i], contour[(i + 1) % 4], contour[(i + 2) % 4])
+                          for i in range(4)])
         return max_cos
 
     def draw(self, img, idx=None):
         """Draw squares and rectangles on image"""
         if idx is None:
             for square_rect in self.square_rects:
-                self.__draw_square_rect(img, square_rect)
+                img = self.__draw_square_rect(img, square_rect)
         else:
-            self.__draw_square_rect(img, self.square_rects[idx])
+            img = self.__draw_square_rect(img, self.square_rects[idx])
+
+        return img
 
     @staticmethod
     def __draw_square_rect(img, square_rect):
         """Draw idx-th square/rectangle on image"""
         x, y, w, h = square_rect
-        cv2.rectangle(img, (x, y), (x+w, y+h), color=(0, 255, 0), thickness=2)
+        cv2.rectangle(img, (x, y), (x+w, y+h), color=(255, 0, 0), thickness=2)
         return img
 
     @staticmethod

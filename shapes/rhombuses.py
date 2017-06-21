@@ -23,9 +23,11 @@ class Rhombuses(Shapes):
         """Draw rhombuses on image"""
         if idx is None:
             for rhombus in self.rhombuses:
-                self.__draw_rhombus(img, rhombus)
+                img = self.__draw_rhombus(img, rhombus)
         else:
-            self.__draw_rhombus(img, self.rhombuses[idx])
+            img = self.__draw_rhombus(img, self.rhombuses[idx])
+
+        return img
 
     @staticmethod
     def __draw_rhombus(img, rhombus):
@@ -33,7 +35,7 @@ class Rhombuses(Shapes):
         for i, point in enumerate(rhombus):
             p1 = tuple(rhombus[i][0])
             p2 = tuple(rhombus[(i+1) % 4][0])
-            cv2.line(img, p1, p2, color=(255, 0, 0), thickness=2)
+            cv2.line(img, p1, p2, color=(0, 255, 125), thickness=2)
         return img
 
     @staticmethod
