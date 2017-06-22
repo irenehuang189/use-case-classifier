@@ -1,7 +1,8 @@
 import cv2
-import shapes
-import shape_detector as sd
+
 import feature_extractor as fe
+import shape_detector as sd
+import shapes
 
 
 def show_image(window_name, img):
@@ -26,9 +27,9 @@ def draw_shapes(img, lines=None, triangles=None, rectangles=None, rhombuses=None
     return img
 
 
-image_name = 'test.png'
+# image_name = 'test.png'
 # image_name = 'test5.png'
-# image_name = 'non3.jpg'
+image_name = 'non3.jpg'
 colored_img = cv2.imread(image_name)
 
 gray_img = cv2.cvtColor(colored_img, cv2.COLOR_BGR2GRAY)
@@ -45,8 +46,8 @@ rhombuses = shapes.Rhombuses(rhombuses)
 circles = shapes.Circles(circles)
 ellipses = shapes.Ellipses(ellipses)
 
-# draw_shapes(colored_img, lines, triangles, rectangles, rhombuses, circles, ellipses)
-# show_image('Result', colored_img)
+draw_shapes(colored_img, None, triangles, rectangles, rhombuses, circles, ellipses)
+show_image('Result', colored_img)
 
 fe.extract_features(gray_img, lines, triangles, rectangles, rhombuses, circles, ellipses)
 

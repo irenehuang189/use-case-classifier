@@ -1,5 +1,6 @@
-import shapes
 import cv2
+
+import shapes
 
 
 def threshold_image(gray_img):

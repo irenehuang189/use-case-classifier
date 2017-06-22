@@ -1,6 +1,5 @@
-import numpy as np
 import cv2
-import math
+import numpy as np
 
 MIN_CONTOUR_AREA = 100
 MAX_AREA_DIFF_PCT = 0.1

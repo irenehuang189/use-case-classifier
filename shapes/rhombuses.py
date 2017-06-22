@@ -1,6 +1,7 @@
-from shapes import Shapes
-import numpy as np
 import cv2
+import numpy as np
+
+from shapes import Shapes
 
 
 class Rhombuses(Shapes):
@@ -35,7 +36,7 @@ class Rhombuses(Shapes):
         for i, point in enumerate(rhombus):
             p1 = tuple(rhombus[i][0])
             p2 = tuple(rhombus[(i+1) % 4][0])
-            cv2.line(img, p1, p2, color=(0, 255, 125), thickness=2)
+            cv2.line(img, p1, p2, color=(29, 131, 255), thickness=2)
         return img
 
     @staticmethod

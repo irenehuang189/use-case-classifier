@@ -1,5 +1,6 @@
-from shapes import Shapes
 import cv2
+
+from shapes import Shapes
 
 
 class Triangles(Shapes):
