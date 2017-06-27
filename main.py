@@ -1,55 +1,52 @@
+import numpy as np
 import cv2
+import os
 
 import feature_extractor as fe
 import shape_detector as sd
-import shapes
+
+
+def rename_images(path):
+    for i, file in enumerate(os.listdir(path)):
+        file_ext = os.path.splitext(file)[1].lower()
+        print(os.path.join(path, str(i) + file_ext))
+        os.rename(os.path.join(path, file), os.path.join(path, str(i) + file_ext))
+
+
+def convert_images(path):
+    not_converted_ext = ('.png', 'PNG', '.jpg', 'JPG', 'jpeg')
+    for file in os.listdir(path):
+        if not(file.endswith(not_converted_ext)):
+            file_name = os.path.splitext(file)[0]
+            convert_args = 'magick convert ' + os.path.join(path, file) + ' ' + os.path.join(path, file_name) + '.jpg'
+            print(convert_args)
+            os.system(convert_args)
+            os.remove(os.path.join(path, file))
 
 
 def show_image(window_name, img):
     cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
     cv2.imshow(window_name, img)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
 
-def draw_shapes(img, lines=None, triangles=None, rectangles=None, rhombuses=None, circles=None, ellipses=None):
-    if not(lines is None):
-        img = lines.draw(img)
-    if not(triangles is None):
-        img = triangles.draw(img)
-    if not(rectangles is None):
-        img = rectangles.draw(img)
-    if not(rhombuses is None):
-        img = rhombuses.draw(img)
-    if not(circles is None):
-        img = circles.draw(img)
-    if not(ellipses is None):
-        img = ellipses.draw(img)
+path = 'D:/TA/usecase-dataset/coba'
+rename_images(path)
+convert_images(path)
 
-    return img
+features = np.zeros((0, 9))
+for file in os.listdir(path):
+    print(os.path.join(path, 'extraction_result', file))
+    image_path = os.path.join(path, file)
+    colored_img = cv2.imread(image_path)
+    gray_img = cv2.cvtColor(colored_img, cv2.COLOR_BGR2GRAY)
 
+    lines, triangles, rectangles, rhombuses, ellipses, circles = sd.process_image(gray_img)
+    colored_img = sd.draw_shapes(colored_img, lines, triangles, rectangles, rhombuses, ellipses, circles)
+    cv2.imwrite(os.path.join(path, 'extraction_result', file), colored_img)
 
-# image_name = 'test.png'
-# image_name = 'test5.png'
-image_name = 'non3.jpg'
-colored_img = cv2.imread(image_name)
+    feature = fe.extract_features(gray_img, lines, triangles, rectangles, rhombuses, ellipses, circles)
+    features = np.concatenate((features, feature))
 
-gray_img = cv2.cvtColor(colored_img, cv2.COLOR_BGR2GRAY)
-threshold_img = sd.threshold_image(gray_img)
-contours = sd.find_contours(threshold_img)
-
-triangles, rectangles, rhombuses, ellipses, circles = sd.detect_shapes(contours)
-lines = shapes.Lines()
-lines.detect(threshold_img)
-
-triangles = shapes.Triangles(triangles)
-rectangles = shapes.Rectangles(rectangles)
-rhombuses = shapes.Rhombuses(rhombuses)
-circles = shapes.Circles(circles)
-ellipses = shapes.Ellipses(ellipses)
-
-draw_shapes(colored_img, None, triangles, rectangles, rhombuses, circles, ellipses)
-show_image('Result', colored_img)
-
-fe.extract_features(gray_img, lines, triangles, rectangles, rhombuses, circles, ellipses)
-
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+print('Features', features)

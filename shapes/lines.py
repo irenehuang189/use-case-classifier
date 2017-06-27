@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-from shapes import Shapes
+from shapes.shapes import Shapes
 
 
 class Lines(Shapes):

@@ -1,13 +1,18 @@
-def extract_features(img, lines, triangles, rectangles, rhombuses, circles, ellipses):
-    ellipse_area_pct(ellipses, img)
-    circle_area_pct(circles, img)
-    rectangle_area_pct(rectangles, img)
-    is_triangle_existed(triangles)
-    is_rhombuses_existed(rhombuses)
-    ellipse_connection_freq(ellipses, lines, circles)
-    ellipse_size_sd(ellipses)
-    circle_size_sd(circles)
-    ellipse_horizontal_orientation(ellipses)
+import numpy as np
+
+
+def extract_features(img, lines, triangles, rectangles, rhombuses, ellipses, circles):
+    features = np.zeros((1,9))
+    features[0][0] = ellipse_area_pct(ellipses, img)
+    features[0][1] = circle_area_pct(circles, img)
+    features[0][2] = rectangle_area_pct(rectangles, img)
+    features[0][3] = is_triangle_existed(triangles)
+    features[0][4] = is_rhombuses_existed(rhombuses)
+    features[0][5] = ellipse_connection_freq(ellipses, lines, circles)
+    features[0][6] = ellipse_size_sd(ellipses)
+    features[0][7] = circle_size_sd(circles)
+    features[0][8] = ellipse_horizontal_orientation(ellipses)
+    return features
 
 
 def ellipse_area_pct(ellipses, img):
@@ -17,24 +22,22 @@ def ellipse_area_pct(ellipses, img):
 
 def circle_area_pct(circles, img):
     """F2: Count percentage area of circles on an image compared with image size"""
-    print('F2', circles.total_area(), img.size)
     return circles.total_area() / img.size
 
 
 def rectangle_area_pct(rectangles, img):
     """F3: Count percentage area of rectangles on an image compared with image size"""
-    print('F3', rectangles.total_area(), img.size)
     return rectangles.total_area() / img.size
 
 
 def is_triangle_existed(triangles):
     """F4: Check appearance of triangles in image"""
-    return triangles.is_empty()
+    return not(triangles.is_empty())
 
 
 def is_rhombuses_existed(rhombuses):
     """F5: Check appearance of rhombuses in image"""
-    return rhombuses.is_empty()
+    return not(rhombuses.is_empty())
 
 
 def ellipse_connection_freq(ellipses, lines, circles):
@@ -57,4 +60,4 @@ def circle_size_sd(circles):
 def ellipse_horizontal_orientation(ellipses):
     """F9: Count number of ellipses with horizontal orientation
     divided by number of ellipses in image"""
-    return ellipses.horizontal_num()
+    return ellipses.horizontal_num() / ellipses.size()

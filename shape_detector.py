@@ -3,6 +3,15 @@ import cv2
 import shapes
 
 
+def process_image(gray_img):
+    threshold_img = threshold_image(gray_img)
+    contours = find_contours(threshold_img)
+
+    triangles, rectangles, rhombuses, ellipses, circles = detect_shapes(contours)
+    lines = shapes.Lines()
+    lines.detect(threshold_img)
+    return lines, triangles, rectangles, rhombuses, ellipses, circles
+
 def threshold_image(gray_img):
     _, threshold_img = cv2.threshold(gray_img, 127, 255, cv2.THRESH_BINARY)
     threshold_img = cv2.bitwise_not(threshold_img)
@@ -58,6 +67,12 @@ def detect_shapes(contours):
     print('Ellipses: ', len(ellipses))
     print('Circles: ', len(circles))
     print('Others: ', len(other_polygons))
+
+    triangles = shapes.Triangles(triangles)
+    rectangles = shapes.Rectangles(rectangles)
+    rhombuses = shapes.Rhombuses(rhombuses)
+    ellipses = shapes.Ellipses(ellipses)
+    circles = shapes.Circles(circles)
     return triangles, rectangles, rhombuses, ellipses, circles
 
 
@@ -78,3 +93,20 @@ def detect_shape(contour):
         if shape is None:
             shape, shape_name = shapes.Circles.detect_circle(contour)
     return shape, shape_name
+
+
+def draw_shapes(img, lines=None, triangles=None, rectangles=None, rhombuses=None, ellipses=None, circles=None):
+    if not(lines is None):
+        img = lines.draw(img)
+    if not(triangles is None):
+        img = triangles.draw(img)
+    if not(rectangles is None):
+        img = rectangles.draw(img)
+    if not(rhombuses is None):
+        img = rhombuses.draw(img)
+    if not(ellipses is None):
+        img = ellipses.draw(img)
+    if not(circles is None):
+        img = circles.draw(img)
+
+    return img

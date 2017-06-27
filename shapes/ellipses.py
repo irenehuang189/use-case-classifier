@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-from shapes import Shapes
+from shapes.shapes import Shapes
 
 
 class Ellipses(Shapes):
@@ -46,7 +46,7 @@ class Ellipses(Shapes):
         count = 0
         for ellipse in self.ellipses:
             length_a, length_b = Ellipses.get_length(ellipse)
-            if length_a > length_b:
+            if length_a < length_b:
                 count += 1
         return count
 
@@ -64,6 +64,9 @@ class Ellipses(Shapes):
             total_area += Ellipses.get_area(ellipse)
         return total_area
 
+    def size(self):
+        return len(self.ellipses)
+        
     @staticmethod
     def get_area(ellipse):
         length_a, length_b = Ellipses.get_length(ellipse)
