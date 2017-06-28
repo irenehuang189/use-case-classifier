@@ -9,8 +9,10 @@ class Lines(Shapes):
 
     def detect(self, img):
         """Detect lines from an image"""
-        self.lines = cv2.HoughLinesP(img, rho=1, theta=np.pi/180, threshold=200,
-                                     minLineLength=100, maxLineGap=10)
+        lines = cv2.HoughLinesP(img, rho=1, theta=np.pi/180, threshold=200,
+                                minLineLength=100, maxLineGap=10)
+        if not(lines is None):
+            self.lines = lines
 
     def draw(self, img, idx=None):
         """Draw lines on image"""

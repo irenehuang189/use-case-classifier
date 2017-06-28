@@ -67,6 +67,9 @@ class Ellipses(Shapes):
     def size(self):
         return len(self.ellipses)
         
+    def is_empty(self):
+        return len(self.ellipses) == 0
+        
     @staticmethod
     def get_area(ellipse):
         length_a, length_b = Ellipses.get_length(ellipse)

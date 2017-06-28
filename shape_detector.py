@@ -10,7 +10,9 @@ def process_image(gray_img):
     triangles, rectangles, rhombuses, ellipses, circles = detect_shapes(contours)
     lines = shapes.Lines()
     lines.detect(threshold_img)
+    print('Lines:', lines.size())
     return lines, triangles, rectangles, rhombuses, ellipses, circles
+
 
 def threshold_image(gray_img):
     _, threshold_img = cv2.threshold(gray_img, 127, 255, cv2.THRESH_BINARY)
@@ -60,13 +62,13 @@ def detect_shapes(contours):
             elif shape_name == shapes.Shapes.CIRCLE_SHAPE:
                 circles.append(shape)
 
-    print('Small contour: ', small_contour_cnt)
-    print('Triangles: ', len(triangles))
-    print('Rectangles: ', len(rectangles))
-    print('Rhombuses: ', len(rhombuses))
-    print('Ellipses: ', len(ellipses))
-    print('Circles: ', len(circles))
-    print('Others: ', len(other_polygons))
+    print('Small contours:', small_contour_cnt)
+    print('Triangles:', len(triangles))
+    print('Rectangles:', len(rectangles))
+    print('Rhombuses:', len(rhombuses))
+    print('Ellipses:', len(ellipses))
+    print('Circles:', len(circles))
+    print('Other polygons:', len(other_polygons))
 
     triangles = shapes.Triangles(triangles)
     rectangles = shapes.Rectangles(rectangles)

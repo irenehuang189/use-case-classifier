@@ -60,4 +60,6 @@ def circle_size_sd(circles):
 def ellipse_horizontal_orientation(ellipses):
     """F9: Count number of ellipses with horizontal orientation
     divided by number of ellipses in image"""
+    if(ellipses.is_empty()):
+        return 0
     return ellipses.horizontal_num() / ellipses.size()
