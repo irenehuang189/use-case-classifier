@@ -56,6 +56,9 @@ class Circles(Shapes):
             total_area += Circles.get_area(circle)
         return total_area
 
+    def is_empty(self):
+        return len(self.circles) == 0
+
     @staticmethod
     def get_area(circle):
         r = Circles.get_radius(circle)

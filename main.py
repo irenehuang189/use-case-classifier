@@ -7,6 +7,7 @@ import shape_detector as sd
 
 
 def rename_images(path):
+    """Rename all images in path with incremental number, starting from zero"""
     for i, file in enumerate(os.listdir(path)):
         file_ext = os.path.splitext(file)[1].lower()
         if file_ext:
@@ -15,6 +16,8 @@ def rename_images(path):
 
 
 def convert_images(path):
+    """Convert all non-JPG and non-PNG images to JPG format
+        Supported image formats: https://www.imagemagick.org/script/formats.php"""
     not_converted_ext = ('.png', 'PNG', '.jpg', 'JPG', 'jpeg')
     for file in os.listdir(path):
         file_ext = os.path.splitext(file)[1]
@@ -24,6 +27,18 @@ def convert_images(path):
             print(convert_args)
             os.system(convert_args)
             os.remove(os.path.join(path, file))
+
+def export_arff(path, features):
+    """Export image features to arff file format"""
+    data = fe.get_arff_header()
+    data.append('@data')
+    for feature in features:
+        feature_text = ','.join('{:.3f}'.format(f) for f in feature)
+        data.append(feature_text)
+    
+    file = open(path, 'w')
+    file.write('\n'.join(data))
+    file.close()
 
 
 def show_image(window_name, img):
@@ -63,3 +78,6 @@ for file in os.listdir(path):
 
 print('\nFeatures result:')
 print(features)
+
+arff_path = os.path.join(result_path, 'use_case.arff')
+export_arff(arff_path, features)

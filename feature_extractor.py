@@ -49,11 +49,15 @@ def ellipse_connection_freq(ellipses, lines, circles):
 
 def ellipse_size_sd(ellipses):
     """F7: Calculate ellipse size variance in image"""
+    if(ellipses.is_empty()):
+        return 0
     return ellipses.standard_deviation()
 
 
 def circle_size_sd(circles):
     """F8: Calculate circle size variance in image"""
+    if(circles.is_empty()):
+        return 0
     return circles.standard_deviation()
 
 
@@ -63,3 +67,17 @@ def ellipse_horizontal_orientation(ellipses):
     if(ellipses.is_empty()):
         return 0
     return ellipses.horizontal_num() / ellipses.size()
+
+
+def get_arff_header():
+    header = ['@relation use_case',
+            '@attribute f1 numeric',
+            '@attribute f2 numeric',
+            '@attribute f3 numeric',
+            '@attribute f4 numeric',
+            '@attribute f5 numeric',
+            '@attribute f6 numeric',
+            '@attribute f7 numeric',
+            '@attribute f8 numeric',
+            '@attribute f9 numeric']
+    return header
