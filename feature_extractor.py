@@ -2,7 +2,7 @@ import numpy as np
 
 
 def extract_features(img, lines, triangles, rectangles, rhombuses, ellipses, circles):
-    features = np.zeros((1,9))
+    features = np.zeros((1, 9))
     features[0][0] = ellipse_area_pct(ellipses, img)
     features[0][1] = circle_area_pct(circles, img)
     features[0][2] = rectangle_area_pct(rectangles, img)
@@ -79,5 +79,7 @@ def get_arff_header():
             '@attribute f6 numeric',
             '@attribute f7 numeric',
             '@attribute f8 numeric',
-            '@attribute f9 numeric']
+            '@attribute f9 numeric',
+            '@attribute class {positive, negative}',
+            '@data']
     return header
