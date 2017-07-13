@@ -2,16 +2,16 @@ import numpy as np
 
 
 def extract_features(img, lines, triangles, rectangles, rhombuses, ellipses, circles):
-    features = np.zeros((1, 9))
+    features = np.zeros((1, 8))
     features[0][0] = ellipse_area_pct(ellipses, img)
     features[0][1] = circle_area_pct(circles, img)
     features[0][2] = rectangle_area_pct(rectangles, img)
     features[0][3] = is_triangle_existed(triangles)
     features[0][4] = is_rhombuses_existed(rhombuses)
-    features[0][5] = ellipse_connection_freq(ellipses, lines, circles)
-    features[0][6] = ellipse_size_sd(ellipses)
-    features[0][7] = circle_size_sd(circles)
-    features[0][8] = ellipse_horizontal_orientation(ellipses)
+    # features[0][5] = ellipse_connection_freq(ellipses, lines, circles)
+    features[0][5] = ellipse_size_sd(ellipses)
+    features[0][6] = circle_size_sd(circles)
+    features[0][7] = ellipse_horizontal_orientation(ellipses)
     return features
 
 
@@ -75,7 +75,7 @@ def get_arff_header():
             '@attribute f2 numeric',
             '@attribute f3 numeric',
             '@attribute f4 numeric',
-            '@attribute f5 numeric',
+            # '@attribute f5 numeric',
             '@attribute f6 numeric',
             '@attribute f7 numeric',
             '@attribute f8 numeric',

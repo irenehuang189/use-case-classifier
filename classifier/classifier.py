@@ -1,5 +1,5 @@
 import numpy as np
-import cv2, os, sys
+import cv2, os, sys, subprocess
 
 import feature_extractor as fe
 import shape_detector as sd
@@ -12,7 +12,8 @@ def extract_images(path):
     convert_images(path)
 
     print('\n---EXTRACT FEATURES---', file=sys.stderr)
-    features = np.zeros((0, 10))
+    file_paths = []
+    features = np.zeros((0, 9))
     for root, subdirs, files in os.walk(path):
         result_path = os.path.join(root, 'extraction_result')
         if (len(files) > 0) and (not os.path.exists(result_path)):
@@ -21,6 +22,7 @@ def extract_images(path):
             file_ext = os.path.splitext(file)[1]
             if file_ext:
                 # Read image
+                file_paths.append(os.path.join(root, file))
                 print(os.path.join(root, file), file=sys.stderr)
                 image_path = os.path.join(root, file)
                 colored_img = cv2.imread(image_path)
@@ -32,16 +34,17 @@ def extract_images(path):
                 cv2.imwrite(os.path.join(result_path, file), colored_img)
 
                 # Extract features
-                image_class = os.path.basename(root)
+                image_class = '?'
                 feature = fe.extract_features(gray_img, lines, triangles, rectangles, rhombuses, ellipses, circles)
                 feature = np.append(feature, image_class)
                 features = np.concatenate((features, [feature]))
-                print()
+                print('', file=sys.stderr)
 
-    print('Features:' + features.shape, file=sys.stderr)
+    print('Features:' + str(features.shape), file=sys.stderr)
 
     arff_path = os.path.join(path, 'use_case.arff')
     export_arff(arff_path, features)
+    return (file_paths, classify_arff(arff_path))
 
 
 def rename_images(path):
@@ -79,3 +82,23 @@ def export_arff(path, features):
     file = open(path, 'w')
     file.write('\n'.join(data))
     file.close()
+
+
+def classify_arff(path):
+    command = 'java -classpath lib/weka.jar weka.classifiers.trees.RandomForest -T "' + path + '" -l model/1.model -p 0'
+    print(command, file=sys.stderr)
+    proc = subprocess.Popen(command, stdout = subprocess.PIPE)
+    (out, err) = proc.communicate()
+
+    texts = out.decode().split()
+    image_classes, probabilities = [], []
+    for (i, text) in enumerate(texts):
+        if i > 0:
+            if ':' in texts[i-1]:
+                if ':' in texts[i]:
+                    image_class = text.split(':', 1)[1]
+                    image_classes.append(image_class)
+                else:
+                    probabilities.append(text)
+
+    return (image_classes, probabilities)
