@@ -50,7 +50,7 @@ def show_image(window_name, img):
     cv2.destroyAllWindows()
 
 
-path = 'D:/TA/usecase-dataset/1'
+path = 'D:/TA/image-crawler/1'
 print('---RENAMING IMAGES---')
 rename_images(path)
 print('\n---CONVERT IMAGES---')

@@ -1,0 +1,6048 @@
+---RENAMING IMAGES---
+D:/TA/image-crawler/1\negative\0.jpg
+D:/TA/image-crawler/1\negative\1.png
+D:/TA/image-crawler/1\negative\2.jpg
+D:/TA/image-crawler/1\negative\3.jpg
+D:/TA/image-crawler/1\negative\4.png
+D:/TA/image-crawler/1\negative\5.png
+D:/TA/image-crawler/1\negative\6.png
+D:/TA/image-crawler/1\negative\7.png
+D:/TA/image-crawler/1\negative\8.jpg
+D:/TA/image-crawler/1\negative\9.png
+D:/TA/image-crawler/1\negative\10.png
+D:/TA/image-crawler/1\negative\11.png
+D:/TA/image-crawler/1\negative\12.png
+D:/TA/image-crawler/1\negative\13.png
+D:/TA/image-crawler/1\negative\14.jpg
+D:/TA/image-crawler/1\negative\15.png
+D:/TA/image-crawler/1\negative\16.gif
+D:/TA/image-crawler/1\negative\17.jpg
+D:/TA/image-crawler/1\negative\18.png
+D:/TA/image-crawler/1\negative\19.png
+D:/TA/image-crawler/1\negative\20.png
+D:/TA/image-crawler/1\negative\21.gif
+D:/TA/image-crawler/1\negative\22.jpg
+D:/TA/image-crawler/1\negative\23.png
+D:/TA/image-crawler/1\negative\24.png
+D:/TA/image-crawler/1\negative\25.jpg
+D:/TA/image-crawler/1\negative\26.png
+D:/TA/image-crawler/1\negative\27.png
+D:/TA/image-crawler/1\negative\28.png
+D:/TA/image-crawler/1\negative\29.png
+D:/TA/image-crawler/1\negative\30.jpg
+D:/TA/image-crawler/1\negative\31.png
+D:/TA/image-crawler/1\negative\32.png
+D:/TA/image-crawler/1\negative\33.png
+D:/TA/image-crawler/1\negative\34.png
+D:/TA/image-crawler/1\negative\35.gif
+D:/TA/image-crawler/1\negative\36.png
+D:/TA/image-crawler/1\negative\37.png
+D:/TA/image-crawler/1\negative\38.png
+D:/TA/image-crawler/1\negative\39.png
+D:/TA/image-crawler/1\negative\40.png
+D:/TA/image-crawler/1\negative\41.jpg
+D:/TA/image-crawler/1\negative\42.png
+D:/TA/image-crawler/1\negative\43.png
+D:/TA/image-crawler/1\negative\44.png
+D:/TA/image-crawler/1\negative\45.png
+D:/TA/image-crawler/1\negative\46.png
+D:/TA/image-crawler/1\negative\47.png
+D:/TA/image-crawler/1\negative\48.png
+D:/TA/image-crawler/1\negative\49.png
+D:/TA/image-crawler/1\negative\50.png
+D:/TA/image-crawler/1\negative\51.jpg
+D:/TA/image-crawler/1\negative\52.png
+D:/TA/image-crawler/1\negative\53.png
+D:/TA/image-crawler/1\negative\54.png
+D:/TA/image-crawler/1\negative\55.png
+D:/TA/image-crawler/1\negative\56.png
+D:/TA/image-crawler/1\negative\57.png
+D:/TA/image-crawler/1\negative\58.gif
+D:/TA/image-crawler/1\negative\59.png
+D:/TA/image-crawler/1\negative\60.png
+D:/TA/image-crawler/1\negative\61.png
+D:/TA/image-crawler/1\negative\62.png
+D:/TA/image-crawler/1\negative\63.png
+D:/TA/image-crawler/1\negative\64.jpg
+D:/TA/image-crawler/1\negative\65.png
+D:/TA/image-crawler/1\negative\66.png
+D:/TA/image-crawler/1\negative\67.jpg
+D:/TA/image-crawler/1\negative\68.png
+D:/TA/image-crawler/1\negative\69.jpeg
+D:/TA/image-crawler/1\negative\70.png
+D:/TA/image-crawler/1\negative\71.jpg
+D:/TA/image-crawler/1\negative\72.png
+D:/TA/image-crawler/1\negative\73.gif
+D:/TA/image-crawler/1\negative\74.jpg
+D:/TA/image-crawler/1\negative\75.png
+D:/TA/image-crawler/1\negative\76.jpg
+D:/TA/image-crawler/1\negative\77.png
+D:/TA/image-crawler/1\negative\78.png
+D:/TA/image-crawler/1\negative\79.jpg
+D:/TA/image-crawler/1\negative\80.png
+D:/TA/image-crawler/1\negative\81.png
+D:/TA/image-crawler/1\negative\82.png
+D:/TA/image-crawler/1\negative\83.png
+D:/TA/image-crawler/1\negative\84.png
+D:/TA/image-crawler/1\negative\85.png
+D:/TA/image-crawler/1\negative\86.png
+D:/TA/image-crawler/1\negative\87.png
+D:/TA/image-crawler/1\negative\88.png
+D:/TA/image-crawler/1\negative\89.png
+D:/TA/image-crawler/1\negative\90.png
+D:/TA/image-crawler/1\negative\91.jpg
+D:/TA/image-crawler/1\negative\92.png
+D:/TA/image-crawler/1\negative\93.gif
+D:/TA/image-crawler/1\negative\94.jpeg
+D:/TA/image-crawler/1\negative\95.jpg
+D:/TA/image-crawler/1\negative\96.png
+D:/TA/image-crawler/1\negative\97.png
+D:/TA/image-crawler/1\negative\98.png
+D:/TA/image-crawler/1\negative\99.jpg
+D:/TA/image-crawler/1\negative\100.png
+D:/TA/image-crawler/1\negative\101.png
+D:/TA/image-crawler/1\negative\102.png
+D:/TA/image-crawler/1\negative\103.png
+D:/TA/image-crawler/1\negative\104.png
+D:/TA/image-crawler/1\negative\105.jpg
+D:/TA/image-crawler/1\negative\106.png
+D:/TA/image-crawler/1\negative\107.png
+D:/TA/image-crawler/1\negative\108.png
+D:/TA/image-crawler/1\negative\109.jpg
+D:/TA/image-crawler/1\negative\110.png
+D:/TA/image-crawler/1\negative\111.png
+D:/TA/image-crawler/1\negative\112.png
+D:/TA/image-crawler/1\negative\113.png
+D:/TA/image-crawler/1\negative\114.jpg
+D:/TA/image-crawler/1\negative\115.png
+D:/TA/image-crawler/1\negative\116.gif
+D:/TA/image-crawler/1\negative\117.png
+D:/TA/image-crawler/1\negative\118.png
+D:/TA/image-crawler/1\negative\119.gif
+D:/TA/image-crawler/1\negative\120.jpg
+D:/TA/image-crawler/1\negative\121.png
+D:/TA/image-crawler/1\negative\122.png
+D:/TA/image-crawler/1\negative\123.png
+D:/TA/image-crawler/1\negative\124.png
+D:/TA/image-crawler/1\negative\125.png
+D:/TA/image-crawler/1\negative\126.png
+D:/TA/image-crawler/1\negative\127.png
+D:/TA/image-crawler/1\negative\128.jpg
+D:/TA/image-crawler/1\negative\129.png
+D:/TA/image-crawler/1\negative\130.png
+D:/TA/image-crawler/1\negative\131.png
+D:/TA/image-crawler/1\negative\132.png
+D:/TA/image-crawler/1\negative\133.png
+D:/TA/image-crawler/1\negative\134.png
+D:/TA/image-crawler/1\negative\135.png
+D:/TA/image-crawler/1\negative\136.png
+D:/TA/image-crawler/1\negative\137.gif
+D:/TA/image-crawler/1\negative\138.png
+D:/TA/image-crawler/1\negative\139.jpg
+D:/TA/image-crawler/1\negative\140.png
+D:/TA/image-crawler/1\negative\141.png
+D:/TA/image-crawler/1\negative\142.png
+D:/TA/image-crawler/1\negative\143.png
+D:/TA/image-crawler/1\negative\144.png
+D:/TA/image-crawler/1\negative\145.png
+D:/TA/image-crawler/1\negative\146.png
+D:/TA/image-crawler/1\negative\147.png
+D:/TA/image-crawler/1\negative\148.png
+D:/TA/image-crawler/1\negative\149.png
+D:/TA/image-crawler/1\negative\150.png
+D:/TA/image-crawler/1\negative\151.jpg
+D:/TA/image-crawler/1\negative\152.png
+D:/TA/image-crawler/1\negative\153.png
+D:/TA/image-crawler/1\negative\154.gif
+D:/TA/image-crawler/1\negative\155.png
+D:/TA/image-crawler/1\negative\156.png
+D:/TA/image-crawler/1\negative\157.png
+D:/TA/image-crawler/1\negative\158.png
+D:/TA/image-crawler/1\negative\159.png
+D:/TA/image-crawler/1\negative\160.png
+D:/TA/image-crawler/1\negative\161.png
+D:/TA/image-crawler/1\negative\162.png
+D:/TA/image-crawler/1\negative\163.jpg
+D:/TA/image-crawler/1\negative\164.png
+D:/TA/image-crawler/1\negative\165.png
+D:/TA/image-crawler/1\negative\166.png
+D:/TA/image-crawler/1\negative\167.jpg
+D:/TA/image-crawler/1\negative\168.png
+D:/TA/image-crawler/1\negative\169.jpg
+D:/TA/image-crawler/1\negative\170.png
+D:/TA/image-crawler/1\negative\171.jpg
+D:/TA/image-crawler/1\negative\172.png
+D:/TA/image-crawler/1\negative\173.gif
+D:/TA/image-crawler/1\negative\174.png
+D:/TA/image-crawler/1\negative\175.png
+D:/TA/image-crawler/1\negative\176.png
+D:/TA/image-crawler/1\negative\177.png
+D:/TA/image-crawler/1\negative\178.png
+D:/TA/image-crawler/1\negative\179.jpg
+D:/TA/image-crawler/1\negative\180.gif
+D:/TA/image-crawler/1\negative\181.jpg
+D:/TA/image-crawler/1\negative\182.png
+D:/TA/image-crawler/1\negative\183.jpg
+D:/TA/image-crawler/1\negative\184.png
+D:/TA/image-crawler/1\negative\185.jpg
+D:/TA/image-crawler/1\negative\186.jpg
+D:/TA/image-crawler/1\negative\187.jpg
+D:/TA/image-crawler/1\negative\188.png
+D:/TA/image-crawler/1\negative\189.jpg
+D:/TA/image-crawler/1\negative\190.png
+D:/TA/image-crawler/1\negative\191.png
+D:/TA/image-crawler/1\negative\192.png
+D:/TA/image-crawler/1\negative\193.jpg
+D:/TA/image-crawler/1\negative\194.png
+D:/TA/image-crawler/1\negative\195.png
+D:/TA/image-crawler/1\negative\196.png
+D:/TA/image-crawler/1\negative\197.png
+D:/TA/image-crawler/1\negative\198.jpg
+D:/TA/image-crawler/1\negative\199.jpg
+D:/TA/image-crawler/1\negative\200.jpg
+D:/TA/image-crawler/1\negative\201.png
+D:/TA/image-crawler/1\negative\202.png
+D:/TA/image-crawler/1\negative\203.png
+D:/TA/image-crawler/1\negative\204.gif
+D:/TA/image-crawler/1\negative\205.jpg
+D:/TA/image-crawler/1\negative\206.png
+D:/TA/image-crawler/1\negative\207.jpg
+D:/TA/image-crawler/1\negative\208.jpg
+D:/TA/image-crawler/1\negative\209.jpg
+D:/TA/image-crawler/1\negative\210.png
+D:/TA/image-crawler/1\negative\211.gif
+D:/TA/image-crawler/1\negative\212.png
+D:/TA/image-crawler/1\negative\213.png
+D:/TA/image-crawler/1\negative\214.bmp
+D:/TA/image-crawler/1\negative\215.jpg
+D:/TA/image-crawler/1\negative\216.png
+D:/TA/image-crawler/1\negative\217.gif
+D:/TA/image-crawler/1\negative\218.png
+D:/TA/image-crawler/1\negative\219.png
+D:/TA/image-crawler/1\negative\220.png
+D:/TA/image-crawler/1\negative\221.jpg
+D:/TA/image-crawler/1\negative\222.png
+D:/TA/image-crawler/1\negative\223.jpg
+D:/TA/image-crawler/1\negative\224.png
+D:/TA/image-crawler/1\negative\225.png
+D:/TA/image-crawler/1\negative\226.png
+D:/TA/image-crawler/1\negative\227.bmp
+D:/TA/image-crawler/1\negative\228.png
+D:/TA/image-crawler/1\negative\229.jpg
+D:/TA/image-crawler/1\negative\230.png
+D:/TA/image-crawler/1\negative\231.jpg
+D:/TA/image-crawler/1\negative\232.png
+D:/TA/image-crawler/1\negative\233.gif
+D:/TA/image-crawler/1\negative\234.png
+D:/TA/image-crawler/1\negative\235.jpg
+D:/TA/image-crawler/1\negative\236.jpg
+D:/TA/image-crawler/1\negative\237.jpg
+D:/TA/image-crawler/1\negative\238.svg
+D:/TA/image-crawler/1\negative\239.svg
+D:/TA/image-crawler/1\negative\240.svg
+D:/TA/image-crawler/1\negative\241.jpg
+D:/TA/image-crawler/1\negative\242.svg
+D:/TA/image-crawler/1\negative\243.svg
+D:/TA/image-crawler/1\negative\244.png
+D:/TA/image-crawler/1\negative\245.png
+D:/TA/image-crawler/1\negative\246.png
+D:/TA/image-crawler/1\negative\247.jpg
+D:/TA/image-crawler/1\negative\248.svg
+D:/TA/image-crawler/1\negative\249.jpg
+D:/TA/image-crawler/1\positive\0.jpg
+D:/TA/image-crawler/1\positive\1.png
+D:/TA/image-crawler/1\positive\2.png
+D:/TA/image-crawler/1\positive\3.gif
+D:/TA/image-crawler/1\positive\4.png
+D:/TA/image-crawler/1\positive\5.jpg
+D:/TA/image-crawler/1\positive\6.jpg
+D:/TA/image-crawler/1\positive\7.jpg
+D:/TA/image-crawler/1\positive\8.png
+D:/TA/image-crawler/1\positive\9.jpg
+D:/TA/image-crawler/1\positive\10.png
+D:/TA/image-crawler/1\positive\11.jpg
+D:/TA/image-crawler/1\positive\12.png
+D:/TA/image-crawler/1\positive\13.png
+D:/TA/image-crawler/1\positive\14.jpg
+D:/TA/image-crawler/1\positive\15.png
+D:/TA/image-crawler/1\positive\16.jpg
+D:/TA/image-crawler/1\positive\17.png
+D:/TA/image-crawler/1\positive\18.jpg
+D:/TA/image-crawler/1\positive\19.png
+D:/TA/image-crawler/1\positive\20.jpg
+D:/TA/image-crawler/1\positive\21.jpg
+D:/TA/image-crawler/1\positive\22.png
+D:/TA/image-crawler/1\positive\23.jpg
+D:/TA/image-crawler/1\positive\24.png
+D:/TA/image-crawler/1\positive\25.png
+D:/TA/image-crawler/1\positive\26.png
+D:/TA/image-crawler/1\positive\27.jpg
+D:/TA/image-crawler/1\positive\28.png
+D:/TA/image-crawler/1\positive\29.bmp
+D:/TA/image-crawler/1\positive\30.jpg
+D:/TA/image-crawler/1\positive\31.jpg
+D:/TA/image-crawler/1\positive\32.png
+D:/TA/image-crawler/1\positive\33.jpg
+D:/TA/image-crawler/1\positive\34.png
+D:/TA/image-crawler/1\positive\35.png
+D:/TA/image-crawler/1\positive\36.jpeg
+D:/TA/image-crawler/1\positive\37.png
+D:/TA/image-crawler/1\positive\38.png
+D:/TA/image-crawler/1\positive\39.jpg
+D:/TA/image-crawler/1\positive\40.gif
+D:/TA/image-crawler/1\positive\41.jpg
+D:/TA/image-crawler/1\positive\42.png
+D:/TA/image-crawler/1\positive\43.png
+D:/TA/image-crawler/1\positive\44.png
+D:/TA/image-crawler/1\positive\45.jpg
+D:/TA/image-crawler/1\positive\46.jpg
+D:/TA/image-crawler/1\positive\47.png
+D:/TA/image-crawler/1\positive\48.jpg
+D:/TA/image-crawler/1\positive\49.jpg
+D:/TA/image-crawler/1\positive\50.jpg
+D:/TA/image-crawler/1\positive\51.png
+D:/TA/image-crawler/1\positive\52.jpg
+D:/TA/image-crawler/1\positive\53.png
+D:/TA/image-crawler/1\positive\54.png
+D:/TA/image-crawler/1\positive\55.jpg
+D:/TA/image-crawler/1\positive\56.png
+D:/TA/image-crawler/1\positive\57.jpg
+D:/TA/image-crawler/1\positive\58.png
+D:/TA/image-crawler/1\positive\59.bmp
+D:/TA/image-crawler/1\positive\60.jpg
+D:/TA/image-crawler/1\positive\61.jpg
+D:/TA/image-crawler/1\positive\62.jpg
+D:/TA/image-crawler/1\positive\63.jpg
+D:/TA/image-crawler/1\positive\64.jpg
+D:/TA/image-crawler/1\positive\65.jpg
+D:/TA/image-crawler/1\positive\66.png
+D:/TA/image-crawler/1\positive\67.png
+D:/TA/image-crawler/1\positive\68.png
+D:/TA/image-crawler/1\positive\69.gif
+D:/TA/image-crawler/1\positive\70.jpg
+D:/TA/image-crawler/1\positive\71.jpg
+D:/TA/image-crawler/1\positive\72.png
+D:/TA/image-crawler/1\positive\73.gif
+D:/TA/image-crawler/1\positive\74.jpg
+D:/TA/image-crawler/1\positive\75.jpg
+D:/TA/image-crawler/1\positive\76.jpg
+D:/TA/image-crawler/1\positive\77.png
+D:/TA/image-crawler/1\positive\78.png
+D:/TA/image-crawler/1\positive\79.png
+D:/TA/image-crawler/1\positive\80.jpg
+D:/TA/image-crawler/1\positive\81.png
+D:/TA/image-crawler/1\positive\82.png
+D:/TA/image-crawler/1\positive\83.png
+D:/TA/image-crawler/1\positive\84.jpg
+D:/TA/image-crawler/1\positive\85.jpg
+D:/TA/image-crawler/1\positive\86.png
+D:/TA/image-crawler/1\positive\87.jpg
+D:/TA/image-crawler/1\positive\88.png
+D:/TA/image-crawler/1\positive\89.jpg
+D:/TA/image-crawler/1\positive\90.jpg
+D:/TA/image-crawler/1\positive\91.jpg
+D:/TA/image-crawler/1\positive\92.png
+D:/TA/image-crawler/1\positive\93.jpg
+D:/TA/image-crawler/1\positive\94.jpg
+D:/TA/image-crawler/1\positive\95.jpg
+D:/TA/image-crawler/1\positive\96.png
+D:/TA/image-crawler/1\positive\97.jpg
+D:/TA/image-crawler/1\positive\98.png
+D:/TA/image-crawler/1\positive\99.jpg
+D:/TA/image-crawler/1\positive\100.jpg
+D:/TA/image-crawler/1\positive\101.jpg
+D:/TA/image-crawler/1\positive\102.jpg
+D:/TA/image-crawler/1\positive\103.png
+D:/TA/image-crawler/1\positive\104.png
+D:/TA/image-crawler/1\positive\105.jpg
+D:/TA/image-crawler/1\positive\106.png
+D:/TA/image-crawler/1\positive\107.png
+D:/TA/image-crawler/1\positive\108.png
+D:/TA/image-crawler/1\positive\109.png
+D:/TA/image-crawler/1\positive\110.jpg
+D:/TA/image-crawler/1\positive\111.png
+D:/TA/image-crawler/1\positive\112.jpg
+D:/TA/image-crawler/1\positive\113.png
+D:/TA/image-crawler/1\positive\114.jpg
+D:/TA/image-crawler/1\positive\115.jpg
+D:/TA/image-crawler/1\positive\116.gif
+D:/TA/image-crawler/1\positive\117.png
+D:/TA/image-crawler/1\positive\118.gif
+D:/TA/image-crawler/1\positive\119.png
+D:/TA/image-crawler/1\positive\120.png
+D:/TA/image-crawler/1\positive\121.png
+D:/TA/image-crawler/1\positive\122.jpg
+D:/TA/image-crawler/1\positive\123.png
+D:/TA/image-crawler/1\positive\124.png
+D:/TA/image-crawler/1\positive\125.png
+D:/TA/image-crawler/1\positive\126.jpg
+D:/TA/image-crawler/1\positive\127.jpg
+D:/TA/image-crawler/1\positive\128.jpg
+D:/TA/image-crawler/1\positive\129.png
+D:/TA/image-crawler/1\positive\130.jpg
+D:/TA/image-crawler/1\positive\131.jpg
+D:/TA/image-crawler/1\positive\132.png
+D:/TA/image-crawler/1\positive\133.jpg
+D:/TA/image-crawler/1\positive\134.jpg
+D:/TA/image-crawler/1\positive\135.jpg
+D:/TA/image-crawler/1\positive\136.png
+D:/TA/image-crawler/1\positive\137.jpg
+D:/TA/image-crawler/1\positive\138.jpg
+D:/TA/image-crawler/1\positive\139.png
+D:/TA/image-crawler/1\positive\140.png
+D:/TA/image-crawler/1\positive\141.png
+D:/TA/image-crawler/1\positive\142.jpg
+D:/TA/image-crawler/1\positive\143.png
+D:/TA/image-crawler/1\positive\144.png
+D:/TA/image-crawler/1\positive\145.jpg
+D:/TA/image-crawler/1\positive\146.jpg
+D:/TA/image-crawler/1\positive\147.jpg
+D:/TA/image-crawler/1\positive\148.png
+D:/TA/image-crawler/1\positive\149.gif
+D:/TA/image-crawler/1\positive\150.png
+D:/TA/image-crawler/1\positive\151.png
+D:/TA/image-crawler/1\positive\152.jpg
+D:/TA/image-crawler/1\positive\153.jpg
+D:/TA/image-crawler/1\positive\154.gif
+D:/TA/image-crawler/1\positive\155.jpg
+D:/TA/image-crawler/1\positive\156.jpg
+D:/TA/image-crawler/1\positive\157.png
+D:/TA/image-crawler/1\positive\158.png
+D:/TA/image-crawler/1\positive\159.jpg
+D:/TA/image-crawler/1\positive\160.png
+D:/TA/image-crawler/1\positive\161.png
+D:/TA/image-crawler/1\positive\162.png
+D:/TA/image-crawler/1\positive\163.png
+D:/TA/image-crawler/1\positive\164.png
+D:/TA/image-crawler/1\positive\165.png
+D:/TA/image-crawler/1\positive\166.png
+D:/TA/image-crawler/1\positive\167.jpg
+D:/TA/image-crawler/1\positive\168.png
+D:/TA/image-crawler/1\positive\169.png
+D:/TA/image-crawler/1\positive\170.gif
+D:/TA/image-crawler/1\positive\171.jpg
+D:/TA/image-crawler/1\positive\172.jpg
+D:/TA/image-crawler/1\positive\173.png
+D:/TA/image-crawler/1\positive\174.png
+D:/TA/image-crawler/1\positive\175.bmp
+D:/TA/image-crawler/1\positive\176.png
+D:/TA/image-crawler/1\positive\177.png
+D:/TA/image-crawler/1\positive\178.jpg
+D:/TA/image-crawler/1\positive\179.png
+D:/TA/image-crawler/1\positive\180.jpg
+D:/TA/image-crawler/1\positive\181.png
+D:/TA/image-crawler/1\positive\182.jpg
+D:/TA/image-crawler/1\positive\183.png
+D:/TA/image-crawler/1\positive\184.jpg
+D:/TA/image-crawler/1\positive\185.jpg
+D:/TA/image-crawler/1\positive\186.png
+D:/TA/image-crawler/1\positive\187.png
+D:/TA/image-crawler/1\positive\188.png
+D:/TA/image-crawler/1\positive\189.png
+D:/TA/image-crawler/1\positive\190.png
+D:/TA/image-crawler/1\positive\191.png
+D:/TA/image-crawler/1\positive\192.jpg
+D:/TA/image-crawler/1\positive\193.jpg
+D:/TA/image-crawler/1\positive\194.png
+D:/TA/image-crawler/1\positive\195.jpg
+D:/TA/image-crawler/1\positive\196.png
+D:/TA/image-crawler/1\positive\197.jpg
+D:/TA/image-crawler/1\positive\198.jpg
+D:/TA/image-crawler/1\positive\199.png
+D:/TA/image-crawler/1\positive\200.png
+D:/TA/image-crawler/1\positive\201.png
+D:/TA/image-crawler/1\positive\202.jpg
+D:/TA/image-crawler/1\positive\203.jpg
+D:/TA/image-crawler/1\positive\204.jpg
+D:/TA/image-crawler/1\positive\205.jpg
+D:/TA/image-crawler/1\positive\206.jpg
+D:/TA/image-crawler/1\positive\207.jpg
+D:/TA/image-crawler/1\positive\208.jpg
+D:/TA/image-crawler/1\positive\209.jpg
+D:/TA/image-crawler/1\positive\210.jpg
+D:/TA/image-crawler/1\positive\211.jpg
+D:/TA/image-crawler/1\positive\212.png
+D:/TA/image-crawler/1\positive\213.jpg
+D:/TA/image-crawler/1\positive\214.jpg
+D:/TA/image-crawler/1\positive\215.jpg
+D:/TA/image-crawler/1\positive\216.gif
+D:/TA/image-crawler/1\positive\217.png
+D:/TA/image-crawler/1\positive\218.gif
+D:/TA/image-crawler/1\positive\219.gif
+D:/TA/image-crawler/1\positive\220.png
+D:/TA/image-crawler/1\positive\221.png
+D:/TA/image-crawler/1\positive\222.png
+D:/TA/image-crawler/1\positive\223.png
+D:/TA/image-crawler/1\positive\224.jpg
+D:/TA/image-crawler/1\positive\225.gif
+D:/TA/image-crawler/1\positive\226.jpg
+D:/TA/image-crawler/1\positive\227.jpg
+D:/TA/image-crawler/1\positive\228.gif
+D:/TA/image-crawler/1\positive\229.png
+D:/TA/image-crawler/1\positive\230.png
+D:/TA/image-crawler/1\positive\231.bmp
+D:/TA/image-crawler/1\positive\232.png
+D:/TA/image-crawler/1\positive\233.png
+D:/TA/image-crawler/1\positive\234.jpg
+D:/TA/image-crawler/1\positive\235.png
+D:/TA/image-crawler/1\positive\236.jpg
+D:/TA/image-crawler/1\positive\237.jpg
+D:/TA/image-crawler/1\positive\238.png
+D:/TA/image-crawler/1\positive\239.png
+D:/TA/image-crawler/1\positive\240.png
+D:/TA/image-crawler/1\positive\241.png
+D:/TA/image-crawler/1\positive\242.png
+D:/TA/image-crawler/1\positive\243.jpg
+D:/TA/image-crawler/1\positive\244.png
+D:/TA/image-crawler/1\positive\245.png
+D:/TA/image-crawler/1\positive\246.jpg
+D:/TA/image-crawler/1\positive\247.jpg
+D:/TA/image-crawler/1\positive\248.png
+D:/TA/image-crawler/1\positive\249.jpg
+
+---CONVERT IMAGES---
+magick convert D:/TA/image-crawler/1\negative\116.gif D:/TA/image-crawler/1\negative\116.jpg
+magick convert D:/TA/image-crawler/1\negative\119.gif D:/TA/image-crawler/1\negative\119.jpg
+magick convert D:/TA/image-crawler/1\negative\137.gif D:/TA/image-crawler/1\negative\137.jpg
+magick convert D:/TA/image-crawler/1\negative\154.gif D:/TA/image-crawler/1\negative\154.jpg
+magick convert D:/TA/image-crawler/1\negative\16.gif D:/TA/image-crawler/1\negative\16.jpg
+magick convert D:/TA/image-crawler/1\negative\173.gif D:/TA/image-crawler/1\negative\173.jpg
+magick convert D:/TA/image-crawler/1\negative\180.gif D:/TA/image-crawler/1\negative\180.jpg
+magick convert D:/TA/image-crawler/1\negative\204.gif D:/TA/image-crawler/1\negative\204.jpg
+magick convert D:/TA/image-crawler/1\negative\21.gif D:/TA/image-crawler/1\negative\21.jpg
+magick convert D:/TA/image-crawler/1\negative\211.gif D:/TA/image-crawler/1\negative\211.jpg
+magick convert D:/TA/image-crawler/1\negative\214.bmp D:/TA/image-crawler/1\negative\214.jpg
+magick convert D:/TA/image-crawler/1\negative\217.gif D:/TA/image-crawler/1\negative\217.jpg
+magick convert D:/TA/image-crawler/1\negative\227.bmp D:/TA/image-crawler/1\negative\227.jpg
+magick convert D:/TA/image-crawler/1\negative\233.gif D:/TA/image-crawler/1\negative\233.jpg
+magick convert D:/TA/image-crawler/1\negative\238.svg D:/TA/image-crawler/1\negative\238.jpg
+magick convert D:/TA/image-crawler/1\negative\239.svg D:/TA/image-crawler/1\negative\239.jpg
+magick convert D:/TA/image-crawler/1\negative\240.svg D:/TA/image-crawler/1\negative\240.jpg
+magick convert D:/TA/image-crawler/1\negative\242.svg D:/TA/image-crawler/1\negative\242.jpg
+magick convert D:/TA/image-crawler/1\negative\243.svg D:/TA/image-crawler/1\negative\243.jpg
+magick convert D:/TA/image-crawler/1\negative\248.svg D:/TA/image-crawler/1\negative\248.jpg
+magick convert D:/TA/image-crawler/1\negative\35.gif D:/TA/image-crawler/1\negative\35.jpg
+magick convert D:/TA/image-crawler/1\negative\58.gif D:/TA/image-crawler/1\negative\58.jpg
+magick convert D:/TA/image-crawler/1\negative\73.gif D:/TA/image-crawler/1\negative\73.jpg
+magick convert D:/TA/image-crawler/1\negative\93.gif D:/TA/image-crawler/1\negative\93.jpg
+magick convert D:/TA/image-crawler/1\positive\116.gif D:/TA/image-crawler/1\positive\116.jpg
+magick convert D:/TA/image-crawler/1\positive\118.gif D:/TA/image-crawler/1\positive\118.jpg
+magick convert D:/TA/image-crawler/1\positive\149.gif D:/TA/image-crawler/1\positive\149.jpg
+magick convert D:/TA/image-crawler/1\positive\154.gif D:/TA/image-crawler/1\positive\154.jpg
+magick convert D:/TA/image-crawler/1\positive\170.gif D:/TA/image-crawler/1\positive\170.jpg
+magick convert D:/TA/image-crawler/1\positive\175.bmp D:/TA/image-crawler/1\positive\175.jpg
+magick convert D:/TA/image-crawler/1\positive\216.gif D:/TA/image-crawler/1\positive\216.jpg
+magick convert D:/TA/image-crawler/1\positive\218.gif D:/TA/image-crawler/1\positive\218.jpg
+magick convert D:/TA/image-crawler/1\positive\219.gif D:/TA/image-crawler/1\positive\219.jpg
+magick convert D:/TA/image-crawler/1\positive\225.gif D:/TA/image-crawler/1\positive\225.jpg
+magick convert D:/TA/image-crawler/1\positive\228.gif D:/TA/image-crawler/1\positive\228.jpg
+magick convert D:/TA/image-crawler/1\positive\231.bmp D:/TA/image-crawler/1\positive\231.jpg
+magick convert D:/TA/image-crawler/1\positive\29.bmp D:/TA/image-crawler/1\positive\29.jpg
+magick convert D:/TA/image-crawler/1\positive\3.gif D:/TA/image-crawler/1\positive\3.jpg
+magick convert D:/TA/image-crawler/1\positive\40.gif D:/TA/image-crawler/1\positive\40.jpg
+magick convert D:/TA/image-crawler/1\positive\59.bmp D:/TA/image-crawler/1\positive\59.jpg
+magick convert D:/TA/image-crawler/1\positive\69.gif D:/TA/image-crawler/1\positive\69.jpg
+magick convert D:/TA/image-crawler/1\positive\73.gif D:/TA/image-crawler/1\positive\73.jpg
+
+---EXTRACT FEATURES---
+D:/TA/image-crawler/1\negative\0.jpg
+Contours size: 386
+Small contours: 368
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 7
+Other polygons: 11
+Lines: 0
+
+D:/TA/image-crawler/1\negative\1.png
+Contours size: 139
+Small contours: 131
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 3
+Lines: 4
+
+D:/TA/image-crawler/1\negative\10.png
+Contours size: 574
+Small contours: 482
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 11
+Circles: 1
+Other polygons: 80
+Lines: 333
+
+D:/TA/image-crawler/1\negative\100.png
+Contours size: 204
+Small contours: 181
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 3
+Other polygons: 20
+Lines: 1
+
+D:/TA/image-crawler/1\negative\101.png
+Contours size: 247
+Small contours: 233
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 10
+Lines: 1
+
+D:/TA/image-crawler/1\negative\102.png
+Contours size: 758
+Small contours: 745
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 13
+Lines: 53
+
+D:/TA/image-crawler/1\negative\103.png
+Contours size: 1516
+Small contours: 1435
+Triangles: 0
+Rectangles: 42
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 38
+Lines: 54
+
+D:/TA/image-crawler/1\negative\104.png
+Contours size: 238
+Small contours: 218
+Triangles: 0
+Rectangles: 7
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 12
+Lines: 7
+
+D:/TA/image-crawler/1\negative\105.jpg
+Contours size: 953
+Small contours: 898
+Triangles: 0
+Rectangles: 21
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 34
+Lines: 44
+
+D:/TA/image-crawler/1\negative\106.png
+Contours size: 637
+Small contours: 632
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 3
+Lines: 3
+
+D:/TA/image-crawler/1\negative\107.png
+Contours size: 1493
+Small contours: 1493
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 6
+
+D:/TA/image-crawler/1\negative\108.png
+Contours size: 842
+Small contours: 816
+Triangles: 0
+Rectangles: 9
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 17
+Lines: 28
+
+D:/TA/image-crawler/1\negative\109.jpg
+Contours size: 596
+Small contours: 580
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 15
+Lines: 1
+
+D:/TA/image-crawler/1\negative\11.png
+Contours size: 1259
+Small contours: 1234
+Triangles: 0
+Rectangles: 16
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 9
+Lines: 17
+
+D:/TA/image-crawler/1\negative\110.png
+Contours size: 2183
+Small contours: 2159
+Triangles: 0
+Rectangles: 16
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 8
+Lines: 37
+
+D:/TA/image-crawler/1\negative\111.png
+Contours size: 112
+Small contours: 108
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 4
+Lines: 0
+
+D:/TA/image-crawler/1\negative\112.png
+Contours size: 1319
+Small contours: 1259
+Triangles: 0
+Rectangles: 12
+Rhombuses: 0
+Ellipses: 1
+Circles: 11
+Other polygons: 36
+Lines: 60
+
+D:/TA/image-crawler/1\negative\113.png
+Contours size: 254
+Small contours: 233
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 21
+Lines: 2
+
+D:/TA/image-crawler/1\negative\114.jpg
+Contours size: 1763
+Small contours: 1695
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 35
+Circles: 1
+Other polygons: 32
+Lines: 503
+
+D:/TA/image-crawler/1\negative\115.png
+Contours size: 682
+Small contours: 649
+Triangles: 0
+Rectangles: 20
+Rhombuses: 0
+Ellipses: 4
+Circles: 0
+Other polygons: 9
+Lines: 16
+
+D:/TA/image-crawler/1\negative\116.jpg
+Contours size: 134
+Small contours: 134
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\117.png
+Contours size: 336
+Small contours: 334
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 2
+Lines: 25
+
+D:/TA/image-crawler/1\negative\118.png
+Contours size: 591
+Small contours: 573
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 16
+Lines: 6
+
+D:/TA/image-crawler/1\negative\119.jpg
+Contours size: 1867
+Small contours: 1839
+Triangles: 0
+Rectangles: 22
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 6
+Lines: 22
+
+D:/TA/image-crawler/1\negative\12.png
+Contours size: 399
+Small contours: 371
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 24
+Lines: 13
+
+D:/TA/image-crawler/1\negative\120.jpg
+Contours size: 279
+Small contours: 264
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 10
+Lines: 1
+
+D:/TA/image-crawler/1\negative\121.png
+Contours size: 604
+Small contours: 593
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 7
+Lines: 11
+
+D:/TA/image-crawler/1\negative\122.png
+Contours size: 199
+Small contours: 9
+Triangles: 0
+Rectangles: 11
+Rhombuses: 2
+Ellipses: 36
+Circles: 1
+Other polygons: 140
+Lines: 1898
+
+D:/TA/image-crawler/1\negative\123.png
+Contours size: 1432
+Small contours: 1409
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 20
+Lines: 253
+
+D:/TA/image-crawler/1\negative\124.png
+Contours size: 499
+Small contours: 445
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 6
+Circles: 0
+Other polygons: 44
+Lines: 391
+
+D:/TA/image-crawler/1\negative\125.png
+Contours size: 2294
+Small contours: 2207
+Triangles: 0
+Rectangles: 22
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 63
+Lines: 143
+
+D:/TA/image-crawler/1\negative\126.png
+Contours size: 869
+Small contours: 853
+Triangles: 0
+Rectangles: 7
+Rhombuses: 0
+Ellipses: 4
+Circles: 0
+Other polygons: 5
+Lines: 22
+
+D:/TA/image-crawler/1\negative\127.png
+Contours size: 321
+Small contours: 306
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 11
+Lines: 5
+
+D:/TA/image-crawler/1\negative\128.jpg
+Contours size: 349
+Small contours: 333
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 13
+Lines: 81
+
+D:/TA/image-crawler/1\negative\129.png
+Contours size: 323
+Small contours: 314
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 7
+Lines: 0
+
+D:/TA/image-crawler/1\negative\13.png
+Contours size: 522
+Small contours: 507
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 12
+Lines: 16
+
+D:/TA/image-crawler/1\negative\130.png
+Contours size: 574
+Small contours: 574
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 1
+
+D:/TA/image-crawler/1\negative\131.png
+Contours size: 310
+Small contours: 286
+Triangles: 0
+Rectangles: 9
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 15
+Lines: 2
+
+D:/TA/image-crawler/1\negative\132.png
+Contours size: 218
+Small contours: 218
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\133.png
+Contours size: 261
+Small contours: 241
+Triangles: 0
+Rectangles: 8
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 12
+Lines: 4
+
+D:/TA/image-crawler/1\negative\134.png
+Contours size: 656
+Small contours: 633
+Triangles: 0
+Rectangles: 2
+Rhombuses: 2
+Ellipses: 0
+Circles: 1
+Other polygons: 18
+Lines: 18
+
+D:/TA/image-crawler/1\negative\135.png
+Contours size: 129
+Small contours: 123
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 5
+Lines: 145
+
+D:/TA/image-crawler/1\negative\136.png
+Contours size: 883
+Small contours: 836
+Triangles: 0
+Rectangles: 9
+Rhombuses: 0
+Ellipses: 11
+Circles: 0
+Other polygons: 27
+Lines: 9
+
+D:/TA/image-crawler/1\negative\137.jpg
+Contours size: 962
+Small contours: 939
+Triangles: 0
+Rectangles: 15
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 8
+Lines: 8
+
+D:/TA/image-crawler/1\negative\138.png
+Contours size: 855
+Small contours: 829
+Triangles: 0
+Rectangles: 8
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 16
+Lines: 14
+
+D:/TA/image-crawler/1\negative\139.jpg
+Contours size: 222
+Small contours: 196
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 23
+Lines: 7
+
+D:/TA/image-crawler/1\negative\14.jpg
+Contours size: 590
+Small contours: 565
+Triangles: 0
+Rectangles: 13
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 11
+Lines: 28
+
+D:/TA/image-crawler/1\negative\140.png
+Contours size: 23
+Small contours: 23
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\141.png
+Contours size: 1697
+Small contours: 1628
+Triangles: 0
+Rectangles: 18
+Rhombuses: 0
+Ellipses: 7
+Circles: 0
+Other polygons: 44
+Lines: 57
+
+D:/TA/image-crawler/1\negative\142.png
+Contours size: 189
+Small contours: 181
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 6
+Lines: 0
+
+D:/TA/image-crawler/1\negative\143.png
+Contours size: 699
+Small contours: 699
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\144.png
+Contours size: 305
+Small contours: 281
+Triangles: 0
+Rectangles: 8
+Rhombuses: 0
+Ellipses: 3
+Circles: 1
+Other polygons: 12
+Lines: 2
+
+D:/TA/image-crawler/1\negative\145.png
+Contours size: 165
+Small contours: 159
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 2
+Lines: 0
+
+D:/TA/image-crawler/1\negative\146.png
+Contours size: 889
+Small contours: 868
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 4
+Other polygons: 15
+Lines: 4
+
+D:/TA/image-crawler/1\negative\147.png
+Contours size: 111
+Small contours: 102
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 6
+Lines: 6
+
+D:/TA/image-crawler/1\negative\148.png
+Contours size: 596
+Small contours: 564
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 3
+Other polygons: 29
+Lines: 78
+
+D:/TA/image-crawler/1\negative\149.png
+Contours size: 226
+Small contours: 215
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 2
+Circles: 2
+Other polygons: 7
+Lines: 4
+
+D:/TA/image-crawler/1\negative\15.png
+Contours size: 290
+Small contours: 257
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 0
+Circles: 10
+Other polygons: 19
+Lines: 5
+
+D:/TA/image-crawler/1\negative\150.png
+Contours size: 457
+Small contours: 428
+Triangles: 0
+Rectangles: 10
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 19
+Lines: 5
+
+D:/TA/image-crawler/1\negative\151.jpg
+Contours size: 391
+Small contours: 391
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\152.png
+Contours size: 497
+Small contours: 471
+Triangles: 0
+Rectangles: 20
+Rhombuses: 1
+Ellipses: 0
+Circles: 0
+Other polygons: 5
+Lines: 14
+
+D:/TA/image-crawler/1\negative\153.png
+Contours size: 105
+Small contours: 103
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 2
+Lines: 0
+
+D:/TA/image-crawler/1\negative\154.jpg
+Contours size: 726
+Small contours: 708
+Triangles: 0
+Rectangles: 11
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 7
+Lines: 1
+
+D:/TA/image-crawler/1\negative\155.png
+Contours size: 26
+Small contours: 15
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 7
+Lines: 275
+
+D:/TA/image-crawler/1\negative\156.png
+Contours size: 389
+Small contours: 389
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\157.png
+Contours size: 774
+Small contours: 736
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 6
+Circles: 4
+Other polygons: 27
+Lines: 69
+
+D:/TA/image-crawler/1\negative\158.png
+Contours size: 3341
+Small contours: 3284
+Triangles: 0
+Rectangles: 39
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 18
+Lines: 63
+
+D:/TA/image-crawler/1\negative\159.png
+Contours size: 183
+Small contours: 157
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 26
+Lines: 214
+
+D:/TA/image-crawler/1\negative\16.jpg
+Contours size: 308
+Small contours: 295
+Triangles: 0
+Rectangles: 10
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 3
+Lines: 18
+
+D:/TA/image-crawler/1\negative\160.png
+Contours size: 229
+Small contours: 221
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 4
+Lines: 0
+
+D:/TA/image-crawler/1\negative\161.png
+Contours size: 379
+Small contours: 297
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 17
+Circles: 10
+Other polygons: 52
+Lines: 349
+
+D:/TA/image-crawler/1\negative\162.png
+Contours size: 559
+Small contours: 543
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 0
+Circles: 4
+Other polygons: 9
+Lines: 0
+
+D:/TA/image-crawler/1\negative\163.jpg
+Contours size: 888
+Small contours: 878
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 5
+Lines: 3
+
+D:/TA/image-crawler/1\negative\164.png
+Contours size: 354
+Small contours: 323
+Triangles: 0
+Rectangles: 6
+Rhombuses: 0
+Ellipses: 3
+Circles: 2
+Other polygons: 20
+Lines: 14
+
+D:/TA/image-crawler/1\negative\165.png
+Contours size: 705
+Small contours: 705
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\166.png
+Contours size: 991
+Small contours: 432
+Triangles: 0
+Rectangles: 26
+Rhombuses: 0
+Ellipses: 45
+Circles: 75
+Other polygons: 413
+Lines: 6037
+
+D:/TA/image-crawler/1\negative\167.jpg
+Contours size: 325
+Small contours: 225
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 12
+Circles: 4
+Other polygons: 82
+Lines: 1222
+
+D:/TA/image-crawler/1\negative\168.png
+Contours size: 93
+Small contours: 90
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 3
+Lines: 1
+
+D:/TA/image-crawler/1\negative\169.jpg
+Contours size: 397
+Small contours: 384
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 8
+Lines: 3
+
+D:/TA/image-crawler/1\negative\17.jpg
+Contours size: 679
+Small contours: 679
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\170.png
+Contours size: 37
+Small contours: 35
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\171.jpg
+Contours size: 466
+Small contours: 448
+Triangles: 0
+Rectangles: 6
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 11
+Lines: 1
+
+D:/TA/image-crawler/1\negative\172.png
+Contours size: 69
+Small contours: 59
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 5
+Lines: 1
+
+D:/TA/image-crawler/1\negative\173.jpg
+Contours size: 620
+Small contours: 615
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 4
+Lines: 0
+
+D:/TA/image-crawler/1\negative\174.png
+Contours size: 567
+Small contours: 542
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 20
+Lines: 63
+
+D:/TA/image-crawler/1\negative\175.png
+Contours size: 1768
+Small contours: 1678
+Triangles: 0
+Rectangles: 8
+Rhombuses: 0
+Ellipses: 5
+Circles: 9
+Other polygons: 68
+Lines: 70
+
+D:/TA/image-crawler/1\negative\176.png
+Contours size: 172
+Small contours: 166
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 1
+Lines: 5
+
+D:/TA/image-crawler/1\negative\177.png
+Contours size: 462
+Small contours: 395
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 2
+Other polygons: 53
+Lines: 23
+
+D:/TA/image-crawler/1\negative\178.png
+Contours size: 540
+Small contours: 533
+Triangles: 0
+Rectangles: 6
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 1
+Lines: 0
+
+D:/TA/image-crawler/1\negative\179.jpg
+Contours size: 379
+Small contours: 336
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 3
+Circles: 0
+Other polygons: 40
+Lines: 52
+
+D:/TA/image-crawler/1\negative\18.png
+Contours size: 375
+Small contours: 366
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 4
+Lines: 6
+
+D:/TA/image-crawler/1\negative\180.jpg
+Contours size: 993
+Small contours: 990
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 2
+Lines: 2
+
+D:/TA/image-crawler/1\negative\181.jpg
+Contours size: 403
+Small contours: 403
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 1
+
+D:/TA/image-crawler/1\negative\182.png
+Contours size: 49
+Small contours: 44
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 5
+Lines: 0
+
+D:/TA/image-crawler/1\negative\183.jpg
+Contours size: 2364
+Small contours: 2220
+Triangles: 0
+Rectangles: 27
+Rhombuses: 0
+Ellipses: 6
+Circles: 1
+Other polygons: 110
+Lines: 366
+
+D:/TA/image-crawler/1\negative\184.png
+Contours size: 307
+Small contours: 295
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 10
+Lines: 22
+
+D:/TA/image-crawler/1\negative\185.jpg
+Contours size: 552
+Small contours: 483
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 69
+Lines: 33
+
+D:/TA/image-crawler/1\negative\186.jpg
+Contours size: 567
+Small contours: 539
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 23
+Lines: 27
+
+D:/TA/image-crawler/1\negative\187.jpg
+Contours size: 268
+Small contours: 151
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 12
+Circles: 20
+Other polygons: 84
+Lines: 133
+
+D:/TA/image-crawler/1\negative\188.png
+Contours size: 68
+Small contours: 40
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 22
+Circles: 0
+Other polygons: 5
+Lines: 1436
+
+D:/TA/image-crawler/1\negative\189.jpg
+Contours size: 320
+Small contours: 320
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 2
+
+D:/TA/image-crawler/1\negative\19.png
+Contours size: 250
+Small contours: 228
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 1
+Circles: 2
+Other polygons: 18
+Lines: 5
+
+D:/TA/image-crawler/1\negative\190.png
+Contours size: 193
+Small contours: 175
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 13
+Lines: 6
+
+D:/TA/image-crawler/1\negative\191.png
+Contours size: 459
+Small contours: 440
+Triangles: 0
+Rectangles: 6
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 13
+Lines: 252
+
+D:/TA/image-crawler/1\negative\192.png
+Contours size: 357
+Small contours: 357
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\193.jpg
+Contours size: 364
+Small contours: 356
+Triangles: 0
+Rectangles: 0
+Rhombuses: 1
+Ellipses: 1
+Circles: 0
+Other polygons: 6
+Lines: 8
+
+D:/TA/image-crawler/1\negative\194.png
+Contours size: 1211
+Small contours: 1202
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 4
+Lines: 0
+
+D:/TA/image-crawler/1\negative\195.png
+Contours size: 363
+Small contours: 344
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 1
+Circles: 2
+Other polygons: 13
+Lines: 8
+
+D:/TA/image-crawler/1\negative\196.png
+Contours size: 480
+Small contours: 468
+Triangles: 0
+Rectangles: 9
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 2
+Lines: 4
+
+D:/TA/image-crawler/1\negative\197.png
+Contours size: 301
+Small contours: 293
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 6
+Other polygons: 2
+Lines: 2
+
+D:/TA/image-crawler/1\negative\198.jpg
+Contours size: 1046
+Small contours: 1025
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 20
+Lines: 28
+
+D:/TA/image-crawler/1\negative\199.jpg
+Contours size: 504
+Small contours: 490
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 3
+Circles: 0
+Other polygons: 8
+Lines: 7
+
+D:/TA/image-crawler/1\negative\2.jpg
+Contours size: 775
+Small contours: 775
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 1
+
+D:/TA/image-crawler/1\negative\20.png
+Contours size: 927
+Small contours: 894
+Triangles: 0
+Rectangles: 10
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 22
+Lines: 34
+
+D:/TA/image-crawler/1\negative\200.jpg
+Contours size: 2541
+Small contours: 2493
+Triangles: 0
+Rectangles: 22
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 26
+Lines: 31
+
+D:/TA/image-crawler/1\negative\201.png
+Contours size: 292
+Small contours: 272
+Triangles: 0
+Rectangles: 4
+Rhombuses: 1
+Ellipses: 0
+Circles: 1
+Other polygons: 14
+Lines: 10
+
+D:/TA/image-crawler/1\negative\202.png
+Contours size: 421
+Small contours: 419
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 2
+Lines: 11
+
+D:/TA/image-crawler/1\negative\203.png
+Contours size: 49
+Small contours: 29
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 14
+Lines: 395
+
+D:/TA/image-crawler/1\negative\204.jpg
+Contours size: 810
+Small contours: 719
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 17
+Circles: 1
+Other polygons: 71
+Lines: 29
+
+D:/TA/image-crawler/1\negative\205.jpg
+Contours size: 339
+Small contours: 316
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 4
+Circles: 0
+Other polygons: 19
+Lines: 1
+
+D:/TA/image-crawler/1\negative\206.png
+Contours size: 611
+Small contours: 611
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\207.jpg
+Contours size: 1076
+Small contours: 1052
+Triangles: 0
+Rectangles: 6
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 17
+Lines: 8
+
+D:/TA/image-crawler/1\negative\208.jpg
+Contours size: 303
+Small contours: 303
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\209.jpg
+Contours size: 482
+Small contours: 473
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 5
+Lines: 1
+
+D:/TA/image-crawler/1\negative\21.jpg
+Contours size: 248
+Small contours: 219
+Triangles: 0
+Rectangles: 17
+Rhombuses: 0
+Ellipses: 5
+Circles: 0
+Other polygons: 7
+Lines: 5
+
+D:/TA/image-crawler/1\negative\210.png
+Contours size: 488
+Small contours: 486
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 36
+
+D:/TA/image-crawler/1\negative\211.jpg
+Contours size: 494
+Small contours: 478
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 12
+Lines: 13
+
+D:/TA/image-crawler/1\negative\212.png
+Contours size: 543
+Small contours: 543
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\213.png
+Contours size: 1590
+Small contours: 1528
+Triangles: 0
+Rectangles: 20
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 42
+Lines: 34
+
+D:/TA/image-crawler/1\negative\214.jpg
+Contours size: 990
+Small contours: 988
+Triangles: 0
+Rectangles: 0
+Rhombuses: 1
+Ellipses: 0
+Circles: 0
+Other polygons: 1
+Lines: 0
+
+D:/TA/image-crawler/1\negative\215.jpg
+Contours size: 604
+Small contours: 565
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 39
+Lines: 32
+
+D:/TA/image-crawler/1\negative\216.png
+Contours size: 1096
+Small contours: 1069
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 6
+Circles: 3
+Other polygons: 17
+Lines: 54
+
+D:/TA/image-crawler/1\negative\217.jpg
+Contours size: 211
+Small contours: 194
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 14
+Lines: 1
+
+D:/TA/image-crawler/1\negative\218.png
+Contours size: 1244
+Small contours: 1222
+Triangles: 0
+Rectangles: 10
+Rhombuses: 0
+Ellipses: 3
+Circles: 0
+Other polygons: 9
+Lines: 262
+
+D:/TA/image-crawler/1\negative\219.png
+Contours size: 446
+Small contours: 415
+Triangles: 0
+Rectangles: 6
+Rhombuses: 0
+Ellipses: 17
+Circles: 0
+Other polygons: 8
+Lines: 0
+
+D:/TA/image-crawler/1\negative\22.jpg
+Contours size: 319
+Small contours: 302
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 1
+Other polygons: 11
+Lines: 0
+
+D:/TA/image-crawler/1\negative\220.png
+Contours size: 692
+Small contours: 688
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 4
+Lines: 0
+
+D:/TA/image-crawler/1\negative\221.jpg
+Contours size: 957
+Small contours: 892
+Triangles: 0
+Rectangles: 19
+Rhombuses: 3
+Ellipses: 7
+Circles: 2
+Other polygons: 34
+Lines: 36
+
+D:/TA/image-crawler/1\negative\222.png
+Contours size: 248
+Small contours: 248
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\223.jpg
+Contours size: 297
+Small contours: 289
+Triangles: 0
+Rectangles: 7
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 1
+Lines: 2
+
+D:/TA/image-crawler/1\negative\224.png
+Contours size: 511
+Small contours: 489
+Triangles: 0
+Rectangles: 11
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 11
+Lines: 10
+
+D:/TA/image-crawler/1\negative\225.png
+Contours size: 465
+Small contours: 450
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 12
+Lines: 10
+
+D:/TA/image-crawler/1\negative\226.png
+Contours size: 238
+Small contours: 197
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 11
+Circles: 0
+Other polygons: 25
+Lines: 172
+
+D:/TA/image-crawler/1\negative\227.jpg
+Contours size: 1141
+Small contours: 1121
+Triangles: 0
+Rectangles: 18
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 2
+Lines: 7
+
+D:/TA/image-crawler/1\negative\228.png
+Contours size: 494
+Small contours: 473
+Triangles: 0
+Rectangles: 18
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 3
+Lines: 3
+
+D:/TA/image-crawler/1\negative\229.jpg
+Contours size: 64
+Small contours: 3
+Triangles: 0
+Rectangles: 14
+Rhombuses: 0
+Ellipses: 5
+Circles: 9
+Other polygons: 33
+Lines: 4
+
+D:/TA/image-crawler/1\negative\23.png
+Contours size: 210
+Small contours: 177
+Triangles: 0
+Rectangles: 6
+Rhombuses: 0
+Ellipses: 1
+Circles: 4
+Other polygons: 22
+Lines: 26
+
+D:/TA/image-crawler/1\negative\230.png
+Contours size: 160
+Small contours: 151
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 7
+Circles: 0
+Other polygons: 1
+Lines: 392
+
+D:/TA/image-crawler/1\negative\231.jpg
+Contours size: 319
+Small contours: 302
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 1
+Other polygons: 11
+Lines: 0
+
+D:/TA/image-crawler/1\negative\232.png
+Contours size: 268
+Small contours: 245
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 17
+Circles: 0
+Other polygons: 2
+Lines: 1058
+
+D:/TA/image-crawler/1\negative\233.jpg
+Contours size: 436
+Small contours: 401
+Triangles: 0
+Rectangles: 15
+Rhombuses: 0
+Ellipses: 1
+Circles: 3
+Other polygons: 16
+Lines: 2
+
+D:/TA/image-crawler/1\negative\234.png
+Contours size: 921
+Small contours: 893
+Triangles: 0
+Rectangles: 14
+Rhombuses: 0
+Ellipses: 2
+Circles: 1
+Other polygons: 11
+Lines: 11
+
+D:/TA/image-crawler/1\negative\235.jpg
+Contours size: 949
+Small contours: 933
+Triangles: 0
+Rectangles: 6
+Rhombuses: 0
+Ellipses: 0
+Circles: 3
+Other polygons: 7
+Lines: 17
+
+D:/TA/image-crawler/1\negative\236.jpg
+Contours size: 494
+Small contours: 484
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 10
+Lines: 0
+
+D:/TA/image-crawler/1\negative\237.jpg
+Contours size: 222
+Small contours: 180
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 11
+Circles: 0
+Other polygons: 31
+Lines: 5
+
+D:/TA/image-crawler/1\negative\238.jpg
+Contours size: 23
+Small contours: 14
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 6
+Other polygons: 3
+Lines: 0
+
+D:/TA/image-crawler/1\negative\239.jpg
+Contours size: 23
+Small contours: 14
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 3
+Circles: 5
+Other polygons: 1
+Lines: 0
+
+D:/TA/image-crawler/1\negative\24.png
+Contours size: 123
+Small contours: 116
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 6
+Lines: 89
+
+D:/TA/image-crawler/1\negative\240.jpg
+Contours size: 63
+Small contours: 22
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 2
+Circles: 11
+Other polygons: 28
+Lines: 5
+
+D:/TA/image-crawler/1\negative\241.jpg
+Contours size: 1323
+Small contours: 1021
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 9
+Circles: 45
+Other polygons: 243
+Lines: 239
+
+D:/TA/image-crawler/1\negative\242.jpg
+Contours size: 21
+Small contours: 4
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 4
+Circles: 6
+Other polygons: 7
+Lines: 0
+
+D:/TA/image-crawler/1\negative\243.jpg
+Contours size: 21
+Small contours: 15
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 4
+Circles: 0
+Other polygons: 1
+Lines: 0
+
+D:/TA/image-crawler/1\negative\244.png
+Contours size: 101
+Small contours: 73
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 1
+Other polygons: 22
+Lines: 48
+
+D:/TA/image-crawler/1\negative\245.png
+Contours size: 101
+Small contours: 60
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 27
+Other polygons: 14
+Lines: 0
+
+D:/TA/image-crawler/1\negative\246.png
+Contours size: 87
+Small contours: 67
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 14
+Other polygons: 6
+Lines: 2
+
+D:/TA/image-crawler/1\negative\247.jpg
+Contours size: 204
+Small contours: 198
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 6
+Lines: 2
+
+D:/TA/image-crawler/1\negative\248.jpg
+Contours size: 108
+Small contours: 100
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 5
+Other polygons: 3
+Lines: 1
+
+D:/TA/image-crawler/1\negative\249.jpg
+Contours size: 228
+Small contours: 194
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 34
+Lines: 1
+
+D:/TA/image-crawler/1\negative\25.jpg
+Contours size: 713
+Small contours: 711
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 2
+Lines: 0
+
+D:/TA/image-crawler/1\negative\26.png
+Contours size: 632
+Small contours: 571
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 57
+Lines: 25
+
+D:/TA/image-crawler/1\negative\27.png
+Contours size: 791
+Small contours: 659
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 38
+Circles: 10
+Other polygons: 84
+Lines: 377
+
+D:/TA/image-crawler/1\negative\28.png
+Contours size: 83
+Small contours: 73
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 8
+Lines: 0
+
+D:/TA/image-crawler/1\negative\29.png
+Contours size: 325
+Small contours: 292
+Triangles: 0
+Rectangles: 12
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 21
+Lines: 20
+
+D:/TA/image-crawler/1\negative\3.jpg
+Contours size: 967
+Small contours: 956
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 8
+Lines: 0
+
+D:/TA/image-crawler/1\negative\30.jpg
+Contours size: 557
+Small contours: 523
+Triangles: 2
+Rectangles: 16
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 16
+Lines: 18
+
+D:/TA/image-crawler/1\negative\31.png
+Contours size: 2463
+Small contours: 2432
+Triangles: 0
+Rectangles: 7
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 24
+Lines: 22
+
+D:/TA/image-crawler/1\negative\32.png
+Contours size: 460
+Small contours: 450
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 6
+Lines: 25
+
+D:/TA/image-crawler/1\negative\33.png
+Contours size: 845
+Small contours: 845
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\34.png
+Contours size: 1310
+Small contours: 1276
+Triangles: 0
+Rectangles: 13
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 21
+Lines: 10
+
+D:/TA/image-crawler/1\negative\35.jpg
+Contours size: 202
+Small contours: 193
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 5
+Lines: 13
+
+D:/TA/image-crawler/1\negative\36.png
+Contours size: 568
+Small contours: 460
+Triangles: 0
+Rectangles: 1
+Rhombuses: 6
+Ellipses: 23
+Circles: 3
+Other polygons: 75
+Lines: 274
+
+D:/TA/image-crawler/1\negative\37.png
+Contours size: 1267
+Small contours: 1135
+Triangles: 0
+Rectangles: 24
+Rhombuses: 0
+Ellipses: 6
+Circles: 2
+Other polygons: 100
+Lines: 46
+
+D:/TA/image-crawler/1\negative\38.png
+Contours size: 198
+Small contours: 96
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 34
+Circles: 6
+Other polygons: 57
+Lines: 331
+
+D:/TA/image-crawler/1\negative\39.png
+Contours size: 237
+Small contours: 218
+Triangles: 0
+Rectangles: 8
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 11
+Lines: 4
+
+D:/TA/image-crawler/1\negative\4.png
+Contours size: 1773
+Small contours: 1733
+Triangles: 0
+Rectangles: 30
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 8
+Lines: 28
+
+D:/TA/image-crawler/1\negative\40.png
+Contours size: 420
+Small contours: 408
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 9
+Lines: 15
+
+D:/TA/image-crawler/1\negative\41.jpg
+Contours size: 307
+Small contours: 283
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 4
+Circles: 1
+Other polygons: 19
+Lines: 13
+
+D:/TA/image-crawler/1\negative\42.png
+Contours size: 500
+Small contours: 488
+Triangles: 0
+Rectangles: 9
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 2
+Lines: 3
+
+D:/TA/image-crawler/1\negative\43.png
+Contours size: 352
+Small contours: 334
+Triangles: 0
+Rectangles: 4
+Rhombuses: 4
+Ellipses: 1
+Circles: 0
+Other polygons: 9
+Lines: 0
+
+D:/TA/image-crawler/1\negative\44.png
+Contours size: 664
+Small contours: 627
+Triangles: 0
+Rectangles: 7
+Rhombuses: 2
+Ellipses: 0
+Circles: 2
+Other polygons: 26
+Lines: 24
+
+D:/TA/image-crawler/1\negative\45.png
+Contours size: 373
+Small contours: 354
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 3
+Circles: 0
+Other polygons: 16
+Lines: 27
+
+D:/TA/image-crawler/1\negative\46.png
+Contours size: 247
+Small contours: 245
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 1
+Lines: 4
+
+D:/TA/image-crawler/1\negative\47.png
+Contours size: 588
+Small contours: 564
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 6
+Other polygons: 16
+Lines: 10
+
+D:/TA/image-crawler/1\negative\48.png
+Contours size: 129
+Small contours: 107
+Triangles: 0
+Rectangles: 8
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 14
+Lines: 2
+
+D:/TA/image-crawler/1\negative\49.png
+Contours size: 237
+Small contours: 116
+Triangles: 0
+Rectangles: 7
+Rhombuses: 0
+Ellipses: 18
+Circles: 0
+Other polygons: 96
+Lines: 833
+
+D:/TA/image-crawler/1\negative\5.png
+Contours size: 314
+Small contours: 303
+Triangles: 0
+Rectangles: 6
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 4
+Lines: 6
+
+D:/TA/image-crawler/1\negative\50.png
+Contours size: 427
+Small contours: 354
+Triangles: 0
+Rectangles: 10
+Rhombuses: 0
+Ellipses: 3
+Circles: 4
+Other polygons: 56
+Lines: 242
+
+D:/TA/image-crawler/1\negative\51.jpg
+Contours size: 6333
+Small contours: 6266
+Triangles: 0
+Rectangles: 12
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 54
+Lines: 139
+
+D:/TA/image-crawler/1\negative\52.png
+Contours size: 400
+Small contours: 380
+Triangles: 0
+Rectangles: 13
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 7
+Lines: 32
+
+D:/TA/image-crawler/1\negative\53.png
+Contours size: 359
+Small contours: 336
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 23
+Lines: 16
+
+D:/TA/image-crawler/1\negative\54.png
+Contours size: 593
+Small contours: 514
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 0
+Other polygons: 74
+Lines: 0
+
+D:/TA/image-crawler/1\negative\55.png
+Contours size: 500
+Small contours: 488
+Triangles: 0
+Rectangles: 9
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 2
+Lines: 3
+
+D:/TA/image-crawler/1\negative\56.png
+Contours size: 135
+Small contours: 133
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 2
+Lines: 0
+
+D:/TA/image-crawler/1\negative\57.png
+Contours size: 489
+Small contours: 489
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 1
+
+D:/TA/image-crawler/1\negative\58.jpg
+Contours size: 279
+Small contours: 264
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 9
+Other polygons: 4
+Lines: 4
+
+D:/TA/image-crawler/1\negative\59.png
+Contours size: 400
+Small contours: 375
+Triangles: 0
+Rectangles: 11
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 14
+Lines: 36
+
+D:/TA/image-crawler/1\negative\6.png
+Contours size: 259
+Small contours: 229
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 27
+Lines: 7
+
+D:/TA/image-crawler/1\negative\60.png
+Contours size: 367
+Small contours: 334
+Triangles: 0
+Rectangles: 2
+Rhombuses: 4
+Ellipses: 0
+Circles: 2
+Other polygons: 25
+Lines: 13
+
+D:/TA/image-crawler/1\negative\61.png
+Contours size: 71
+Small contours: 61
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 7
+Lines: 6
+
+D:/TA/image-crawler/1\negative\62.png
+Contours size: 488
+Small contours: 473
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 13
+Lines: 8
+
+D:/TA/image-crawler/1\negative\63.png
+Contours size: 387
+Small contours: 367
+Triangles: 0
+Rectangles: 6
+Rhombuses: 0
+Ellipses: 5
+Circles: 0
+Other polygons: 9
+Lines: 1
+
+D:/TA/image-crawler/1\negative\64.jpg
+Contours size: 517
+Small contours: 505
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 4
+Circles: 1
+Other polygons: 6
+Lines: 104
+
+D:/TA/image-crawler/1\negative\65.png
+Contours size: 105
+Small contours: 76
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 5
+Circles: 0
+Other polygons: 20
+Lines: 52
+
+D:/TA/image-crawler/1\negative\66.png
+Contours size: 132
+Small contours: 131
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 1
+Lines: 0
+
+D:/TA/image-crawler/1\negative\67.jpg
+Contours size: 332
+Small contours: 332
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\68.png
+Contours size: 1982
+Small contours: 1969
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 9
+Lines: 67
+
+D:/TA/image-crawler/1\negative\69.jpeg
+Contours size: 71
+Small contours: 64
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 3
+Circles: 0
+Other polygons: 2
+Lines: 0
+
+D:/TA/image-crawler/1\negative\7.png
+Contours size: 168
+Small contours: 157
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 9
+Lines: 0
+
+D:/TA/image-crawler/1\negative\70.png
+Contours size: 695
+Small contours: 686
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 7
+Lines: 25
+
+D:/TA/image-crawler/1\negative\71.jpg
+Contours size: 124
+Small contours: 112
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 8
+Lines: 4
+
+D:/TA/image-crawler/1\negative\72.png
+Contours size: 168
+Small contours: 160
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 3
+Lines: 5
+
+D:/TA/image-crawler/1\negative\73.jpg
+Contours size: 1415
+Small contours: 1341
+Triangles: 0
+Rectangles: 1
+Rhombuses: 2
+Ellipses: 0
+Circles: 0
+Other polygons: 71
+Lines: 16
+
+D:/TA/image-crawler/1\negative\74.jpg
+Contours size: 343
+Small contours: 338
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 3
+Lines: 0
+
+D:/TA/image-crawler/1\negative\75.png
+Contours size: 69
+Small contours: 69
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\76.jpg
+Contours size: 435
+Small contours: 414
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 0
+Circles: 3
+Other polygons: 14
+Lines: 13
+
+D:/TA/image-crawler/1\negative\77.png
+Contours size: 1265
+Small contours: 1229
+Triangles: 0
+Rectangles: 3
+Rhombuses: 4
+Ellipses: 4
+Circles: 0
+Other polygons: 25
+Lines: 11
+
+D:/TA/image-crawler/1\negative\78.png
+Contours size: 158
+Small contours: 147
+Triangles: 0
+Rectangles: 9
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 2
+Lines: 6
+
+D:/TA/image-crawler/1\negative\79.jpg
+Contours size: 151
+Small contours: 145
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 3
+Lines: 1
+
+D:/TA/image-crawler/1\negative\8.jpg
+Contours size: 536
+Small contours: 534
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 0
+Lines: 2
+
+D:/TA/image-crawler/1\negative\80.png
+Contours size: 1586
+Small contours: 1534
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 1
+Other polygons: 46
+Lines: 33
+
+D:/TA/image-crawler/1\negative\81.png
+Contours size: 1095
+Small contours: 1031
+Triangles: 0
+Rectangles: 7
+Rhombuses: 0
+Ellipses: 0
+Circles: 4
+Other polygons: 53
+Lines: 16
+
+D:/TA/image-crawler/1\negative\82.png
+Contours size: 254
+Small contours: 234
+Triangles: 0
+Rectangles: 9
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 11
+Lines: 6
+
+D:/TA/image-crawler/1\negative\83.png
+Contours size: 107
+Small contours: 101
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 4
+Lines: 0
+
+D:/TA/image-crawler/1\negative\84.png
+Contours size: 693
+Small contours: 671
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 4
+Circles: 0
+Other polygons: 14
+Lines: 14
+
+D:/TA/image-crawler/1\negative\85.png
+Contours size: 425
+Small contours: 413
+Triangles: 0
+Rectangles: 8
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 4
+Lines: 6
+
+D:/TA/image-crawler/1\negative\86.png
+Contours size: 318
+Small contours: 277
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 40
+Lines: 251
+
+D:/TA/image-crawler/1\negative\87.png
+Contours size: 626
+Small contours: 599
+Triangles: 0
+Rectangles: 12
+Rhombuses: 1
+Ellipses: 0
+Circles: 1
+Other polygons: 13
+Lines: 28
+
+D:/TA/image-crawler/1\negative\88.png
+Contours size: 436
+Small contours: 428
+Triangles: 0
+Rectangles: 7
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 1
+Lines: 17
+
+D:/TA/image-crawler/1\negative\89.png
+Contours size: 660
+Small contours: 592
+Triangles: 0
+Rectangles: 9
+Rhombuses: 0
+Ellipses: 59
+Circles: 0
+Other polygons: 0
+Lines: 2160
+
+D:/TA/image-crawler/1\negative\9.png
+Contours size: 2512
+Small contours: 2485
+Triangles: 0
+Rectangles: 18
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 7
+Lines: 36
+
+D:/TA/image-crawler/1\negative\90.png
+Contours size: 1782
+Small contours: 1770
+Triangles: 0
+Rectangles: 9
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 3
+Lines: 15
+
+D:/TA/image-crawler/1\negative\91.jpg
+Contours size: 171
+Small contours: 156
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 14
+Lines: 0
+
+D:/TA/image-crawler/1\negative\92.png
+Contours size: 344
+Small contours: 344
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\negative\93.jpg
+Contours size: 335
+Small contours: 331
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 1
+Lines: 2
+
+D:/TA/image-crawler/1\negative\94.jpeg
+Contours size: 349
+Small contours: 325
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 0
+Circles: 5
+Other polygons: 16
+Lines: 10
+
+D:/TA/image-crawler/1\negative\95.jpg
+Contours size: 2055
+Small contours: 2001
+Triangles: 0
+Rectangles: 16
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 36
+Lines: 25
+
+D:/TA/image-crawler/1\negative\96.png
+Contours size: 427
+Small contours: 411
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 11
+Lines: 0
+
+D:/TA/image-crawler/1\negative\97.png
+Contours size: 942
+Small contours: 928
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 13
+Lines: 9
+
+D:/TA/image-crawler/1\negative\98.png
+Contours size: 199
+Small contours: 189
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 9
+Lines: 2
+
+D:/TA/image-crawler/1\negative\99.jpg
+Contours size: 698
+Small contours: 658
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 37
+Lines: 42
+
+D:/TA/image-crawler/1\positive\0.jpg
+Contours size: 482
+Small contours: 426
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 24
+Circles: 10
+Other polygons: 22
+Lines: 4
+
+D:/TA/image-crawler/1\positive\1.png
+Contours size: 308
+Small contours: 274
+Triangles: 3
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 13
+Circles: 2
+Other polygons: 16
+Lines: 20
+
+D:/TA/image-crawler/1\positive\10.png
+Contours size: 278
+Small contours: 278
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\100.jpg
+Contours size: 1175
+Small contours: 1171
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 3
+Lines: 9
+
+D:/TA/image-crawler/1\positive\101.jpg
+Contours size: 794
+Small contours: 754
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 31
+Circles: 3
+Other polygons: 6
+Lines: 4
+
+D:/TA/image-crawler/1\positive\102.jpg
+Contours size: 233
+Small contours: 213
+Triangles: 1
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 6
+Circles: 3
+Other polygons: 10
+Lines: 6
+
+D:/TA/image-crawler/1\positive\103.png
+Contours size: 0
+Small contours: 0
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\104.png
+Contours size: 816
+Small contours: 789
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 21
+Circles: 0
+Other polygons: 5
+Lines: 184
+
+D:/TA/image-crawler/1\positive\105.jpg
+Contours size: 180
+Small contours: 144
+Triangles: 1
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 7
+Circles: 3
+Other polygons: 25
+Lines: 8
+
+D:/TA/image-crawler/1\positive\106.png
+Contours size: 254
+Small contours: 254
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\107.png
+Contours size: 2252
+Small contours: 2245
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 7
+Lines: 4
+
+D:/TA/image-crawler/1\positive\108.png
+Contours size: 185
+Small contours: 172
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 6
+Circles: 3
+Other polygons: 4
+Lines: 11
+
+D:/TA/image-crawler/1\positive\109.png
+Contours size: 150
+Small contours: 150
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\11.jpg
+Contours size: 366
+Small contours: 349
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 14
+Lines: 33
+
+D:/TA/image-crawler/1\positive\110.jpg
+Contours size: 302
+Small contours: 282
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 10
+Circles: 3
+Other polygons: 7
+Lines: 4
+
+D:/TA/image-crawler/1\positive\111.png
+Contours size: 295
+Small contours: 285
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 6
+Circles: 0
+Other polygons: 4
+Lines: 3
+
+D:/TA/image-crawler/1\positive\112.jpg
+Contours size: 263
+Small contours: 259
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 4
+Lines: 12
+
+D:/TA/image-crawler/1\positive\113.png
+Contours size: 705
+Small contours: 705
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 5
+
+D:/TA/image-crawler/1\positive\114.jpg
+Contours size: 103
+Small contours: 100
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 3
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\115.jpg
+Contours size: 274
+Small contours: 256
+Triangles: 2
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 4
+Circles: 1
+Other polygons: 11
+Lines: 8
+
+D:/TA/image-crawler/1\positive\116.jpg
+Contours size: 181
+Small contours: 179
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 2
+Lines: 0
+
+D:/TA/image-crawler/1\positive\117.png
+Contours size: 711
+Small contours: 681
+Triangles: 1
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 19
+Circles: 1
+Other polygons: 9
+Lines: 25
+
+D:/TA/image-crawler/1\positive\118.jpg
+Contours size: 240
+Small contours: 228
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 4
+Circles: 1
+Other polygons: 3
+Lines: 9
+
+D:/TA/image-crawler/1\positive\119.png
+Contours size: 237
+Small contours: 220
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 0
+Other polygons: 5
+Lines: 0
+
+D:/TA/image-crawler/1\positive\12.png
+Contours size: 122
+Small contours: 112
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 9
+Circles: 0
+Other polygons: 0
+Lines: 70
+
+D:/TA/image-crawler/1\positive\120.png
+Contours size: 474
+Small contours: 452
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 14
+Circles: 2
+Other polygons: 4
+Lines: 6
+
+D:/TA/image-crawler/1\positive\121.png
+Contours size: 133
+Small contours: 117
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 4
+Circles: 4
+Other polygons: 8
+Lines: 9
+
+D:/TA/image-crawler/1\positive\122.jpg
+Contours size: 571
+Small contours: 564
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 6
+Circles: 0
+Other polygons: 1
+Lines: 0
+
+D:/TA/image-crawler/1\positive\123.png
+Contours size: 692
+Small contours: 692
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\124.png
+Contours size: 617
+Small contours: 569
+Triangles: 1
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 18
+Circles: 5
+Other polygons: 24
+Lines: 23
+
+D:/TA/image-crawler/1\positive\125.png
+Contours size: 119
+Small contours: 44
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 22
+Circles: 5
+Other polygons: 48
+Lines: 807
+
+D:/TA/image-crawler/1\positive\126.jpg
+Contours size: 181
+Small contours: 176
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 5
+Lines: 5
+
+D:/TA/image-crawler/1\positive\127.jpg
+Contours size: 393
+Small contours: 359
+Triangles: 10
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 19
+Circles: 1
+Other polygons: 4
+Lines: 15
+
+D:/TA/image-crawler/1\positive\128.jpg
+Contours size: 424
+Small contours: 424
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 2
+
+D:/TA/image-crawler/1\positive\129.png
+Contours size: 167
+Small contours: 147
+Triangles: 1
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 9
+Circles: 0
+Other polygons: 10
+Lines: 8
+
+D:/TA/image-crawler/1\positive\13.png
+Contours size: 557
+Small contours: 543
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 6
+Circles: 2
+Other polygons: 5
+Lines: 11
+
+D:/TA/image-crawler/1\positive\130.jpg
+Contours size: 139
+Small contours: 128
+Triangles: 3
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 3
+Circles: 0
+Other polygons: 5
+Lines: 2
+
+D:/TA/image-crawler/1\positive\131.jpg
+Contours size: 277
+Small contours: 277
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\132.png
+Contours size: 134
+Small contours: 123
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 3
+Circles: 0
+Other polygons: 8
+Lines: 4
+
+D:/TA/image-crawler/1\positive\133.jpg
+Contours size: 135
+Small contours: 117
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 5
+Circles: 4
+Other polygons: 7
+Lines: 5
+
+D:/TA/image-crawler/1\positive\134.jpg
+Contours size: 380
+Small contours: 347
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 13
+Circles: 1
+Other polygons: 17
+Lines: 9
+
+D:/TA/image-crawler/1\positive\135.jpg
+Contours size: 679
+Small contours: 679
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 4
+
+D:/TA/image-crawler/1\positive\136.png
+Contours size: 433
+Small contours: 407
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 15
+Circles: 3
+Other polygons: 6
+Lines: 8
+
+D:/TA/image-crawler/1\positive\137.jpg
+Contours size: 544
+Small contours: 513
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 26
+Circles: 2
+Other polygons: 3
+Lines: 4
+
+D:/TA/image-crawler/1\positive\138.jpg
+Contours size: 195
+Small contours: 172
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 9
+Circles: 1
+Other polygons: 13
+Lines: 7
+
+D:/TA/image-crawler/1\positive\139.png
+Contours size: 92
+Small contours: 86
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 4
+Circles: 0
+Other polygons: 1
+Lines: 356
+
+D:/TA/image-crawler/1\positive\14.jpg
+Contours size: 417
+Small contours: 381
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 24
+Circles: 1
+Other polygons: 11
+Lines: 4
+
+D:/TA/image-crawler/1\positive\140.png
+Contours size: 376
+Small contours: 374
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 5
+
+D:/TA/image-crawler/1\positive\141.png
+Contours size: 108
+Small contours: 98
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 6
+Circles: 0
+Other polygons: 4
+Lines: 2
+
+D:/TA/image-crawler/1\positive\142.jpg
+Contours size: 239
+Small contours: 192
+Triangles: 2
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 11
+Circles: 3
+Other polygons: 31
+Lines: 11
+
+D:/TA/image-crawler/1\positive\143.png
+Contours size: 604
+Small contours: 576
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 18
+Circles: 2
+Other polygons: 4
+Lines: 7
+
+D:/TA/image-crawler/1\positive\144.png
+Contours size: 199
+Small contours: 180
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 2
+Other polygons: 12
+Lines: 9
+
+D:/TA/image-crawler/1\positive\145.jpg
+Contours size: 109
+Small contours: 109
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 4
+
+D:/TA/image-crawler/1\positive\146.jpg
+Contours size: 2652
+Small contours: 2609
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 34
+Circles: 4
+Other polygons: 5
+Lines: 9
+
+D:/TA/image-crawler/1\positive\147.jpg
+Contours size: 191
+Small contours: 178
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 4
+Circles: 4
+Other polygons: 5
+Lines: 1
+
+D:/TA/image-crawler/1\positive\148.png
+Contours size: 376
+Small contours: 324
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 8
+Circles: 4
+Other polygons: 40
+Lines: 29
+
+D:/TA/image-crawler/1\positive\149.jpg
+Contours size: 171
+Small contours: 157
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 5
+Circles: 4
+Other polygons: 4
+Lines: 587
+
+D:/TA/image-crawler/1\positive\15.png
+Contours size: 238
+Small contours: 221
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 0
+Other polygons: 5
+Lines: 0
+
+D:/TA/image-crawler/1\positive\150.png
+Contours size: 341
+Small contours: 325
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 6
+Circles: 2
+Other polygons: 8
+Lines: 14
+
+D:/TA/image-crawler/1\positive\151.png
+Contours size: 117
+Small contours: 109
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 0
+Other polygons: 3
+Lines: 4
+
+D:/TA/image-crawler/1\positive\152.jpg
+Contours size: 267
+Small contours: 206
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 14
+Circles: 10
+Other polygons: 36
+Lines: 1402
+
+D:/TA/image-crawler/1\positive\153.jpg
+Contours size: 1726
+Small contours: 1726
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\154.jpg
+Contours size: 240
+Small contours: 230
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 9
+Circles: 0
+Other polygons: 1
+Lines: 0
+
+D:/TA/image-crawler/1\positive\155.jpg
+Contours size: 381
+Small contours: 381
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\156.jpg
+Contours size: 231
+Small contours: 222
+Triangles: 2
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 6
+Lines: 5
+
+D:/TA/image-crawler/1\positive\157.png
+Contours size: 336
+Small contours: 336
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\158.png
+Contours size: 581
+Small contours: 528
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 22
+Circles: 2
+Other polygons: 26
+Lines: 15
+
+D:/TA/image-crawler/1\positive\159.jpg
+Contours size: 272
+Small contours: 255
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 15
+Lines: 174
+
+D:/TA/image-crawler/1\positive\16.jpg
+Contours size: 926
+Small contours: 921
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 5
+Lines: 4
+
+D:/TA/image-crawler/1\positive\160.png
+Contours size: 428
+Small contours: 381
+Triangles: 5
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 11
+Circles: 7
+Other polygons: 24
+Lines: 17
+
+D:/TA/image-crawler/1\positive\161.png
+Contours size: 513
+Small contours: 508
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 5
+Lines: 0
+
+D:/TA/image-crawler/1\positive\162.png
+Contours size: 162
+Small contours: 144
+Triangles: 4
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 9
+Circles: 0
+Other polygons: 5
+Lines: 4
+
+D:/TA/image-crawler/1\positive\163.png
+Contours size: 439
+Small contours: 412
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 0
+Other polygons: 15
+Lines: 0
+
+D:/TA/image-crawler/1\positive\164.png
+Contours size: 547
+Small contours: 547
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\165.png
+Contours size: 104
+Small contours: 102
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 1
+Lines: 33
+
+D:/TA/image-crawler/1\positive\166.png
+Contours size: 206
+Small contours: 201
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 3
+Other polygons: 2
+Lines: 4
+
+D:/TA/image-crawler/1\positive\167.jpg
+Contours size: 555
+Small contours: 533
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 7
+Circles: 3
+Other polygons: 11
+Lines: 613
+
+D:/TA/image-crawler/1\positive\168.png
+Contours size: 164
+Small contours: 164
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\169.png
+Contours size: 83
+Small contours: 79
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 2
+Lines: 0
+
+D:/TA/image-crawler/1\positive\17.png
+Contours size: 228
+Small contours: 190
+Triangles: 9
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 8
+Circles: 5
+Other polygons: 16
+Lines: 32
+
+D:/TA/image-crawler/1\positive\170.jpg
+Contours size: 688
+Small contours: 684
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 4
+Lines: 0
+
+D:/TA/image-crawler/1\positive\171.jpg
+Contours size: 205
+Small contours: 190
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 13
+Circles: 1
+Other polygons: 1
+Lines: 4
+
+D:/TA/image-crawler/1\positive\172.jpg
+Contours size: 217
+Small contours: 174
+Triangles: 2
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 16
+Circles: 2
+Other polygons: 23
+Lines: 7
+
+D:/TA/image-crawler/1\positive\173.png
+Contours size: 1
+Small contours: 0
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 1211
+
+D:/TA/image-crawler/1\positive\174.png
+Contours size: 273
+Small contours: 260
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 4
+Circles: 1
+Other polygons: 6
+Lines: 5
+
+D:/TA/image-crawler/1\positive\175.jpg
+Contours size: 407
+Small contours: 369
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 29
+Circles: 4
+Other polygons: 5
+Lines: 8
+
+D:/TA/image-crawler/1\positive\176.png
+Contours size: 522
+Small contours: 475
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 18
+Circles: 3
+Other polygons: 24
+Lines: 10
+
+D:/TA/image-crawler/1\positive\177.png
+Contours size: 264
+Small contours: 247
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 6
+Circles: 3
+Other polygons: 8
+Lines: 20
+
+D:/TA/image-crawler/1\positive\178.jpg
+Contours size: 10
+Small contours: 8
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 0
+Lines: 120
+
+D:/TA/image-crawler/1\positive\179.png
+Contours size: 336
+Small contours: 318
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 8
+Circles: 2
+Other polygons: 8
+Lines: 3
+
+D:/TA/image-crawler/1\positive\18.jpg
+Contours size: 327
+Small contours: 311
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 9
+Circles: 2
+Other polygons: 5
+Lines: 4
+
+D:/TA/image-crawler/1\positive\180.jpg
+Contours size: 54
+Small contours: 52
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 1
+Other polygons: 1
+Lines: 0
+
+D:/TA/image-crawler/1\positive\181.png
+Contours size: 154
+Small contours: 137
+Triangles: 4
+Rectangles: 0
+Rhombuses: 1
+Ellipses: 6
+Circles: 2
+Other polygons: 4
+Lines: 4
+
+D:/TA/image-crawler/1\positive\182.jpg
+Contours size: 1644
+Small contours: 1609
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 20
+Circles: 3
+Other polygons: 12
+Lines: 4
+
+D:/TA/image-crawler/1\positive\183.png
+Contours size: 384
+Small contours: 383
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 1
+Lines: 3
+
+D:/TA/image-crawler/1\positive\184.jpg
+Contours size: 1040
+Small contours: 1018
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 16
+Circles: 2
+Other polygons: 4
+Lines: 0
+
+D:/TA/image-crawler/1\positive\185.jpg
+Contours size: 145
+Small contours: 145
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\186.png
+Contours size: 772
+Small contours: 770
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 2
+Lines: 5
+
+D:/TA/image-crawler/1\positive\187.png
+Contours size: 48
+Small contours: 38
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 1
+Circles: 3
+Other polygons: 6
+Lines: 0
+
+D:/TA/image-crawler/1\positive\188.png
+Contours size: 262
+Small contours: 250
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 1
+Other polygons: 6
+Lines: 0
+
+D:/TA/image-crawler/1\positive\189.png
+Contours size: 94
+Small contours: 87
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 0
+Other polygons: 2
+Lines: 2
+
+D:/TA/image-crawler/1\positive\19.png
+Contours size: 405
+Small contours: 389
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 9
+Circles: 1
+Other polygons: 6
+Lines: 5
+
+D:/TA/image-crawler/1\positive\190.png
+Contours size: 170
+Small contours: 161
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 8
+Circles: 0
+Other polygons: 0
+Lines: 605
+
+D:/TA/image-crawler/1\positive\191.png
+Contours size: 707
+Small contours: 701
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 4
+Lines: 4
+
+D:/TA/image-crawler/1\positive\192.jpg
+Contours size: 1441
+Small contours: 1385
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 45
+Circles: 3
+Other polygons: 8
+Lines: 4
+
+D:/TA/image-crawler/1\positive\193.jpg
+Contours size: 220
+Small contours: 204
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 5
+Circles: 2
+Other polygons: 7
+Lines: 4
+
+D:/TA/image-crawler/1\positive\194.png
+Contours size: 172
+Small contours: 106
+Triangles: 1
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 11
+Circles: 2
+Other polygons: 51
+Lines: 777
+
+D:/TA/image-crawler/1\positive\195.jpg
+Contours size: 591
+Small contours: 558
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 24
+Circles: 3
+Other polygons: 6
+Lines: 4
+
+D:/TA/image-crawler/1\positive\196.png
+Contours size: 121
+Small contours: 116
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 4
+Circles: 0
+Other polygons: 0
+Lines: 311
+
+D:/TA/image-crawler/1\positive\197.jpg
+Contours size: 93
+Small contours: 81
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 2
+Other polygons: 5
+Lines: 1
+
+D:/TA/image-crawler/1\positive\198.jpg
+Contours size: 1313
+Small contours: 1313
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\199.png
+Contours size: 185
+Small contours: 176
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 1
+Other polygons: 3
+Lines: 9
+
+D:/TA/image-crawler/1\positive\2.png
+Contours size: 211
+Small contours: 177
+Triangles: 8
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 10
+Circles: 2
+Other polygons: 14
+Lines: 14
+
+D:/TA/image-crawler/1\positive\20.jpg
+Contours size: 195
+Small contours: 194
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 1
+Lines: 0
+
+D:/TA/image-crawler/1\positive\200.png
+Contours size: 239
+Small contours: 221
+Triangles: 2
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 7
+Circles: 0
+Other polygons: 9
+Lines: 7
+
+D:/TA/image-crawler/1\positive\201.png
+Contours size: 1
+Small contours: 0
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 291
+
+D:/TA/image-crawler/1\positive\202.jpg
+Contours size: 835
+Small contours: 794
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 20
+Circles: 7
+Other polygons: 14
+Lines: 9
+
+D:/TA/image-crawler/1\positive\203.jpg
+Contours size: 215
+Small contours: 203
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 8
+Circles: 0
+Other polygons: 4
+Lines: 0
+
+D:/TA/image-crawler/1\positive\204.jpg
+Contours size: 669
+Small contours: 644
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 14
+Circles: 2
+Other polygons: 9
+Lines: 3
+
+D:/TA/image-crawler/1\positive\205.jpg
+Contours size: 540
+Small contours: 518
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 4
+Circles: 2
+Other polygons: 14
+Lines: 7
+
+D:/TA/image-crawler/1\positive\206.jpg
+Contours size: 739
+Small contours: 671
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 43
+Circles: 7
+Other polygons: 18
+Lines: 3
+
+D:/TA/image-crawler/1\positive\207.jpg
+Contours size: 260
+Small contours: 246
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 11
+Circles: 1
+Other polygons: 2
+Lines: 0
+
+D:/TA/image-crawler/1\positive\208.jpg
+Contours size: 278
+Small contours: 266
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 9
+Circles: 1
+Other polygons: 2
+Lines: 0
+
+D:/TA/image-crawler/1\positive\209.jpg
+Contours size: 2865
+Small contours: 2822
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 35
+Circles: 3
+Other polygons: 5
+Lines: 9
+
+D:/TA/image-crawler/1\positive\21.jpg
+Contours size: 191
+Small contours: 110
+Triangles: 1
+Rectangles: 0
+Rhombuses: 3
+Ellipses: 22
+Circles: 3
+Other polygons: 52
+Lines: 28
+
+D:/TA/image-crawler/1\positive\210.jpg
+Contours size: 71
+Small contours: 63
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 2
+Circles: 2
+Other polygons: 4
+Lines: 4
+
+D:/TA/image-crawler/1\positive\211.jpg
+Contours size: 143
+Small contours: 138
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 5
+Lines: 1
+
+D:/TA/image-crawler/1\positive\212.png
+Contours size: 356
+Small contours: 338
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 11
+Circles: 0
+Other polygons: 7
+Lines: 1
+
+D:/TA/image-crawler/1\positive\213.jpg
+Contours size: 994
+Small contours: 943
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 39
+Circles: 4
+Other polygons: 7
+Lines: 6
+
+D:/TA/image-crawler/1\positive\214.jpg
+Contours size: 1155
+Small contours: 1155
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 3
+
+D:/TA/image-crawler/1\positive\215.jpg
+Contours size: 112
+Small contours: 103
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 4
+Circles: 1
+Other polygons: 4
+Lines: 0
+
+D:/TA/image-crawler/1\positive\216.jpg
+Contours size: 104
+Small contours: 104
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\217.png
+Contours size: 159
+Small contours: 146
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 2
+Circles: 3
+Other polygons: 6
+Lines: 4
+
+D:/TA/image-crawler/1\positive\218.jpg
+Contours size: 184
+Small contours: 172
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 7
+Circles: 1
+Other polygons: 4
+Lines: 2
+
+D:/TA/image-crawler/1\positive\219.jpg
+Contours size: 173
+Small contours: 158
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 9
+Circles: 2
+Other polygons: 4
+Lines: 1
+
+D:/TA/image-crawler/1\positive\22.png
+Contours size: 357
+Small contours: 329
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 15
+Circles: 2
+Other polygons: 11
+Lines: 22
+
+D:/TA/image-crawler/1\positive\220.png
+Contours size: 325
+Small contours: 313
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 10
+Circles: 1
+Other polygons: 1
+Lines: 1
+
+D:/TA/image-crawler/1\positive\221.png
+Contours size: 153
+Small contours: 144
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 8
+Circles: 0
+Other polygons: 0
+Lines: 181
+
+D:/TA/image-crawler/1\positive\222.png
+Contours size: 566
+Small contours: 553
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 4
+Circles: 1
+Other polygons: 8
+Lines: 2
+
+D:/TA/image-crawler/1\positive\223.png
+Contours size: 430
+Small contours: 425
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 1
+Lines: 4
+
+D:/TA/image-crawler/1\positive\224.jpg
+Contours size: 524
+Small contours: 499
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 12
+Circles: 3
+Other polygons: 9
+Lines: 7
+
+D:/TA/image-crawler/1\positive\225.jpg
+Contours size: 582
+Small contours: 582
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 1
+
+D:/TA/image-crawler/1\positive\226.jpg
+Contours size: 2223
+Small contours: 2194
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 22
+Circles: 3
+Other polygons: 4
+Lines: 9
+
+D:/TA/image-crawler/1\positive\227.jpg
+Contours size: 246
+Small contours: 239
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 4
+Circles: 0
+Other polygons: 3
+Lines: 2
+
+D:/TA/image-crawler/1\positive\228.jpg
+Contours size: 143
+Small contours: 143
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\229.png
+Contours size: 791
+Small contours: 787
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 3
+Other polygons: 1
+Lines: 6
+
+D:/TA/image-crawler/1\positive\23.jpg
+Contours size: 620
+Small contours: 593
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 10
+Circles: 3
+Other polygons: 14
+Lines: 4
+
+D:/TA/image-crawler/1\positive\230.png
+Contours size: 184
+Small contours: 96
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 13
+Other polygons: 63
+Lines: 36
+
+D:/TA/image-crawler/1\positive\231.jpg
+Contours size: 148
+Small contours: 130
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 1
+Other polygons: 5
+Lines: 0
+
+D:/TA/image-crawler/1\positive\232.png
+Contours size: 49
+Small contours: 40
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 1
+Other polygons: 3
+Lines: 5
+
+D:/TA/image-crawler/1\positive\233.png
+Contours size: 244
+Small contours: 207
+Triangles: 10
+Rectangles: 0
+Rhombuses: 1
+Ellipses: 7
+Circles: 0
+Other polygons: 19
+Lines: 28
+
+D:/TA/image-crawler/1\positive\234.jpg
+Contours size: 291
+Small contours: 273
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 3
+Circles: 3
+Other polygons: 10
+Lines: 11
+
+D:/TA/image-crawler/1\positive\235.png
+Contours size: 101
+Small contours: 94
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 4
+Lines: 535
+
+D:/TA/image-crawler/1\positive\236.jpg
+Contours size: 1274
+Small contours: 1273
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 1
+Lines: 6
+
+D:/TA/image-crawler/1\positive\237.jpg
+Contours size: 358
+Small contours: 339
+Triangles: 6
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 6
+Circles: 3
+Other polygons: 2
+Lines: 12
+
+D:/TA/image-crawler/1\positive\238.png
+Contours size: 593
+Small contours: 584
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 7
+Lines: 2
+
+D:/TA/image-crawler/1\positive\239.png
+Contours size: 456
+Small contours: 456
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 3
+
+D:/TA/image-crawler/1\positive\24.png
+Contours size: 174
+Small contours: 166
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 6
+Lines: 4
+
+D:/TA/image-crawler/1\positive\240.png
+Contours size: 273
+Small contours: 249
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 18
+Circles: 0
+Other polygons: 6
+Lines: 1
+
+D:/TA/image-crawler/1\positive\241.png
+Contours size: 124
+Small contours: 104
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 6
+Circles: 4
+Other polygons: 9
+Lines: 3
+
+D:/TA/image-crawler/1\positive\242.png
+Contours size: 461
+Small contours: 445
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 6
+Circles: 0
+Other polygons: 10
+Lines: 15
+
+D:/TA/image-crawler/1\positive\243.jpg
+Contours size: 391
+Small contours: 366
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 11
+Circles: 4
+Other polygons: 10
+Lines: 1
+
+D:/TA/image-crawler/1\positive\244.png
+Contours size: 522
+Small contours: 500
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 1
+Other polygons: 9
+Lines: 5
+
+D:/TA/image-crawler/1\positive\245.png
+Contours size: 198
+Small contours: 196
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 2
+Lines: 0
+
+D:/TA/image-crawler/1\positive\246.jpg
+Contours size: 40
+Small contours: 35
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 4
+Circles: 0
+Other polygons: 0
+Lines: 275
+
+D:/TA/image-crawler/1\positive\247.jpg
+Contours size: 145
+Small contours: 136
+Triangles: 1
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 3
+Circles: 0
+Other polygons: 5
+Lines: 5
+
+D:/TA/image-crawler/1\positive\248.png
+Contours size: 435
+Small contours: 425
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 1
+Other polygons: 4
+Lines: 2
+
+D:/TA/image-crawler/1\positive\249.jpg
+Contours size: 304
+Small contours: 272
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 8
+Circles: 6
+Other polygons: 18
+Lines: 13
+
+D:/TA/image-crawler/1\positive\25.png
+Contours size: 2241
+Small contours: 2234
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 7
+Lines: 4
+
+D:/TA/image-crawler/1\positive\26.png
+Contours size: 1650
+Small contours: 1638
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 12
+Lines: 9
+
+D:/TA/image-crawler/1\positive\27.jpg
+Contours size: 326
+Small contours: 304
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 9
+Circles: 3
+Other polygons: 10
+Lines: 5
+
+D:/TA/image-crawler/1\positive\28.png
+Contours size: 247
+Small contours: 221
+Triangles: 5
+Rectangles: 0
+Rhombuses: 1
+Ellipses: 4
+Circles: 5
+Other polygons: 11
+Lines: 25
+
+D:/TA/image-crawler/1\positive\29.jpg
+Contours size: 839
+Small contours: 784
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 41
+Circles: 6
+Other polygons: 8
+Lines: 11
+
+D:/TA/image-crawler/1\positive\3.jpg
+Contours size: 287
+Small contours: 271
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 8
+Circles: 0
+Other polygons: 8
+Lines: 2
+
+D:/TA/image-crawler/1\positive\30.jpg
+Contours size: 702
+Small contours: 686
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 9
+Circles: 0
+Other polygons: 7
+Lines: 9
+
+D:/TA/image-crawler/1\positive\31.jpg
+Contours size: 1058
+Small contours: 1017
+Triangles: 0
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 25
+Circles: 3
+Other polygons: 9
+Lines: 17
+
+D:/TA/image-crawler/1\positive\32.png
+Contours size: 816
+Small contours: 789
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 21
+Circles: 0
+Other polygons: 5
+Lines: 184
+
+D:/TA/image-crawler/1\positive\33.jpg
+Contours size: 245
+Small contours: 236
+Triangles: 2
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 5
+Lines: 6
+
+D:/TA/image-crawler/1\positive\34.png
+Contours size: 502
+Small contours: 481
+Triangles: 5
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 11
+Circles: 0
+Other polygons: 5
+Lines: 7
+
+D:/TA/image-crawler/1\positive\35.png
+Contours size: 48
+Small contours: 36
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 0
+Other polygons: 7
+Lines: 9
+
+D:/TA/image-crawler/1\positive\36.jpeg
+Contours size: 583
+Small contours: 549
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 28
+Circles: 2
+Other polygons: 4
+Lines: 4
+
+D:/TA/image-crawler/1\positive\37.png
+Contours size: 206
+Small contours: 195
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 6
+Circles: 1
+Other polygons: 4
+Lines: 0
+
+D:/TA/image-crawler/1\positive\38.png
+Contours size: 247
+Small contours: 234
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 0
+Other polygons: 8
+Lines: 5
+
+D:/TA/image-crawler/1\positive\39.jpg
+Contours size: 277
+Small contours: 253
+Triangles: 3
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 4
+Circles: 5
+Other polygons: 12
+Lines: 5
+
+D:/TA/image-crawler/1\positive\4.png
+Contours size: 581
+Small contours: 551
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 15
+Circles: 2
+Other polygons: 13
+Lines: 7
+
+D:/TA/image-crawler/1\positive\40.jpg
+Contours size: 499
+Small contours: 473
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 16
+Circles: 0
+Other polygons: 9
+Lines: 16
+
+D:/TA/image-crawler/1\positive\41.jpg
+Contours size: 336
+Small contours: 314
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 5
+Other polygons: 5
+Lines: 4
+
+D:/TA/image-crawler/1\positive\42.png
+Contours size: 391
+Small contours: 373
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 6
+Circles: 3
+Other polygons: 9
+Lines: 5
+
+D:/TA/image-crawler/1\positive\43.png
+Contours size: 347
+Small contours: 313
+Triangles: 2
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 4
+Circles: 7
+Other polygons: 21
+Lines: 5
+
+D:/TA/image-crawler/1\positive\44.png
+Contours size: 528
+Small contours: 494
+Triangles: 1
+Rectangles: 4
+Rhombuses: 0
+Ellipses: 14
+Circles: 4
+Other polygons: 11
+Lines: 11
+
+D:/TA/image-crawler/1\positive\45.jpg
+Contours size: 350
+Small contours: 324
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 13
+Circles: 5
+Other polygons: 8
+Lines: 4
+
+D:/TA/image-crawler/1\positive\46.jpg
+Contours size: 198
+Small contours: 185
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 3
+Other polygons: 5
+Lines: 7
+
+D:/TA/image-crawler/1\positive\47.png
+Contours size: 278
+Small contours: 264
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 7
+Circles: 2
+Other polygons: 5
+Lines: 8
+
+D:/TA/image-crawler/1\positive\48.jpg
+Contours size: 762
+Small contours: 716
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 36
+Circles: 2
+Other polygons: 8
+Lines: 6
+
+D:/TA/image-crawler/1\positive\49.jpg
+Contours size: 442
+Small contours: 438
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 4
+Lines: 4
+
+D:/TA/image-crawler/1\positive\5.jpg
+Contours size: 639
+Small contours: 622
+Triangles: 1
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 9
+Circles: 0
+Other polygons: 7
+Lines: 9
+
+D:/TA/image-crawler/1\positive\50.jpg
+Contours size: 430
+Small contours: 393
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 22
+Circles: 5
+Other polygons: 8
+Lines: 17
+
+D:/TA/image-crawler/1\positive\51.png
+Contours size: 507
+Small contours: 476
+Triangles: 3
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 5
+Other polygons: 11
+Lines: 5
+
+D:/TA/image-crawler/1\positive\52.jpg
+Contours size: 237
+Small contours: 221
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 8
+Circles: 2
+Other polygons: 6
+Lines: 4
+
+D:/TA/image-crawler/1\positive\53.png
+Contours size: 252
+Small contours: 232
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 9
+Circles: 4
+Other polygons: 7
+Lines: 13
+
+D:/TA/image-crawler/1\positive\54.png
+Contours size: 203
+Small contours: 181
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 3
+Circles: 0
+Other polygons: 19
+Lines: 86
+
+D:/TA/image-crawler/1\positive\55.jpg
+Contours size: 383
+Small contours: 372
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 11
+Circles: 0
+Other polygons: 0
+Lines: 8
+
+D:/TA/image-crawler/1\positive\56.png
+Contours size: 1534
+Small contours: 220
+Triangles: 6
+Rectangles: 9
+Rhombuses: 82
+Ellipses: 167
+Circles: 53
+Other polygons: 997
+Lines: 801
+
+D:/TA/image-crawler/1\positive\57.jpg
+Contours size: 700
+Small contours: 694
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 2
+Lines: 11
+
+D:/TA/image-crawler/1\positive\58.png
+Contours size: 203
+Small contours: 194
+Triangles: 0
+Rectangles: 6
+Rhombuses: 0
+Ellipses: 2
+Circles: 0
+Other polygons: 1
+Lines: 20
+
+D:/TA/image-crawler/1\positive\59.jpg
+Contours size: 285
+Small contours: 278
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 2
+Other polygons: 5
+Lines: 8
+
+D:/TA/image-crawler/1\positive\6.jpg
+Contours size: 448
+Small contours: 416
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 10
+Circles: 7
+Other polygons: 15
+Lines: 6
+
+D:/TA/image-crawler/1\positive\60.jpg
+Contours size: 556
+Small contours: 532
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 18
+Circles: 0
+Other polygons: 6
+Lines: 0
+
+D:/TA/image-crawler/1\positive\61.jpg
+Contours size: 751
+Small contours: 687
+Triangles: 1
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 40
+Circles: 2
+Other polygons: 21
+Lines: 35
+
+D:/TA/image-crawler/1\positive\62.jpg
+Contours size: 560
+Small contours: 541
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 2
+Other polygons: 12
+Lines: 8
+
+D:/TA/image-crawler/1\positive\63.jpg
+Contours size: 457
+Small contours: 455
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 2
+Lines: 4
+
+D:/TA/image-crawler/1\positive\64.jpg
+Contours size: 794
+Small contours: 754
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 31
+Circles: 3
+Other polygons: 6
+Lines: 4
+
+D:/TA/image-crawler/1\positive\65.jpg
+Contours size: 804
+Small contours: 750
+Triangles: 0
+Rectangles: 0
+Rhombuses: 2
+Ellipses: 23
+Circles: 6
+Other polygons: 23
+Lines: 6
+
+D:/TA/image-crawler/1\positive\66.png
+Contours size: 502
+Small contours: 500
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 2
+
+D:/TA/image-crawler/1\positive\67.png
+Contours size: 111
+Small contours: 67
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 16
+Circles: 0
+Other polygons: 28
+Lines: 0
+
+D:/TA/image-crawler/1\positive\68.png
+Contours size: 127
+Small contours: 122
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 3
+Lines: 376
+
+D:/TA/image-crawler/1\positive\69.jpg
+Contours size: 96
+Small contours: 33
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 17
+Circles: 13
+Other polygons: 33
+Lines: 21
+
+D:/TA/image-crawler/1\positive\7.jpg
+Contours size: 410
+Small contours: 377
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 6
+Other polygons: 15
+Lines: 1
+
+D:/TA/image-crawler/1\positive\70.jpg
+Contours size: 451
+Small contours: 422
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 23
+Circles: 2
+Other polygons: 4
+Lines: 9
+
+D:/TA/image-crawler/1\positive\71.jpg
+Contours size: 498
+Small contours: 492
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 1
+Circles: 0
+Other polygons: 5
+Lines: 5
+
+D:/TA/image-crawler/1\positive\72.png
+Contours size: 368
+Small contours: 336
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 6
+Other polygons: 14
+Lines: 28
+
+D:/TA/image-crawler/1\positive\73.jpg
+Contours size: 1398
+Small contours: 1361
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 20
+Circles: 0
+Other polygons: 16
+Lines: 11
+
+D:/TA/image-crawler/1\positive\74.jpg
+Contours size: 764
+Small contours: 718
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 36
+Circles: 3
+Other polygons: 7
+Lines: 4
+
+D:/TA/image-crawler/1\positive\75.jpg
+Contours size: 214
+Small contours: 205
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 1
+Circles: 2
+Other polygons: 4
+Lines: 7
+
+D:/TA/image-crawler/1\positive\76.jpg
+Contours size: 322
+Small contours: 276
+Triangles: 4
+Rectangles: 0
+Rhombuses: 3
+Ellipses: 12
+Circles: 4
+Other polygons: 23
+Lines: 11
+
+D:/TA/image-crawler/1\positive\77.png
+Contours size: 205
+Small contours: 197
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 4
+Circles: 0
+Other polygons: 2
+Lines: 56
+
+D:/TA/image-crawler/1\positive\78.png
+Contours size: 499
+Small contours: 362
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 32
+Circles: 3
+Other polygons: 102
+Lines: 524
+
+D:/TA/image-crawler/1\positive\79.png
+Contours size: 122
+Small contours: 113
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 6
+Circles: 0
+Other polygons: 2
+Lines: 8
+
+D:/TA/image-crawler/1\positive\8.png
+Contours size: 475
+Small contours: 443
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 15
+Circles: 4
+Other polygons: 13
+Lines: 0
+
+D:/TA/image-crawler/1\positive\80.jpg
+Contours size: 164
+Small contours: 148
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 0
+Other polygons: 4
+Lines: 4
+
+D:/TA/image-crawler/1\positive\81.png
+Contours size: 737
+Small contours: 737
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 2
+
+D:/TA/image-crawler/1\positive\82.png
+Contours size: 447
+Small contours: 427
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 10
+Circles: 5
+Other polygons: 5
+Lines: 7
+
+D:/TA/image-crawler/1\positive\83.png
+Contours size: 140
+Small contours: 126
+Triangles: 0
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 13
+Circles: 0
+Other polygons: 0
+Lines: 637
+
+D:/TA/image-crawler/1\positive\84.jpg
+Contours size: 722
+Small contours: 722
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\85.jpg
+Contours size: 156
+Small contours: 141
+Triangles: 3
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 5
+Circles: 2
+Other polygons: 5
+Lines: 20
+
+D:/TA/image-crawler/1\positive\86.png
+Contours size: 678
+Small contours: 657
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 8
+Circles: 3
+Other polygons: 8
+Lines: 9
+
+D:/TA/image-crawler/1\positive\87.jpg
+Contours size: 250
+Small contours: 250
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\88.png
+Contours size: 139
+Small contours: 115
+Triangles: 0
+Rectangles: 3
+Rhombuses: 0
+Ellipses: 4
+Circles: 3
+Other polygons: 14
+Lines: 564
+
+D:/TA/image-crawler/1\positive\89.jpg
+Contours size: 349
+Small contours: 324
+Triangles: 0
+Rectangles: 2
+Rhombuses: 0
+Ellipses: 19
+Circles: 1
+Other polygons: 3
+Lines: 5
+
+D:/TA/image-crawler/1\positive\9.jpg
+Contours size: 1212
+Small contours: 1208
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 4
+Lines: 4
+
+D:/TA/image-crawler/1\positive\90.jpg
+Contours size: 1009
+Small contours: 977
+Triangles: 1
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 19
+Circles: 4
+Other polygons: 8
+Lines: 20
+
+D:/TA/image-crawler/1\positive\91.jpg
+Contours size: 226
+Small contours: 210
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 12
+Circles: 2
+Other polygons: 2
+Lines: 2
+
+D:/TA/image-crawler/1\positive\92.png
+Contours size: 528
+Small contours: 491
+Triangles: 0
+Rectangles: 5
+Rhombuses: 0
+Ellipses: 12
+Circles: 5
+Other polygons: 15
+Lines: 21
+
+D:/TA/image-crawler/1\positive\93.jpg
+Contours size: 421
+Small contours: 398
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 18
+Circles: 2
+Other polygons: 3
+Lines: 4
+
+D:/TA/image-crawler/1\positive\94.jpg
+Contours size: 1671
+Small contours: 1671
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\95.jpg
+Contours size: 284
+Small contours: 284
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 0
+Circles: 0
+Other polygons: 0
+Lines: 0
+
+D:/TA/image-crawler/1\positive\96.png
+Contours size: 168
+Small contours: 160
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 3
+Circles: 0
+Other polygons: 5
+Lines: 4
+
+D:/TA/image-crawler/1\positive\97.jpg
+Contours size: 446
+Small contours: 418
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 19
+Circles: 3
+Other polygons: 6
+Lines: 4
+
+D:/TA/image-crawler/1\positive\98.png
+Contours size: 360
+Small contours: 337
+Triangles: 1
+Rectangles: 1
+Rhombuses: 0
+Ellipses: 12
+Circles: 0
+Other polygons: 9
+Lines: 368
+
+D:/TA/image-crawler/1\positive\99.jpg
+Contours size: 236
+Small contours: 227
+Triangles: 0
+Rectangles: 0
+Rhombuses: 0
+Ellipses: 4
+Circles: 0
+Other polygons: 5
+Lines: 1
+
+Features: (500, 10)

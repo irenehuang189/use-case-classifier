@@ -90,7 +90,7 @@ def detect_shape(contour):
         shape, shape_name = shapes.Rectangles.detect_rectangle(contour, approx)
         if shape is None:
             shape, shape_name = shapes.Rhombuses.detect_rhombus(approx)
-    elif len(approx) >= 4:
+    elif len(approx) > 4:
         shape, shape_name = shapes.Ellipses.detect_ellipse(contour)
         if shape is None:
             shape, shape_name = shapes.Circles.detect_circle(contour)

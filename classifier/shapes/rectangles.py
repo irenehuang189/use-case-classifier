@@ -24,8 +24,8 @@ class Rectangles(Shapes):
         # if (quad_area - colored_img.size) < contour_area*MAX_AREA_DIFF_PCT:
         #     return None, UNIDENTIFIED_SHAPE
 
-        max_coz = Rectangles.max_cos_in_quad(approx)
-        if not((area_diff < (contour_area*Shapes.MAX_AREA_DIFF_PCT)) and (max_coz < 0.1)):
+        max_cos = Rectangles.max_cos_in_quad(approx)
+        if not((area_diff < (contour_area*Shapes.MAX_AREA_DIFF_PCT)) and (max_cos < 0.1)):
             return None, Shapes.UNIDENTIFIED_SHAPE
         return rect, Shapes.RECTANGLE_SHAPE
 
