@@ -27,7 +27,7 @@ def upload():
 
 def handle_files(files):
     # check if the post request has the file part
-    path = os.path.join(os.path.dirname(__file__), 'uploaded_img', datetime.strftime(datetime.now(), '%d%m%Y %H%M%S'))
+    path = os.path.join('static/uploaded_img', datetime.strftime(datetime.now(), '%d%m%Y %H%M%S'))
     if not os.path.exists(path):
         os.makedirs(path)
 

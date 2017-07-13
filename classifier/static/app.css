@@ -1,6 +1,12 @@
 html{
   height: 100%;
 }
+
 body {
   min-height: 100%;
+  text-align: center;
+}
+
+input[type=file] {
+    margin: 0 auto;
 }
