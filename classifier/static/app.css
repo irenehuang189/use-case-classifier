@@ -3,10 +3,22 @@ html{
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
   min-height: 100%;
   text-align: center;
+  vertical-align: middle;
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 100px;
 }
 
 input[type=file] {
     margin: 0 auto;
+}
+
+.logo-banner {
+    width: 250px;
+    margin: 10px;
 }

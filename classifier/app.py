@@ -43,10 +43,10 @@ def handle_files(files):
             filenames.append(filename)
         else:
             flash('File extension for ' + file.filename + ' is not allowed')
-    (file_paths, (image_classes, probabilities)) = classifier.extract_images(path)
+    (file_paths, features, (image_classes, probabilities)) = classifier.extract_images(path)
 
     return render_template('result.html', 
-                            file_paths = file_paths, image_classes = image_classes, probabilities = probabilities)
+                            file_paths = file_paths, features = features, image_classes = image_classes, probabilities = probabilities)
 
 
 def allowed_file(filename):

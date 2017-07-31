@@ -19,7 +19,7 @@ def rename_images(path):
 def convert_images(path):
     """Convert all non-JPG and non-PNG images to JPG format
         Supported image formats: https://www.imagemagick.org/script/formats.php"""
-    not_converted_ext = ('.png', 'PNG', '.jpg', 'JPG', 'jpeg')
+    not_converted_ext = ('.png', 'PNG', '.jpg', 'JPG', 'jpeg', 'JPEG')
     for root, subdirs, files in os.walk(path):
         for file in files:
             file_ext = os.path.splitext(file)[1]
@@ -50,14 +50,14 @@ def show_image(window_name, img):
     cv2.destroyAllWindows()
 
 
-path = 'D:/TA/image-crawler/1'
+path = 'D:/TA/image-crawler/experiment/1_test'
 print('---RENAMING IMAGES---')
 rename_images(path)
 print('\n---CONVERT IMAGES---')
 convert_images(path)
 
 print('\n---EXTRACT FEATURES---')
-features = np.zeros((0, 10))
+features = np.zeros((0, 9))
 for root, subdirs, files in os.walk(path):
     result_path = os.path.join(root, 'extraction_result')
     if (len(files) > 0) and (not os.path.exists(result_path)):
@@ -69,6 +69,9 @@ for root, subdirs, files in os.walk(path):
             print(os.path.join(root, file))
             image_path = os.path.join(root, file)
             colored_img = cv2.imread(image_path)
+            if colored_img is None:
+                print('Image can not be read:', image_path)
+                continue
             gray_img = cv2.cvtColor(colored_img, cv2.COLOR_BGR2GRAY)
 
             # Process image

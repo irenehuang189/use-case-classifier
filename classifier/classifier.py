@@ -44,7 +44,7 @@ def extract_images(path):
 
     arff_path = os.path.join(path, 'use_case.arff')
     export_arff(arff_path, features)
-    return (file_paths, classify_arff(arff_path))
+    return (file_paths, features, classify_arff(arff_path))
 
 
 def rename_images(path):
@@ -60,7 +60,7 @@ def rename_images(path):
 def convert_images(path):
     """Convert all non-JPG and non-PNG images to JPG format
         Supported image formats: https://www.imagemagick.org/script/formats.php"""
-    not_converted_ext = ('.png', 'PNG', '.jpg', 'JPG', 'jpeg')
+    not_converted_ext = ('.png', 'PNG', '.jpg', 'JPG', 'jpeg', 'JPEG')
     for root, subdirs, files in os.walk(path):
         for file in files:
             file_ext = os.path.splitext(file)[1]
