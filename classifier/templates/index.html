@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Use Case Classifier</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ url_for('static', filename = 'favicon.ico') }}" type="image/x-icon">
@@ -11,31 +11,36 @@
     <!-- Style -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'app.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'index.css') }}">
 </head>
 <body>
 
-<img src="{{ url_for('static', filename = 'logo.png') }}" class="logo-banner">
-<h1>Use Case Classifier</h1>
-
-<form method="POST" enctype="multipart/form-data" action="/upload">
-  <div class="input-group">
-    <input type="file" name="file[]" multiple>
-    <div class="input-group-btn">
-      <input class="btn btn-default" type="submit" value="Upload">
-    </div>
+  <div id="banner">
+    <img src="{{ url_for('static', filename = 'logo.png') }}" class="logo-banner">
+    <h1>Use Case Classifier</h1>
   </div>
-</form>
+  
+  <form method="POST" enctype="multipart/form-data" action="/upload">
+    <div class="form-group">
+      <input type="file" name="file[]" id="upload-file" multiple>
+    </div>
+    <input id="upload-btn" class="btn btn-default" type="submit" value="Upload">
+  </form>
 
-{% with messages = get_flashed_messages() %}
-  {% if messages %}
-    <ul class=flashes>
-    {% for message in messages %}
-      <li>{{ message }}</li>
-    {% endfor %}
-    </ul>
-  {% endif %}
-{% endwith %}
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <div class="alert alert-warning alert-dismissable" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+            <ul class="flashes text-left">
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+      </div>
+    {% endif %}
+  {% endwith %}
 
 <!-- JavaScript -->
 <script
