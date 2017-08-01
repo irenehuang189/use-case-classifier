@@ -24,14 +24,13 @@ def upload():
     files = request.files.getlist('file[]')
     return handle_files(files)
 
-
 def handle_files(files):
     # check if the post request has the file part
     path = os.path.join('static/uploaded_img', datetime.strftime(datetime.now(), '%d%m%Y %H%M%S'))
     if not os.path.exists(path):
         os.makedirs(path)
 
-    print('Hello world!', file=sys.stderr)
+    print('---START PROCESS---', file=sys.stderr)
     print(files, file=sys.stderr)
     filenames = []
     for file in files:

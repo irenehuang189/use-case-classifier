@@ -2,44 +2,133 @@
 <html>
 <head>
   <title>Use Case Classifier</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="{{ url_for('static', filename = 'favicon.ico') }}" type="image/x-icon">
-  <link rel="icon" href="{{ url_for('static', filename = 'favicon.ico') }}" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ url_for('static', filename = 'img/favicon.ico') }}" type="image/x-icon">
+  <link rel="icon" href="{{ url_for('static', filename = 'img/favicon.ico') }}" type="image/x-icon">
 
   <!-- Style -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'app.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/bootstrap.min.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/opensans.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/app.css') }}">
 </head>
 <body>
 
-<h1>Use Case Classifier</h1>
-{% with messages = get_flashed_messages() %}
-  {% if messages %}
-    <ul class=flashes>
-    {% for message in messages %}
-      <li>{{ message }}</li>
-    {% endfor %}
-    </ul>
-  {% endif %}
-{% endwith %}
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <span><img src="{{ url_for('static', filename = 'img/navbar-logo.png') }}" alt="Logo"></span>
+        Use Case Classifier
+      </a>
+    </div>
 
-{% for file_path in file_paths %}
-  <img src="{{ file_path }}"><br>
-  Kelas hasil prediksi: {{ image_classes[loop.index-1] }}<br>
-  Probabilitas: {{ probabilities[loop.index-1] }}
-  Features: {{ features[loop.index-1][0] }}
-  <hr>
-  <br><br>
-{% endfor %}
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="top-navbar">
+      <form method="POST" enctype="multipart/form-data" action="/upload" class="navbar-form pull-right">
+        <div class="form-group">
+          <input type="file" name="file[]" id="upload-file" multiple>
+        </div>
+        <button type="submit" class="btn btn-info">Classify</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <!-- Message error -->
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <div class="alert alert-warning alert-dismissable" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+            <ul class="flashes text-left">
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+      </div>
+    {% endif %}
+  {% endwith %}
+
+  <!-- Result images -->
+  <div class="row masonry-grid" id="masonry-grid">
+
+    {% for file_path in file_paths %}
+      <div class="col-sm-6 col-md-4 grid-item">
+        <div class="thumbnail">
+          <img src="{{ file_path }}" class="img-responsive">
+          <div class="caption row">
+            <div class="col-md-10">
+              {% set image_class = image_classes[loop.index0] %}
+              {% if image_class == 'positive' %}
+                {% set text_class = 'text-info' %}
+              {% else %}
+                {% set text_class = 'text-danger' %}
+              {% endif %}
+              <h3 class="strong text-capitalize {{ text_class }}">Kelas {{ image_class }}</h3>
+              <small>Confidence level: {{ probabilities[loop.index0] }}</small>
+            </div>
+            <div class="col-md-2 pull-right">
+              <button type="button" class="btn btn-default pull-right" data-toggle="modal" data-target="#modal-{{ loop.index0 }}">
+                <span class="glyphicon glyphicon-zoom-in"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modal-{{ loop.index0 }}" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-body">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <div class="row">
+                <div class="col-sm-8">
+                  <img src="{{ file_path }}" class="img-responsive">
+                </div>
+                <div class="col-sm-4">
+                  <h3 class="strong text-capitalize {{ text_class }}">Kelas {{ image_class }}</h3>
+                  <hr>
+                  <p>Confidence level: {{ probabilities[loop.index0] }}</p>
+                  <p><strong>Features:</strong></p>
+                  <ol>
+                    {% set image_num = loop.index0 %}
+                    {% for feature in features[image_num] %}
+                      {% if not loop.last %}
+                        <li>F{{ loop.index }}: {{ feature }}</li>
+                      {% endif %}
+                    {% endfor %}
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>                
+        </div>
+      </div><!-- /.modal -->
+    {% endfor %}
+    
+  </div><!-- /.masonry-grid -->
+</div>
 
 <!-- JavaScript -->
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/jquery-3.2.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/bootstrap.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/masonry.pkgd.min.js') }}"></script>
+<script type="text/javascript"  src="{{ url_for('static', filename = 'js/imagesloaded.pkgd.min.js') }}"></script>
+<script type="text/javascript"  src="{{ url_for('static', filename = 'js/app.js') }}"></script>
+
 </body>
 </html>

@@ -38,7 +38,7 @@ def extract_images(path):
                 feature = fe.extract_features(gray_img, lines, triangles, rectangles, rhombuses, ellipses, circles)
                 feature = np.append(feature, image_class)
                 features = np.concatenate((features, [feature]))
-                print('', file=sys.stderr)
+        print('', file=sys.stderr)
 
     print('Features:' + str(features.shape), file=sys.stderr)
 
@@ -86,9 +86,10 @@ def export_arff(path, features):
 
 def classify_arff(path):
     command = 'java -classpath lib/weka.jar weka.classifiers.trees.RandomForest -T "' + path + '" -l model/1.model -p 0'
-    print(command, file=sys.stderr)
+    print('\n---CLASSIFY---', file=sys.stderr)
     proc = subprocess.Popen(command, stdout = subprocess.PIPE)
     (out, err) = proc.communicate()
+    print(out, file=sys.stderr)
 
     texts = out.decode().split()
     image_classes, probabilities = [], []

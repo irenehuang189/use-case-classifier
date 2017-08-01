@@ -1,0 +1,38 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e2e2e2;
+}
+
+.navbar {
+  padding: 8px 0;
+}
+
+input[type=file] {
+  color: white;
+}
+
+.grid-item {
+  margin-bottom: 10px;
+}
+
+.grid-item {
+  opacity: 0;
+}
+
+/* Result images animation effect */
+.masonry-grid .grid-item.animate {
+  -webkit-transform: translateY(200px);
+  transform: translateY(200px);
+  -webkit-animation: moveUp 0.65s ease forwards;
+  animation: moveUp 0.65s ease forwards;
+}
+
+@-webkit-keyframes moveUp {
+  0% { }
+  100% { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveUp {
+  0% { }
+  100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
+}
