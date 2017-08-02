@@ -1,4 +1,4 @@
-import cv2
+import cv2, sys
 
 import shapes
 
@@ -10,7 +10,7 @@ def process_image(gray_img):
     triangles, rectangles, rhombuses, ellipses, circles = detect_shapes(contours)
     lines = shapes.Lines()
     lines.detect(threshold_img)
-    print('Lines:', lines.size())
+    print('Lines:' + str(lines.size()), file=sys.stderr)
     return lines, triangles, rectangles, rhombuses, ellipses, circles
 
 
@@ -35,7 +35,7 @@ def find_contours(img):
 
 def detect_shapes(contours):
     """Detect shapes from image contours"""
-    print('Contours size:', len(contours))
+    print('Contours size:' + str(len(contours)), file=sys.stderr)
     small_contour_cnt = 0
 
     triangles, rectangles, rhombuses, ellipses, circles, other_polygons = ([] for i in range(6))
@@ -62,13 +62,13 @@ def detect_shapes(contours):
             elif shape_name == shapes.Shapes.CIRCLE_SHAPE:
                 circles.append(shape)
 
-    print('Small contours:', small_contour_cnt)
-    print('Triangles:', len(triangles))
-    print('Rectangles:', len(rectangles))
-    print('Rhombuses:', len(rhombuses))
-    print('Ellipses:', len(ellipses))
-    print('Circles:', len(circles))
-    print('Other polygons:', len(other_polygons))
+    print('Small contours:' + str(small_contour_cnt), file=sys.stderr)
+    print('Triangles:' + str(len(triangles)), file=sys.stderr)
+    print('Rectangles:' + str(len(rectangles)), file=sys.stderr)
+    print('Rhombuses:' + str(len(rhombuses)), file=sys.stderr)
+    print('Ellipses:' + str(len(ellipses)), file=sys.stderr)
+    print('Circles:' + str(len(circles)), file=sys.stderr)
+    print('Other polygons:' + str(len(other_polygons)), file=sys.stderr)
 
     triangles = shapes.Triangles(triangles)
     rectangles = shapes.Rectangles(rectangles)

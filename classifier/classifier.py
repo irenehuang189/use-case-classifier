@@ -7,7 +7,7 @@ import shape_detector as sd
 
 def extract_images(path):
     print('---RENAMING IMAGES---', file=sys.stderr)
-    rename_images(path)
+    # rename_images(path)
     print('\n---CONVERT IMAGES---', file=sys.stderr)
     convert_images(path)
 
@@ -38,7 +38,7 @@ def extract_images(path):
                 feature = fe.extract_features(gray_img, lines, triangles, rectangles, rhombuses, ellipses, circles)
                 feature = np.append(feature, image_class)
                 features = np.concatenate((features, [feature]))
-        print('', file=sys.stderr)
+                print('', file=sys.stderr)
 
     print('Features:' + str(features.shape), file=sys.stderr)
 
