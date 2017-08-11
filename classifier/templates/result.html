@@ -108,7 +108,7 @@
                     {% set image_num = loop.index0 %}
                     {% for feature in features[image_num] %}
                       {% if not loop.last %}
-                        <li>F{{ loop.index }}: {{ feature }}</li>
+                        <li>F{{ loop.index if loop.index < 5 else loop.index+1 }}: {{ feature }}</li>
                       {% endif %}
                     {% endfor %}
                   </ol>

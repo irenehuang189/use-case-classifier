@@ -1,5 +1,5 @@
 import numpy as np
-
+import sys
 
 def extract_features(img, lines, triangles, rectangles, rhombuses, ellipses, circles):
     features = np.zeros((1, 8))
@@ -7,8 +7,8 @@ def extract_features(img, lines, triangles, rectangles, rhombuses, ellipses, cir
     features[0][1] = circle_area_pct(circles, img)
     features[0][2] = rectangle_area_pct(rectangles, img)
     features[0][3] = is_triangle_existed(triangles)
-    features[0][4] = is_rhombuses_existed(rhombuses)
-    # features[0][5] = ellipse_connection_freq(ellipses, lines, circles)
+    # features[0][4] = is_rhombuses_existed(rhombuses)
+    features[0][4] = line_num(ellipses, lines, circles)
     features[0][5] = ellipse_size_sd(ellipses)
     features[0][6] = circle_size_sd(circles)
     features[0][7] = ellipse_horizontal_orientation(ellipses)
@@ -40,22 +40,21 @@ def is_rhombuses_existed(rhombuses):
     return not(rhombuses.is_empty())
 
 
-def ellipse_connection_freq(ellipses, lines, circles):
-    """F6: Calculate number of ellipse connected via a line with at least a circle
-    divided by total number of ellipse in image"""
+def line_num(ellipses, lines, circles):
+    """F6: Calculate line number in image"""
     # TODO: detect lines connection, not just by assumption that all lines will connect with ellipses and circles
     return lines.size()
 
 
 def ellipse_size_sd(ellipses):
-    """F7: Calculate ellipse size variance in image"""
+    """F7: Calculate ellipse size standard deviation divided by ellipse size average in image"""
     if(ellipses.is_empty()):
         return 0
     return ellipses.standard_deviation()
 
 
 def circle_size_sd(circles):
-    """F8: Calculate circle size variance in image"""
+    """F8: Calculate circle size variance divided by circle size average in image"""
     if(circles.is_empty()):
         return 0
     return circles.standard_deviation()

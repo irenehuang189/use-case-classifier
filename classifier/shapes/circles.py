@@ -50,11 +50,17 @@ class Circles(Shapes):
         areas = np.array(areas)
         return np.std(areas)
 
+    def average(self):
+        return self.total_area() / self.size()
+
     def total_area(self):
         total_area = 0
         for circle in self.circles:
             total_area += Circles.get_area(circle)
         return total_area
+
+    def size(self):
+        return len(self.circles)
 
     def is_empty(self):
         return len(self.circles) == 0

@@ -58,6 +58,9 @@ class Ellipses(Shapes):
         areas = np.array(areas)
         return np.std(areas)
 
+    def average(self):
+        return self.total_area() / self.size()
+
     def total_area(self):
         total_area = 0
         for ellipse in self.ellipses:
