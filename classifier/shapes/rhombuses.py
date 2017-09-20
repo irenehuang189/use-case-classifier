@@ -63,5 +63,14 @@ class Rhombuses(Shapes):
                        cv2.norm(leftmost - bottommost)]
         return np.max(length_diff)
 
+    def total_area(self):
+        total_area = 0
+        for rhombus in self.rhombuses:
+            total_area += cv2.contourArea(rhombus)
+        return total_area
+
+    def size(self):
+        return len(self.rhombuses)
+
     def is_empty(self):
         return len(self.rhombuses) == 0

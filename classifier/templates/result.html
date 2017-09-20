@@ -106,9 +106,19 @@
                   <p><strong>Features:</strong></p>
                   <ol>
                     {% set image_num = loop.index0 %}
+                    {% set feature_idx = loop.index %}
                     {% for feature in features[image_num] %}
-                      {% if not loop.last %}
-                        <li>F{{ loop.index if loop.index < 5 else loop.index+1 }}: {{ feature }}</li>
+                      {% if not loop.last %} {# Last feature element is image class #}
+                        <li>
+                          {% set feature_idx = loop.index %}
+                          {% if((feature_idx >= 2) and (feature_idx < 13)) %}
+                            {% set feature_idx = feature_idx + 1 %}
+                          {% elif(feature_idx >= 13) %}
+                            {% set feature_idx = feature_idx + 2 %}
+                          {% endif %}
+
+                          F{{ feature_idx }}: {{ feature }}
+                        </li>
                       {% endif %}
                     {% endfor %}
                   </ol>

@@ -41,5 +41,14 @@ class Triangles(Shapes):
             cv2.line(img, p1, p2, color=(255, 255, 0), thickness=2)
         return img
 
+    def total_area(self):
+        total_area = 0
+        for triangle in self.triangles:
+            total_area += cv2.contourArea(triangle)
+        return total_area
+
+    def size(self):
+        return len(self.triangles)
+
     def is_empty(self):
         return len(self.triangles) == 0

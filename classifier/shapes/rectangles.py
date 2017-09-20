@@ -69,3 +69,6 @@ class Rectangles(Shapes):
         for rectangle in self.rectangles:
             total_area += Rectangles.get_area(rectangle)
         return total_area
+
+    def size(self):
+        return len(self.rectangles)

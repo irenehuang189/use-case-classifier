@@ -9,11 +9,11 @@ def extract_images(path):
     print('---RENAMING IMAGES---', file=sys.stderr)
     # rename_images(path)
     print('\n---CONVERT IMAGES---', file=sys.stderr)
-    convert_images(path)
+    # convert_images(path)
 
     print('\n---EXTRACT FEATURES---', file=sys.stderr)
     file_paths = []
-    features = np.zeros((0, 9))
+    features = np.zeros((0, fe.FEATURE_NUM+1))
     for root, subdirs, files in os.walk(path):
         result_path = os.path.join(root, 'extraction_result')
         if (len(files) > 0) and (not os.path.exists(result_path)):
@@ -85,7 +85,7 @@ def export_arff(path, features):
 
 
 def classify_arff(path):
-    command = 'java -classpath lib/weka.jar weka.classifiers.trees.RandomForest -T "' + path + '" -l model/1.model -p 0'
+    command = 'java -classpath lib/weka.jar weka.classifiers.trees.RandomForest -T "' + path + '" -l model/2.model -p 0'
     print('\n---CLASSIFY---', file=sys.stderr)
     proc = subprocess.Popen(command, stdout = subprocess.PIPE)
     (out, err) = proc.communicate()
