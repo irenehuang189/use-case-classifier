@@ -47,7 +47,7 @@ def is_rhombuses_existed(rhombuses):
 
 
 def line_num(lines, triangles, rectangles, rhombuses, ellipses, circles):
-    """F6: Calculate line number in image"""
+    """F6: Proportion of line and shape number"""
     shapes_num = triangles.size() + rectangles.size() + rhombuses.size() + ellipses.size() + circles.size()
     if shapes_num:
         return lines.size() / shapes_num
@@ -78,14 +78,18 @@ def ellipse_horizontal_orientation(ellipses):
 
 
 def triangle_area_pct(triangles, img):
+    """F10: Count percentage area of triangles on an image compared with image size"""
     return triangles.total_area() / img.size
 
 
 def rhombus_area_pct(rhombuses, img):
+    """F11: Count percentage area of rhombuses on an image compared with image size"""
     return rhombuses.total_area() / img.size
 
 
 def circle_distribution(circles, img):
+    """F12-F14: Number of circles in each image fragments.
+    An image consists of three equal fragments which are divided vertically."""
     height, width = img.shape
     ratio = width / 3
     circle_in_segment = [0, 0, 0]
@@ -107,6 +111,8 @@ def circle_distribution(circles, img):
 
 
 def ellipse_distribution(ellipses, img):
+    """F15-F17: Number of circles in each image fragments.
+    An image consists of three equal fragments which are divided vertically."""
     height, width = img.shape
     ratio = width / 3
     ellipse_in_segment = [0, 0, 0]

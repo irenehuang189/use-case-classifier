@@ -7,9 +7,9 @@ import shape_detector as sd
 
 def extract_images(path):
     print('---RENAMING IMAGES---', file=sys.stderr)
-    # rename_images(path)
+    rename_images(path)
     print('\n---CONVERT IMAGES---', file=sys.stderr)
-    # convert_images(path)
+    convert_images(path)
 
     print('\n---EXTRACT FEATURES---', file=sys.stderr)
     file_paths = []

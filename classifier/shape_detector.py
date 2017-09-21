@@ -4,22 +4,18 @@ import shapes
 
 
 def process_image(gray_img):
-    # threshold_img = threshold_image(gray_img)
-    # contours = find_contours(threshold_img)
-
     edges = detect_edge(gray_img)
     contours = find_contours(edges)
 
     triangles, rectangles, rhombuses, ellipses, circles = detect_shapes(contours)
     lines = shapes.Lines()
-    # lines.detect(threshold_img)
     lines.detect(edges)
     print('Lines:' + str(lines.size()), file=sys.stderr)
+
     return lines, triangles, rectangles, rhombuses, ellipses, circles
 
 
 def threshold_image(gray_img):
-    # _, threshold_img = cv2.threshold(gray_img, 127, 255, cv2.THRESH_BINARY)
     _, threshold_img = cv2.threshold(gray_img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
     threshold_img = cv2.bitwise_not(threshold_img)
     return threshold_img

@@ -52,9 +52,9 @@ def show_image(window_name, img):
 
 path = 'D:/TA/use-case-classifier/img2/'
 print('---RENAMING IMAGES---')
-# rename_images(path)
+rename_images(path)
 print('\n---CONVERT IMAGES---')
-# convert_images(path)
+convert_images(path)
 
 print('\n---EXTRACT FEATURES---')
 features = np.zeros((0, fe.FEATURE_NUM+1))
@@ -77,7 +77,7 @@ for root, subdirs, files in os.walk(path):
             # Process image
             lines, triangles, rectangles, rhombuses, ellipses, circles = sd.process_image(gray_img)
             colored_img = sd.draw_shapes(colored_img, lines, triangles, rectangles, rhombuses, ellipses, circles)
-            # cv2.imwrite(os.path.join(result_path, file), colored_img)
+            cv2.imwrite(os.path.join(result_path, file), colored_img)
 
             # Extract features
             image_class = os.path.basename(root)
