@@ -117,3 +117,17 @@ def draw_shapes(img, lines=None, triangles=None, rectangles=None, rhombuses=None
         img = circles.draw(img)
 
     return img
+
+def draw_contours(contours, img):
+    """Draw contours to image"""
+    for i, contour in enumerate(contours):
+        moments = cv2.moments(contour)
+        c_x, c_y = 0, 0
+        if moments['m00'] != 0:
+            c_x = int((moments['m10'] / moments['m00']))
+            c_y = int((moments['m01'] / moments['m00']))
+
+        cv2.drawContours(img, [contour], -1, (255, 255, 255), 1)
+        # cv2.putText(img, str(i), (c_x, c_y), cv2.FONT_HERSHEY_SIMPLEX,
+        #             fontScale=1, color=(255, 255, 255))
+    return img
